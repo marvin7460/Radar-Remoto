@@ -1,0 +1,33 @@
+name: Daily alert emails
+
+on:
+  schedule:
+    # 9:00 in Mexico City. Mexico dropped daylight saving time in 2022, so it's
+    # always UTC-6 and the cron never needs adjusting.
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+      TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
+      APP_URL: ${{ vars.APP_URL }}
+      EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run db:migrate
+      - run: npm run digest

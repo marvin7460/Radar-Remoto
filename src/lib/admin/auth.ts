@@ -1,5 +1,5 @@
 import "server-only";
-import { createHash, timingSafeEqual } from "node:crypto";
+import { createHash } from "node:crypto";
 import { cookies } from "next/headers";
 import { notFound, redirect } from "next/navigation";
 
@@ -15,11 +15,8 @@ export function adminToken(): string | null {
 export const tokenDigest = (token: string) =>
   createHash("sha256").update(`radar-remoto:${token}`).digest("hex");
 
-export function safeEqual(a: string, b: string): boolean {
-  const left = Buffer.from(a);
-  const right = Buffer.from(b);
-  return left.length === right.length && timingSafeEqual(left, right);
-}
+export { safeEqual } from "@/lib/auth/crypto";
+import { safeEqual } from "@/lib/auth/crypto";
 
 export async function isAdmin(): Promise<boolean> {
   const token = adminToken();

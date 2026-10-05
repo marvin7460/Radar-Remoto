@@ -46,9 +46,14 @@ function filterConditions(filters: Filters, now: Date): SQL[] {
  * (title hits weigh most) and the filters narrow them down; without text,
  * the newest postings come first.
  */
-export async function searchJobs(db: Db, filters: Filters, now: Date = new Date()) {
+export async function searchJobs(
+  db: Db,
+  filters: Filters,
+  now: Date = new Date(),
+  { extraConditions = [], pageSize = PAGE_SIZE }: { extraConditions?: SQL[]; pageSize?: number } = {},
+) {
   const page = filters.pagina ?? 1;
-  const conditions = filterConditions(filters, now);
+  const conditions = [...filterConditions(filters, now), ...extraConditions];
   const ftsQuery = buildFtsQuery(filters.q);
 
   let rows: JobRow[];
@@ -66,7 +71,7 @@ export async function searchJobs(db: Db, filters: Filters, now: Date = new Date(
       : [];
     filtered.sort((a, b) => order.get(a.id)! - order.get(b.id)!);
     total = filtered.length;
-    rows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+    rows = filtered.slice((page - 1) * pageSize, page * pageSize);
   } else {
     const where = and(...conditions);
     const [pageRows, [counted]] = await Promise.all([
@@ -75,8 +80,8 @@ export async function searchJobs(db: Db, filters: Filters, now: Date = new Date(
         .from(jobs)
         .where(where)
         .orderBy(desc(jobs.publishedAt))
-        .limit(PAGE_SIZE)
-        .offset((page - 1) * PAGE_SIZE),
+        .limit(pageSize)
+        .offset((page - 1) * pageSize),
       db.select({ value: count() }).from(jobs).where(where),
     ]);
     rows = pageRows;
@@ -94,7 +99,7 @@ export async function searchJobs(db: Db, filters: Filters, now: Date = new Date(
     jobs: rows.map((row) => ({ ...row, copies: copies.filter((copy) => copy.canonicalJobId === row.id) })),
     total,
     page,
-    pageCount: Math.max(1, Math.ceil(total / PAGE_SIZE)),
+    pageCount: Math.max(1, Math.ceil(total / pageSize)),
     usdToMxn: fx.rates.MXN ?? null,
   };
 }

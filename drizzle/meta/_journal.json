@@ -29,6 +29,13 @@
       "when": 1791238376465,
       "tag": "0003_search_fts",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791239156908,
+      "tag": "0004_alerts_metrics",
+      "breakpoints": true
     }
   ]
 }

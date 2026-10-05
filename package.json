@@ -19,7 +19,8 @@
     "labels:export": "tsx scripts/export-labels.ts",
     "eval": "tsx scripts/eval.ts",
     "db:seed": "tsx scripts/seed-fixtures.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "digest": "tsx scripts/digest.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.18.0",

@@ -2,6 +2,7 @@ import { defineConfig, devices } from "@playwright/test";
 
 const PORT = 3100;
 export const E2E_ADMIN_TOKEN = "e2e-admin-token-1234567890";
+export const E2E_OUTBOX = ".outbox-e2e";
 
 /**
  * End-to-end tests against a production build with a throwaway SQLite file
@@ -27,10 +28,19 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: `rm -f e2e.db && npm run db:migrate && npm run db:seed && npx next start -p ${PORT}`,
+    command: `rm -rf e2e.db .outbox-e2e && npm run db:migrate && npm run db:seed && npx next start -p ${PORT}`,
     url: `http://localhost:${PORT}`,
     reuseExistingServer: false,
     timeout: 120_000,
-    env: { TURSO_DATABASE_URL: "file:e2e.db", TURSO_AUTH_TOKEN: "", ADMIN_TOKEN: E2E_ADMIN_TOKEN },
+    env: {
+      TURSO_DATABASE_URL: "file:e2e.db",
+      TURSO_AUTH_TOKEN: "",
+      ADMIN_TOKEN: E2E_ADMIN_TOKEN,
+      AUTH_SECRET: "e2e-auth-secret-e2e-auth-secret-1234",
+      APP_URL: `http://localhost:${PORT}`,
+      // Emails are written here instead of sent; tests read the magic link from it.
+      EMAIL_OUTBOX_DIR: E2E_OUTBOX,
+      RESEND_API_KEY: "",
+    },
   },
 });
