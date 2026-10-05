@@ -1,11 +1,15 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-export function loadFixture<T = unknown>(relativePath: string): T {
-  return JSON.parse(readFileSync(path.join(__dirname, "fixtures", relativePath), "utf8")) as T;
+export function loadFixtureText(relativePath: string): string {
+  return readFileSync(path.join(__dirname, "fixtures", relativePath), "utf8");
 }
 
-/** A fetch stand-in that serves canned JSON by URL substring and records calls. */
+export function loadFixture<T = unknown>(relativePath: string): T {
+  return JSON.parse(loadFixtureText(relativePath)) as T;
+}
+
+/** A fetch stand-in that serves canned bodies by URL and records calls. */
 export function fakeFetch(
   routes: Array<{ match: (url: string) => boolean; body: unknown; status?: number }>,
 ) {
@@ -15,10 +19,8 @@ export function fakeFetch(
     calls.push(url);
     const route = routes.find((r) => r.match(url));
     if (!route) return new Response("not found", { status: 404 });
-    return new Response(JSON.stringify(route.body), {
-      status: route.status ?? 200,
-      headers: { "Content-Type": "application/json" },
-    });
+    const text = typeof route.body === "string" ? route.body : JSON.stringify(route.body);
+    return new Response(text, { status: route.status ?? 200 });
   }) as typeof fetch;
   return { fn, calls };
 }

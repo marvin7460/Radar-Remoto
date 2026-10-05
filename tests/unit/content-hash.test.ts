@@ -3,7 +3,7 @@ import { contentHash } from "@/lib/ingest/content-hash";
 import { getonbrdAdapter } from "@/lib/sources/getonbrd/adapter";
 import { loadFixture } from "../helpers";
 
-const job = getonbrdAdapter.normalize(
+const job = getonbrdAdapter.mapJob(
   loadFixture<{ data: unknown[] }>("getonbrd/search-junior.sample.json").data[0],
 )!;
 
@@ -13,7 +13,7 @@ describe("contentHash", () => {
     expect(contentHash(reordered)).toBe(contentHash(job));
   });
 
-  it("changes when a visible field changes", () => {
-    expect(contentHash({ ...job, salaryMax: 2000 })).not.toBe(contentHash(job));
+  it("changes when the published content changes", () => {
+    expect(contentHash({ ...job, title: "Otro título" })).not.toBe(contentHash(job));
   });
 });

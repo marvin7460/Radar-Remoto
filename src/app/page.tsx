@@ -6,7 +6,7 @@ import { listLatestJobs } from "@/lib/jobs/queries";
 export default async function HomePage() {
   // Jobs change every few hours: render on each request instead of at build time.
   await connection();
-  const jobs = await listLatestJobs(getDb());
+  const { jobs, usdToMxn } = await listLatestJobs(getDb());
   const now = new Date();
 
   return (
@@ -27,7 +27,7 @@ export default async function HomePage() {
         <ul className="space-y-4">
           {jobs.map((job) => (
             <li key={job.id}>
-              <JobCard job={job} now={now} />
+              <JobCard job={job} now={now} usdToMxn={usdToMxn} />
             </li>
           ))}
         </ul>

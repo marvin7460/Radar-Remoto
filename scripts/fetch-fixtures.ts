@@ -1,57 +1,36 @@
 /**
  * Downloads one small, real response per source into tests/fixtures so unit
- * tests run offline against real-world payloads.
+ * tests run offline against real-world payloads. Each adapter declares its
+ * own fixture URLs, so fixtures match exactly what the app requests.
  *
- *   npm run fixtures:fetch                     (all targets, locally)
- *   npm run fixtures:fetch -- --only=_meta     (targets whose file starts with "_meta")
+ *   npm run fixtures:fetch                     (all targets)
+ *   npm run fixtures:fetch -- --only=getonbrd,jobicy   (targets whose file starts with these)
  *   Actions → "Refresh API fixtures"           (from GitHub's runners)
  *
  * Refreshing replaces the frozen responses that adapter tests assert on, so
  * expect to update those expectations: that is how API drift shows up.
- *
- * One request per target, sequential, with a pause: this stays far below every
- * source's published limits. Responses are trimmed to a few items to keep the
- * repo small. Rate-limit headers are printed so we can document real limits.
+ * One request per target, sequential, with a pause: far below every limit.
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { USER_AGENT } from "@/lib/http/fetch-json";
+import { FRANKFURTER_URL } from "@/lib/fx/frankfurter";
+import { USER_AGENT } from "@/lib/http/fetch";
+import { getonbrdFixtures } from "@/lib/sources/getonbrd/adapter";
+import { himalayasFixtures } from "@/lib/sources/himalayas/adapter";
+import { jobicyFixtures } from "@/lib/sources/jobicy/adapter";
+import { remoteokFixtures } from "@/lib/sources/remoteok/adapter";
+import { remotiveFixtures } from "@/lib/sources/remotive/adapter";
+import type { FixtureTarget } from "@/lib/sources/types";
+import { weworkremotelyFixtures } from "@/lib/sources/weworkremotely/adapter";
 
-interface Target {
-  file: string;
-  url: string;
-  /** How many items to keep. */
-  keep?: number;
-}
-
-const targets: Target[] = [
-  {
-    file: "getonbrd/search-junior.json",
-    url: `https://www.getonbrd.com/api/v0/search/jobs?query=junior&per_page=25&page=1&expand=${encodeURIComponent('["company","seniority","tags"]')}`,
-  },
-  {
-    file: "getonbrd/search-developer.json",
-    url: `https://www.getonbrd.com/api/v0/search/jobs?query=developer&per_page=25&page=1&expand=${encodeURIComponent('["company","seniority","tags"]')}`,
-  },
-  {
-    file: "himalayas/search-entry-level.json",
-    url: "https://himalayas.app/jobs/api/search?seniority=Entry-level&sort=recent&page=1",
-  },
-  { file: "himalayas/browse.json", url: "https://himalayas.app/jobs/api?limit=20&offset=0" },
-  {
-    file: "remotive/software-dev.json",
-    url: "https://remotive.com/api/remote-jobs?category=software-dev&limit=25",
-  },
-  { file: "remoteok/api.json", url: "https://remoteok.com/api", keep: 26 },
-  {
-    file: "jobicy/engineering.json",
-    url: "https://jobicy.com/api/v2/remote-jobs?count=25&industry=engineering",
-  },
-  {
-    file: "_meta/getonbrd-expanded-locations.json",
-    url: `https://www.getonbrd.com/api/v0/search/jobs?query=developer&per_page=10&page=1&expand=${encodeURIComponent('["location_regions","location_tenants","location_cities"]')}`,
-    keep: 10,
-  },
+const targets: FixtureTarget[] = [
+  ...getonbrdFixtures,
+  ...himalayasFixtures,
+  ...remotiveFixtures,
+  ...remoteokFixtures,
+  ...jobicyFixtures,
+  ...weworkremotelyFixtures,
+  { file: "frankfurter/v1-latest.json", url: FRANKFURTER_URL },
   {
     file: "_meta/getonbrd-regions.json",
     url: "https://www.getonbrd.com/api/v0/regions?per_page=100",
@@ -66,30 +45,6 @@ const targets: Target[] = [
     file: "_meta/jobicy-industries.json",
     url: "https://jobicy.com/api/v2/remote-jobs?get=industries",
     keep: 1000,
-  },
-  {
-    file: "weworkremotely/programming.xml",
-    url: "https://weworkremotely.com/categories/remote-programming-jobs.rss",
-  },
-  {
-    file: "weworkremotely/full-stack.xml",
-    url: "https://weworkremotely.com/categories/remote-full-stack-programming-jobs.rss",
-  },
-  {
-    file: "weworkremotely/back-end.xml",
-    url: "https://weworkremotely.com/categories/remote-back-end-programming-jobs.rss",
-  },
-  {
-    file: "weworkremotely/front-end.xml",
-    url: "https://weworkremotely.com/categories/remote-front-end-programming-jobs.rss",
-  },
-  {
-    file: "frankfurter/v1-latest.json",
-    url: "https://api.frankfurter.dev/v1/latest?base=USD&symbols=MXN,EUR,BRL,CAD,GBP",
-  },
-  {
-    file: "frankfurter/v2-latest.json",
-    url: "https://api.frankfurter.dev/v2/latest?base=USD&quotes=MXN,EUR,BRL,CAD,GBP",
   },
 ];
 
@@ -116,8 +71,15 @@ function trimRss(xml: string, keep: number): string {
   return `${xml.slice(0, first)}${items.slice(0, keep).join("\n")}\n</channel>\n</rss>\n`;
 }
 
-const only = process.argv.find((arg) => arg.startsWith("--only="))?.slice("--only=".length);
-const selected = only ? targets.filter((t) => t.file.startsWith(only)) : targets;
+// --only=getonbrd,jobicy → targets whose file starts with any of those prefixes.
+const only = process.argv
+  .find((arg) => arg.startsWith("--only="))
+  ?.slice("--only=".length)
+  .split(",")
+  .filter(Boolean);
+const selected = only?.length
+  ? targets.filter((t) => only.some((prefix) => t.file.startsWith(prefix)))
+  : targets;
 
 let failures = 0;
 for (const [index, target] of selected.entries()) {
@@ -128,10 +90,10 @@ for (const [index, target] of selected.entries()) {
       headers: { "User-Agent": USER_AGENT, Accept: "application/json, application/rss+xml, */*" },
       signal: AbortSignal.timeout(30_000),
     });
-    const limits = [...res.headers].filter(([name]) => /rate|retry|limit/i.test(name));
     console.log(`${res.status} ${target.url}`);
-    console.log(`    content-type: ${res.headers.get("content-type")}`);
-    for (const [name, value] of limits) console.log(`    ${name}: ${value}`);
+    for (const [name, value] of res.headers) {
+      if (/rate|retry|limit/i.test(name)) console.log(`    ${name}: ${value}`);
+    }
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const text = await res.text();

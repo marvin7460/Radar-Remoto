@@ -3,9 +3,18 @@ import { getDb } from "@/db/client";
 import { runAllSources } from "@/lib/ingest/run-all";
 import { adapters } from "@/lib/sources";
 
-const results = await runAllSources(getDb(), adapters);
-console.table(results.map(({ error, ...rest }) => ({ ...rest, error: error?.slice(0, 80) ?? "" })));
+const { sources, dedupe } = await runAllSources(getDb(), adapters);
+
+console.table(
+  sources.map((result) =>
+    result.status === "skipped"
+      ? { source: result.source, status: result.status, note: result.reason }
+      : { ...result, error: undefined, note: result.error?.slice(0, 80) ?? "" },
+  ),
+);
+console.log(`Duplicates: ${dedupe.duplicates} of ${dedupe.checked} recent jobs (${dedupe.changed} changed).`);
 
 // Exit non-zero only if *every* source failed, so one flaky API doesn't paint
-// the whole scheduled run red while the error is still recorded in the DB.
-if (results.length > 0 && results.every((r) => r.status === "error")) process.exit(1);
+// the whole scheduled run red while its error is still recorded in the DB.
+const attempted = sources.filter((result) => result.status !== "skipped");
+if (attempted.length > 0 && attempted.every((result) => result.status === "error")) process.exit(1);

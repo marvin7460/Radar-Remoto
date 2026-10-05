@@ -9,18 +9,69 @@
         "functions": "<ul><li>Construir componentes en React</li><li>Escribir tests</li></ul>",
         "desirable": "<p>Experiencia con TypeScript &amp; Tailwind</p>",
         "remote": true,
-        "remote_modality": "fully_remote",
+        "remote_modality": "remote_local",
         "remote_zone": "Latin America",
         "countries": ["Remote"],
         "min_salary": 1200,
         "max_salary": 1800,
         "published_at": 1759622400,
-        "seniority": { "data": { "id": 2, "type": "seniority", "attributes": { "name": "Junior" } } },
-        "company": { "data": { "id": "acme", "type": "company", "attributes": { "name": "Acme Labs" } } },
+        "seniority": {
+          "data": {
+            "id": "2",
+            "type": "seniority",
+            "attributes": {
+              "name": "Junior"
+            }
+          }
+        },
+        "company": {
+          "data": {
+            "id": "acme",
+            "type": "company",
+            "attributes": {
+              "name": "Acme Labs"
+            }
+          }
+        },
         "tags": {
           "data": [
-            { "id": "react", "type": "tag", "attributes": { "name": "React" } },
-            { "id": "typescript", "type": "tag", "attributes": { "name": "TypeScript" } }
+            {
+              "id": "react",
+              "type": "tag",
+              "attributes": {
+                "name": "React"
+              }
+            },
+            {
+              "id": "typescript",
+              "type": "tag",
+              "attributes": {
+                "name": "TypeScript"
+              }
+            }
+          ]
+        },
+        "category_name": "Programming",
+        "location_regions": {
+          "data": [
+            {
+              "id": "north_america",
+              "type": "region",
+              "attributes": {
+                "name": "North America"
+              }
+            }
+          ]
+        },
+        "location_tenants": {
+          "data": [
+            {
+              "id": "chile",
+              "type": "location_tenant",
+              "attributes": {
+                "name": "Chile"
+              }
+            }
           ]
         }
       },
@@ -41,9 +92,27 @@
         "min_salary": null,
         "max_salary": null,
         "published_at": 1759536000,
-        "seniority": { "data": { "id": 4, "type": "seniority" } },
-        "company": { "data": { "id": "globex-corp", "type": "company" } },
-        "tags": { "data": [{ "id": "node-js", "type": "tag" }] }
+        "seniority": {
+          "data": {
+            "id": "4",
+            "type": "seniority"
+          }
+        },
+        "company": {
+          "data": {
+            "id": "globex-corp",
+            "type": "company"
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "node-js",
+              "type": "tag"
+            }
+          ]
+        },
+        "category_name": "Programming"
       },
       "links": {
         "public_url": "https://www.getonbrd.com/jobs/programming/senior-backend-engineer-globex-remote"
@@ -59,10 +128,23 @@
         "remote_modality": "no_remote",
         "countries": ["Chile"],
         "published_at": 1759449600,
-        "seniority": { "data": { "id": 1, "type": "seniority" } },
-        "company": { "data": { "id": "initech", "type": "company" } }
+        "seniority": {
+          "data": {
+            "id": 1,
+            "type": "seniority"
+          }
+        },
+        "company": {
+          "data": {
+            "id": "initech",
+            "type": "company"
+          }
+        },
+        "category_name": "SysAdmin / DevOps / QA"
       },
-      "links": { "public_url": "https://www.getonbrd.com/jobs/qa/practicante-qa-initech-santiago" }
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/qa/practicante-qa-initech-santiago"
+      }
     },
     {
       "id": "broken-posting-without-title",
@@ -73,5 +155,9 @@
       }
     }
   ],
-  "meta": { "page": 1, "per_page": 50, "total_pages": 1 }
+  "meta": {
+    "page": 1,
+    "per_page": 50,
+    "total_pages": 1
+  }
 }

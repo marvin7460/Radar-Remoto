@@ -1,56 +1,59 @@
 import { describe, expect, it } from "vitest";
 import { buildSearchUrl, getonbrdAdapter } from "@/lib/sources/getonbrd/adapter";
-import { normalizedJobSchema } from "@/lib/sources/types";
-import { fakeFetch, loadFixture } from "../helpers";
+import { sourceJobSchema } from "@/lib/sources/types";
+import { fakeFetch, loadFixture, loadFixtureText } from "../helpers";
 
-const fixture = loadFixture<{ data: unknown[] }>("getonbrd/search-junior.sample.json");
-const [juniorJob, seniorJob, onSiteJob, brokenJob] = fixture.data;
+const sample = loadFixture<{ data: unknown[] }>("getonbrd/search-junior.sample.json");
+const [juniorJob, seniorJob, onSiteJob, brokenJob] = sample.data;
 
-describe("getonbrd adapter: normalize", () => {
-  it("maps a junior remote posting to the common schema", () => {
-    const job = getonbrdAdapter.normalize(juniorJob);
+describe("getonbrd adapter: mapJob", () => {
+  it("maps a remote_local posting to the common schema", () => {
+    const job = getonbrdAdapter.mapJob(juniorJob)!;
 
-    expect(job).not.toBeNull();
-    expect(normalizedJobSchema.parse(job)).toEqual(job);
+    expect(sourceJobSchema.parse(job)).toEqual(job);
     expect(job).toMatchObject({
       source: "getonbrd",
       externalId: "desarrollador-a-frontend-junior-acme-remote",
       title: "Desarrollador/a Frontend Junior",
       company: "Acme Labs",
-      seniority: "junior",
-      seniorityRaw: "Junior",
-      salaryMin: 1200,
-      salaryMax: 1800,
-      salaryCurrency: "USD",
-      salaryPeriod: "month",
-      technologies: ["React", "TypeScript"],
-      locationRaw: "fully_remote · Latin America · Remote",
+      seniorityLabels: ["Junior"],
+      categories: ["Programming"],
+      salary: { min: 1200, max: 1800, currency: "USD", period: "month" },
+      tags: ["React", "TypeScript"],
     });
-    expect(job!.publishedAt.toISOString()).toBe("2025-10-05T00:00:00.000Z");
+    // Get on Board's geographic "North America" includes Mexico.
+    expect(job.locations).toEqual(["Mexico", "United States", "Canada", "Chile", "Latin America"]);
+    expect(job.publishedAt.toISOString()).toBe("2025-10-05T00:00:00.000Z");
+  });
+
+  it("treats fully_remote as worldwide and falls back to slugs and seniority ids", () => {
+    const job = getonbrdAdapter.mapJob(seniorJob)!;
+    expect(job.locations).toEqual(["Worldwide"]);
+    expect(job.company).toBe("Globex Corp");
+    expect(job.seniorityLabels).toEqual(["Senior"]);
+    expect(job.salary).toBeNull();
   });
 
   it("strips HTML and decodes entities from the description", () => {
-    const job = getonbrdAdapter.normalize(juniorJob)!;
+    const job = getonbrdAdapter.mapJob(juniorJob)!;
     expect(job.description).toContain("Construir componentes en React");
     expect(job.description).toContain("TypeScript & Tailwind");
     expect(job.description).not.toMatch(/<[^>]+>/);
   });
 
-  it("falls back to slugs when relationships are not expanded", () => {
-    const job = getonbrdAdapter.normalize(seniorJob)!;
-    expect(job.company).toBe("Globex Corp");
-    expect(job.seniority).toBe("senior");
-    expect(job.technologies).toEqual(["node-js"]);
-    expect(job.salaryCurrency).toBeNull();
-    expect(job.salaryPeriod).toBeNull();
+  it("discards on-site postings and throws on malformed ones", () => {
+    expect(getonbrdAdapter.mapJob(onSiteJob)).toBeNull();
+    expect(() => getonbrdAdapter.mapJob(brokenJob)).toThrow();
   });
 
-  it("discards on-site postings", () => {
-    expect(getonbrdAdapter.normalize(onSiteJob)).toBeNull();
-  });
-
-  it("throws on malformed postings so the run can count them as invalid", () => {
-    expect(() => getonbrdAdapter.normalize(brokenJob)).toThrow();
+  it("maps real responses", () => {
+    const raws = getonbrdAdapter.parsePage(loadFixtureText("getonbrd/search-developer.json"));
+    const mapped = raws.map((raw) => getonbrdAdapter.mapJob(raw));
+    expect(raws.length).toBeGreaterThan(10);
+    // Hybrid and on-site jobs are discarded; every remote one maps cleanly.
+    expect(mapped.filter(Boolean).length).toBeGreaterThan(0);
+    for (const job of mapped.filter((j) => j !== null))
+      expect(() => sourceJobSchema.parse(job)).not.toThrow();
   });
 });
 
@@ -59,22 +62,18 @@ describe("getonbrd adapter: fetchJobs", () => {
     const url = new URL(buildSearchUrl("junior", 2));
     expect(url.searchParams.get("query")).toBe("junior");
     expect(url.searchParams.get("page")).toBe("2");
-    expect(JSON.parse(url.searchParams.get("expand")!)).toEqual(["company", "seniority", "tags"]);
+    expect(JSON.parse(url.searchParams.get("expand")!)).toContain("location_regions");
   });
 
   it("deduplicates postings returned by several queries", async () => {
-    const { fn, calls } = fakeFetch([{ match: () => true, body: fixture }]);
+    const { fn, calls } = fakeFetch([{ match: () => true, body: sample }]);
     const raws = await getonbrdAdapter.fetchJobs(fn, { delayMs: 0 });
-
-    // 4 queries × 1 page each, same 4 postings every time.
     expect(calls).toHaveLength(4);
     expect(raws).toHaveLength(4);
   });
 
   it("stops paginating when total_pages is reached", async () => {
-    const { fn, calls } = fakeFetch([
-      { match: () => true, body: { ...fixture, meta: { page: 1, total_pages: 2 } } },
-    ]);
+    const { fn, calls } = fakeFetch([{ match: () => true, body: { ...sample, meta: { total_pages: 2 } } }]);
     await getonbrdAdapter.fetchJobs(fn, { delayMs: 0 });
     expect(calls).toHaveLength(8);
   });

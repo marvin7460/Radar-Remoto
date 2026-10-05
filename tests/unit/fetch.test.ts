@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { fetchJson, HttpError } from "@/lib/http/fetch-json";
+import { fetchJson, HttpError } from "@/lib/http/fetch";
 
 function sequence(responses: Array<() => Response>) {
   let i = 0;

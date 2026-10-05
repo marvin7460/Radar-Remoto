@@ -1,33 +1,34 @@
 import { readdirSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+import { normalizeJob } from "@/lib/normalize/normalize-job";
 import { adapters } from "@/lib/sources";
-import { loadFixture } from "../helpers";
+import { sourceJobSchema } from "@/lib/sources/types";
+import { loadFixtureText } from "../helpers";
 
 /**
- * Smoke test over real downloaded responses (npm run fixtures:fetch).
- * Most real postings must parse: if this fails, the source changed its API.
+ * Contract test over every real response we saved. If this fails after a
+ * fixtures refresh, the source changed its API.
  */
 describe.each(adapters)("real fixtures: $id", (adapter) => {
   const dir = path.join(__dirname, "..", "fixtures", adapter.id);
-  const files = readdirSync(dir).filter((f) => f.endsWith(".json") && !f.endsWith(".sample.json"));
+  const files = readdirSync(dir).filter((f) => /\.(json|xml)$/.test(f) && !f.includes(".sample."));
 
-  if (files.length === 0) {
-    it.skip("no real fixtures downloaded yet (npm run fixtures:fetch)", () => {});
-    return;
-  }
+  it("has at least one real response", () => expect(files.length).toBeGreaterThan(0));
 
-  it.each(files)("parses %s", (file) => {
-    const { data } = loadFixture<{ data: unknown[] }>(path.join(adapter.id, file));
+  it.each(files)("parses, maps and normalizes %s", (file) => {
+    const raws = adapter.parsePage(loadFixtureText(path.join(adapter.id, file)));
+    expect(raws.length).toBeGreaterThan(0);
+
     let invalid = 0;
-    for (const raw of data) {
+    for (const raw of raws) {
       try {
-        adapter.normalize(raw);
+        const job = adapter.mapJob(raw);
+        if (job) normalizeJob(sourceJobSchema.parse(job), {});
       } catch {
         invalid++;
       }
     }
-    expect(data.length).toBeGreaterThan(0);
-    expect(invalid / data.length).toBeLessThan(0.05);
+    expect(invalid).toBe(0);
   });
 });

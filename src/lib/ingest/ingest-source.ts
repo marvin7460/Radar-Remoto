@@ -1,13 +1,10 @@
 import { and, eq, inArray } from "drizzle-orm";
 import type { Db } from "@/db/client";
 import { ingestionRuns, jobs, type NewJobRow } from "@/db/schema";
-import {
-  normalizedJobSchema,
-  type FetchFn,
-  type FetchJobsOptions,
-  type NormalizedJob,
-  type SourceAdapter,
-} from "@/lib/sources/types";
+import type { FetchFn } from "@/lib/http/fetch";
+import { normalizeJob, type NormalizedJob } from "@/lib/normalize/normalize-job";
+import type { UsdRates } from "@/lib/normalize/salary";
+import { sourceJobSchema, type FetchJobsOptions, type SourceAdapter } from "@/lib/sources/types";
 import { contentHash } from "./content-hash";
 import { decideUpsertAction } from "./decide-action";
 
@@ -26,9 +23,10 @@ export interface IngestStats {
   error?: string;
 }
 
-interface IngestOptions extends FetchJobsOptions {
+export interface IngestOptions extends FetchJobsOptions {
   fetchFn?: FetchFn;
   now?: () => Date;
+  usdRates?: UsdRates;
 }
 
 function chunk<T>(items: T[], size = CHUNK_SIZE): T[][] {
@@ -44,7 +42,7 @@ function chunk<T>(items: T[], size = CHUNK_SIZE): T[][] {
 export async function ingestSource(
   db: Db,
   adapter: SourceAdapter,
-  { fetchFn = fetch, now = () => new Date(), ...fetchOptions }: IngestOptions = {},
+  { fetchFn = fetch, now = () => new Date(), usdRates = {}, ...fetchOptions }: IngestOptions = {},
 ): Promise<IngestStats> {
   const stats: IngestStats = {
     source: adapter.id,
@@ -66,17 +64,22 @@ export async function ingestSource(
     const raws = await adapter.fetchJobs(fetchFn, fetchOptions);
     stats.fetched = raws.length;
 
-    // 1. Normalize + validate. One bad posting must not sink the batch.
-    const incoming = new Map<string, NormalizedJob>();
+    // 1. Map, validate and clean. One bad posting must not sink the batch.
+    const incoming = new Map<string, { job: NormalizedJob; hash: string }>();
     for (const raw of raws) {
       try {
-        const normalized = adapter.normalize(raw);
-        if (normalized === null) {
+        const mapped = adapter.mapJob(raw);
+        if (mapped === null) {
           stats.skipped++;
           continue;
         }
-        const job = normalizedJobSchema.parse(normalized);
-        incoming.set(job.externalId, job);
+        const sourceJob = sourceJobSchema.parse(mapped);
+        const result = normalizeJob(sourceJob, usdRates);
+        if (!result.ok) {
+          stats.skipped++;
+          continue;
+        }
+        incoming.set(sourceJob.externalId, { job: result.job, hash: contentHash(sourceJob) });
       } catch (error) {
         stats.invalid++;
         console.warn(`[${adapter.id}] invalid posting skipped:`, (error as Error).message.slice(0, 300));
@@ -97,31 +100,22 @@ export async function ingestSource(
     const timestamp = now();
     const unchangedIds: string[] = [];
     await db.transaction(async (tx) => {
-      for (const job of incoming.values()) {
-        const hash = contentHash(job);
+      for (const { job, hash } of incoming.values()) {
         const action = decideUpsertAction(existing.get(job.externalId), hash);
-        const row: NewJobRow = {
-          ...job,
-          contentHash: hash,
-          firstSeenAt: timestamp,
-          lastSeenAt: timestamp,
-          updatedAt: timestamp,
-        };
+        const changes = { ...job, contentHash: hash, lastSeenAt: timestamp, updatedAt: timestamp };
 
         if (action === "insert") {
+          const row: NewJobRow = { ...changes, firstSeenAt: timestamp };
           // onConflict guards against two overlapping runs racing each other.
           await tx
             .insert(jobs)
             .values(row)
-            .onConflictDoUpdate({
-              target: [jobs.source, jobs.externalId],
-              set: { ...job, contentHash: hash, lastSeenAt: timestamp, updatedAt: timestamp },
-            });
+            .onConflictDoUpdate({ target: [jobs.source, jobs.externalId], set: changes });
           stats.inserted++;
         } else if (action === "update") {
           await tx
             .update(jobs)
-            .set({ ...job, contentHash: hash, lastSeenAt: timestamp, updatedAt: timestamp })
+            .set(changes)
             .where(and(eq(jobs.source, adapter.id), eq(jobs.externalId, job.externalId)));
           stats.updated++;
         } else {

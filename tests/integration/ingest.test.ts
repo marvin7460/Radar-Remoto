@@ -1,18 +1,20 @@
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { eq } from "drizzle-orm";
+import { eq, isNull } from "drizzle-orm";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { createDb, type Db } from "@/db/client";
-import { ingestionRuns, jobs } from "@/db/schema";
+import { fxRates, ingestionRuns, jobs } from "@/db/schema";
+import { getLatestUsdRates } from "@/lib/fx/rates";
 import { ingestSource } from "@/lib/ingest/ingest-source";
 import { runAllSources } from "@/lib/ingest/run-all";
 import { getonbrdAdapter } from "@/lib/sources/getonbrd/adapter";
-import type { SourceAdapter } from "@/lib/sources/types";
-import { fakeFetch, loadFixture } from "../helpers";
+import type { SourceAdapter, SourceJob } from "@/lib/sources/types";
+import { fakeFetch, loadFixture, loadFixtureText } from "../helpers";
 
-const fixture = loadFixture("getonbrd/search-junior.sample.json");
+const sample = loadFixture("getonbrd/search-junior.sample.json");
+const frankfurter = loadFixtureText("frankfurter/v1-latest.json");
 const JUNIOR_ID = "desarrollador-a-frontend-junior-acme-remote";
 
 let dir: string;
@@ -30,24 +32,57 @@ afterEach(() => {
   rmSync(dir, { recursive: true, force: true });
 });
 
-const ingest = () =>
-  ingestSource(db, getonbrdAdapter, {
-    fetchFn: fakeFetch([{ match: () => true, body: fixture }]).fn,
-    delayMs: 0,
-  });
+const sampleFetch = () => fakeFetch([{ match: () => true, body: sample }]).fn;
+const ingest = (now?: () => Date) =>
+  ingestSource(db, getonbrdAdapter, { fetchFn: sampleFetch(), delayMs: 0, now });
 
-describe("ingestion", () => {
-  it("stores valid remote jobs and counts skipped/invalid ones", async () => {
+/** A tiny in-memory source, to test cross-source behavior. */
+function fakeSource(id: string, postings: Array<Partial<SourceJob> & { externalId: string }>): SourceAdapter {
+  return {
+    id,
+    name: id,
+    homepage: `https://${id}.test`,
+    budget: { maxRunsPerDay: 100, minIntervalMinutes: 0 },
+    fetchJobs: async () => postings,
+    parsePage: () => [],
+    mapJob: (raw) => ({
+      source: id,
+      url: `https://${id}.test/jobs/${(raw as SourceJob).externalId}`,
+      title: "Frontend Developer (React)",
+      company: "Acme Labs",
+      seniorityLabels: [],
+      categories: [],
+      locations: ["LATAM"],
+      timezoneOffsets: [],
+      salary: null,
+      salaryText: null,
+      tags: [],
+      description: "",
+      publishedAt: new Date("2026-10-01T00:00:00Z"),
+      ...(raw as Partial<SourceJob>),
+      externalId: (raw as SourceJob).externalId,
+    }),
+  };
+}
+
+describe("ingestSource", () => {
+  it("stores valid remote tech jobs and counts skipped/invalid ones", async () => {
     const stats = await ingest();
-
     expect(stats).toMatchObject({ status: "success", fetched: 4, inserted: 2, skipped: 1, invalid: 1 });
-    expect(await db.select().from(jobs)).toHaveLength(2);
+
+    const [junior] = await db.select().from(jobs).where(eq(jobs.externalId, JUNIOR_ID));
+    expect(junior).toMatchObject({
+      seniority: "junior",
+      acceptsMexico: "yes",
+      eligibilityReason: "Menciona México",
+      salaryUsdMonthlyMin: 1200,
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+    });
   });
 
-  it("is idempotent: running twice does not duplicate jobs", async () => {
+  it("is idempotent: running twice does not duplicate or rewrite jobs", async () => {
     await ingest();
     const second = await ingest();
-
     expect(second).toMatchObject({ inserted: 0, updated: 0, unchanged: 2 });
     expect(await db.select().from(jobs)).toHaveLength(2);
   });
@@ -56,7 +91,9 @@ describe("ingestion", () => {
     await ingest();
     const [before] = await db.select().from(jobs).where(eq(jobs.externalId, JUNIOR_ID));
 
-    const changed = structuredClone(fixture) as { data: Array<{ id: string; attributes: { max_salary: number } }> };
+    const changed = structuredClone(sample) as {
+      data: Array<{ id: string; attributes: { max_salary: number } }>;
+    };
     changed.data.find((job) => job.id === JUNIOR_ID)!.attributes.max_salary = 2500;
     const later = new Date(before.updatedAt.getTime() + 60_000);
     const stats = await ingestSource(db, getonbrdAdapter, {
@@ -71,39 +108,69 @@ describe("ingestion", () => {
     expect(after.updatedAt).toEqual(later);
     expect(after.firstSeenAt).toEqual(before.firstSeenAt);
   });
+});
 
-  it("logs every run", async () => {
-    await ingest();
-    await ingest();
-
-    const runs = await db.select().from(ingestionRuns);
-    expect(runs).toHaveLength(2);
-    expect(runs.every((r) => r.status === "success" && r.finishedAt !== null)).toBe(true);
-  });
+describe("runAllSources", () => {
+  const routes = () =>
+    fakeFetch([
+      { match: (url) => url.includes("frankfurter"), body: frankfurter },
+      { match: () => true, body: sample },
+    ]).fn;
 
   it("keeps going when one source fails and records the error", async () => {
     const broken: SourceAdapter = {
-      id: "broken",
-      name: "Broken",
+      ...fakeSource("broken", []),
       fetchJobs: async () => {
         throw new Error("API down");
       },
-      normalize: () => null,
     };
-    const okAdapter: SourceAdapter = {
-      ...getonbrdAdapter,
-      fetchJobs: (_fetchFn, options) =>
-        getonbrdAdapter.fetchJobs(fakeFetch([{ match: () => true, body: fixture }]).fn, {
-          ...options,
-          delayMs: 0,
-        }),
-    };
+    const { sources } = await runAllSources(db, [broken, getonbrdAdapter], { fetchFn: routes(), delayMs: 0 });
 
-    const results = await runAllSources(db, [broken, okAdapter]);
-
-    expect(results.map((r) => r.status)).toEqual(["error", "success"]);
+    expect(sources.map((r) => r.status)).toEqual(["error", "success"]);
     expect(await db.select().from(jobs)).toHaveLength(2);
-    const [failedRun] = await db.select().from(ingestionRuns).limit(1);
-    expect(failedRun).toMatchObject({ source: "broken", status: "error", errorMessage: "API down" });
+    const [failed] = await db.select().from(ingestionRuns).where(eq(ingestionRuns.source, "broken"));
+    expect(failed).toMatchObject({ status: "error", errorMessage: "API down" });
+  });
+
+  it("stores the day's exchange rates once", async () => {
+    await runAllSources(db, [], { fetchFn: routes() });
+    await runAllSources(db, [], { fetchFn: routes() });
+
+    expect(await db.select().from(fxRates)).toHaveLength(5);
+    expect((await getLatestUsdRates(db)).rates.MXN).toBeCloseTo(18.1498);
+  });
+
+  it("respects each source's rate budget", async () => {
+    const limited = { ...getonbrdAdapter, budget: { maxRunsPerDay: 4, minIntervalMinutes: 180 } };
+    const start = new Date("2026-10-05T00:00:00Z");
+    const at = (hours: number) => () => new Date(start.getTime() + hours * 3_600_000);
+
+    const runs = [];
+    for (const hours of [0, 1, 6, 12, 18, 23]) {
+      const { sources } = await runAllSources(db, [limited], {
+        fetchFn: routes(),
+        delayMs: 0,
+        now: at(hours),
+      });
+      runs.push(sources[0].status);
+    }
+    // 1 h after the first run is too soon; the 5th run in a day is one too many.
+    expect(runs).toEqual(["success", "skipped", "success", "success", "success", "skipped"]);
+  });
+
+  it("marks cross-source duplicates and stays stable on re-runs", async () => {
+    const a = fakeSource("source-a", [{ externalId: "1" }]);
+    const b = fakeSource("source-b", [
+      { externalId: "x", title: "Front-end Developer - React", company: "Acme Labs Inc." },
+    ]);
+
+    const first = await runAllSources(db, [a, b], { fetchFn: routes() });
+    expect(first.dedupe).toMatchObject({ duplicates: 1, changed: 1 });
+
+    const originals = await db.select().from(jobs).where(isNull(jobs.canonicalJobId));
+    expect(originals.map((job) => job.source)).toEqual(["source-a"]);
+
+    const second = await runAllSources(db, [a, b], { fetchFn: routes() });
+    expect(second.dedupe).toMatchObject({ duplicates: 1, changed: 0 });
   });
 });

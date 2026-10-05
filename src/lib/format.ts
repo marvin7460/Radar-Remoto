@@ -1,26 +1,41 @@
-import type { JobRow } from "@/db/schema";
+import type { AcceptsMexico, JobRow } from "@/db/schema";
 
 const PERIOD_LABEL: Record<NonNullable<JobRow["salaryPeriod"]>, string> = {
   hour: "hora",
+  day: "día",
+  week: "semana",
   month: "mes",
   year: "año",
 };
 
-/** "USD 1,200 – 1,800 / mes", "Desde USD 1,200 / mes" or null when unknown. */
+const amount = (value: number) => new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(value);
+
+function range(min: number | null, max: number | null, prefix: string, suffix: string): string | null {
+  if (min == null && max == null) return null;
+  if (min != null && max != null && min !== max) return `${prefix}${amount(min)} – ${amount(max)}${suffix}`;
+  if (min != null && max == null) return `Desde ${prefix}${amount(min)}${suffix}`;
+  if (min == null && max != null) return `Hasta ${prefix}${amount(max)}${suffix}`;
+  return `${prefix}${amount(min!)}${suffix}`;
+}
+
+/** As published: "USD 1,200 – 1,800 / mes", "Desde EUR 50,000 / año". */
 export function formatSalary(
   job: Pick<JobRow, "salaryMin" | "salaryMax" | "salaryCurrency" | "salaryPeriod">,
 ): string | null {
-  const { salaryMin: min, salaryMax: max, salaryCurrency: currency, salaryPeriod: period } = job;
-  if (min == null && max == null) return null;
+  const prefix = job.salaryCurrency ? `${job.salaryCurrency} ` : "";
+  const suffix = job.salaryPeriod ? ` / ${PERIOD_LABEL[job.salaryPeriod]}` : "";
+  return range(job.salaryMin, job.salaryMax, prefix, suffix);
+}
 
-  const n = (value: number) => new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(value);
-  const prefix = currency ? `${currency} ` : "";
-  const suffix = period ? ` / ${PERIOD_LABEL[period]}` : "";
-
-  if (min != null && max != null && min !== max) return `${prefix}${n(min)} – ${n(max)}${suffix}`;
-  if (min != null && max == null) return `Desde ${prefix}${n(min)}${suffix}`;
-  if (min == null && max != null) return `Hasta ${prefix}${n(max)}${suffix}`;
-  return `${prefix}${n(min!)}${suffix}`;
+/** Monthly equivalent in MXN, for comparing everything in one currency: "≈ MXN 21,800 – 32,700 al mes". */
+export function formatMonthlyMxn(
+  job: Pick<JobRow, "salaryUsdMonthlyMin" | "salaryUsdMonthlyMax">,
+  usdToMxn: number | null,
+): string | null {
+  if (!usdToMxn) return null;
+  const toMxn = (usd: number | null) => (usd == null ? null : Math.round((usd * usdToMxn) / 100) * 100);
+  const text = range(toMxn(job.salaryUsdMonthlyMin), toMxn(job.salaryUsdMonthlyMax), "MXN ", " al mes");
+  return text && `≈ ${text}`;
 }
 
 const UNITS: Array<[Intl.RelativeTimeFormatUnit, number]> = [
@@ -47,4 +62,10 @@ export const SENIORITY_LABEL: Record<JobRow["seniority"], string> = {
   mid: "Semi senior",
   senior: "Senior",
   unknown: "Nivel no indicado",
+};
+
+export const ACCEPTS_MEXICO_LABEL: Record<AcceptsMexico, string> = {
+  yes: "Acepta México",
+  no: "No acepta México",
+  unknown: "¿México? No está claro",
 };

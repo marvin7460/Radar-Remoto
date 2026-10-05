@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { formatRelativeDate, formatSalary } from "@/lib/format";
+import { formatMonthlyMxn, formatRelativeDate, formatSalary } from "@/lib/format";
 
 const base = { salaryMin: null, salaryMax: null, salaryCurrency: null, salaryPeriod: null } as const;
 
@@ -37,5 +37,14 @@ describe("formatRelativeDate", () => {
     expect(formatRelativeDate(new Date("2026-10-04T12:00:00Z"), now)).toBe("ayer");
     expect(formatRelativeDate(new Date("2026-10-02T12:00:00Z"), now)).toBe("hace 3 días");
     expect(formatRelativeDate(new Date("2026-10-05T10:00:00Z"), now)).toBe("hace 2 horas");
+  });
+});
+
+describe("formatMonthlyMxn", () => {
+  it("converts the monthly USD equivalent with the latest rate", () => {
+    expect(formatMonthlyMxn({ salaryUsdMonthlyMin: 1200, salaryUsdMonthlyMax: 1800 }, 18.1498)).toBe(
+      "≈ MXN 21,800 – 32,700 al mes",
+    );
+    expect(formatMonthlyMxn({ salaryUsdMonthlyMin: 1200, salaryUsdMonthlyMax: 1800 }, null)).toBeNull();
   });
 });
