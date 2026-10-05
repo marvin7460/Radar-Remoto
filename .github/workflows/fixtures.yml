@@ -4,6 +4,11 @@ name: Refresh API fixtures
 # tests/fixtures and commits it, so tests stay offline but realistic.
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Only targets whose file path starts with this prefix (e.g. _meta, himalayas). Empty = all."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -17,13 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - run: npm run fixtures:fetch
+      - run: npm run fixtures:fetch -- --only="$ONLY"
+        env:
+          ONLY: ${{ inputs.only }}
       - name: Commit changed fixtures
         run: |
           npx prettier --write tests/fixtures > /dev/null

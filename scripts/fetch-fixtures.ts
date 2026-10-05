@@ -2,8 +2,12 @@
  * Downloads one small, real response per source into tests/fixtures so unit
  * tests run offline against real-world payloads.
  *
- *   npm run fixtures:fetch            (locally)
- *   Actions → "Refresh API fixtures"  (from GitHub's runners)
+ *   npm run fixtures:fetch                     (all targets, locally)
+ *   npm run fixtures:fetch -- --only=_meta     (targets whose file starts with "_meta")
+ *   Actions → "Refresh API fixtures"           (from GitHub's runners)
+ *
+ * Refreshing replaces the frozen responses that adapter tests assert on, so
+ * expect to update those expectations: that is how API drift shows up.
  *
  * One request per target, sequential, with a pause: this stays far below every
  * source's published limits. Responses are trimmed to a few items to keep the
@@ -42,6 +46,16 @@ const targets: Target[] = [
   {
     file: "jobicy/engineering.json",
     url: "https://jobicy.com/api/v2/remote-jobs?count=25&industry=engineering",
+  },
+  {
+    file: "_meta/getonbrd-expanded-locations.json",
+    url: `https://www.getonbrd.com/api/v0/search/jobs?query=developer&per_page=10&page=1&expand=${encodeURIComponent('["location_regions","location_tenants","location_cities"]')}`,
+    keep: 10,
+  },
+  {
+    file: "_meta/getonbrd-regions.json",
+    url: "https://www.getonbrd.com/api/v0/regions?per_page=100",
+    keep: 1000,
   },
   {
     file: "_meta/jobicy-locations.json",
@@ -102,8 +116,11 @@ function trimRss(xml: string, keep: number): string {
   return `${xml.slice(0, first)}${items.slice(0, keep).join("\n")}\n</channel>\n</rss>\n`;
 }
 
+const only = process.argv.find((arg) => arg.startsWith("--only="))?.slice("--only=".length);
+const selected = only ? targets.filter((t) => t.file.startsWith(only)) : targets;
+
 let failures = 0;
-for (const [index, target] of targets.entries()) {
+for (const [index, target] of selected.entries()) {
   if (index > 0) await new Promise((resolve) => setTimeout(resolve, PAUSE_MS));
   const keep = target.keep ?? DEFAULT_KEEP;
   try {
@@ -131,4 +148,4 @@ for (const [index, target] of targets.entries()) {
   }
 }
 
-console.log(`\n${targets.length - failures}/${targets.length} fixtures saved.`);
+console.log(`\n${selected.length - failures}/${selected.length} fixtures saved.`);
