@@ -22,8 +22,8 @@ Budgets are enforced in code (`src/lib/ingest/rate-budget.ts`) from the
 
 - **Links** use `rel="noopener"` only: no `noreferrer` (sources should see our
   traffic) and no `nofollow` (Remote OK).
-- **Email alerts (phase 4)** will not include Remotive jobs, and no listing
-  will ever require an account to be seen (Remotive's signup clause).
+- **Email alerts** never include Remotive jobs, and no listing requires an
+  account to be seen (Remotive's signup clause).
 - **No `JobPosting` JSON-LD** anywhere (Himalayas, Remotive).
 
 ## Data quirks found in real responses

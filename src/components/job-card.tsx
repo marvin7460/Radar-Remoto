@@ -8,6 +8,7 @@ import {
   SENIORITY_LABEL,
 } from "@/lib/format";
 import { sourceNames } from "@/lib/sources";
+import { JobLink } from "./job-link";
 
 const SENIORITY_STYLE: Record<JobRow["seniority"], string> = {
   junior: "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300",
@@ -44,9 +45,9 @@ export function JobCard({ job, now, usdToMxn }: { job: JobWithCopies; now: Date;
       <div className="flex flex-wrap items-start justify-between gap-2">
         <div className="min-w-0">
           <h2 className="text-lg font-semibold leading-snug">
-            <a href={job.url} target="_blank" rel="noopener" className="hover:underline">
+            <JobLink jobId={job.id} href={job.url} className="hover:underline">
               {job.title}
-            </a>
+            </JobLink>
           </h2>
           <p className="text-stone-600 dark:text-stone-400">{job.company}</p>
         </div>

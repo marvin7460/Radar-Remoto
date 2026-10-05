@@ -9,9 +9,14 @@ import { PAGE_SIZE, TIMEZONE_TOLERANCE_HOURS, type Filters } from "./filters";
 
 /** FTS5 matches considered per search, best first. Plenty for a job board. */
 const MAX_MATCHES = 1000;
+/** A posting the source stopped listing this long ago is considered closed. */
+export const STALE_AFTER_DAYS = 21;
 
 function filterConditions(filters: Filters, now: Date): SQL[] {
-  const conditions: SQL[] = [isNull(jobs.canonicalJobId)];
+  const conditions: SQL[] = [
+    isNull(jobs.canonicalJobId),
+    gte(jobs.lastSeenAt, new Date(now.getTime() - STALE_AFTER_DAYS * 86_400_000)),
+  ];
   if (filters.nivel) conditions.push(eq(jobs.seniority, filters.nivel));
   if (filters.mexico === "si") conditions.push(eq(jobs.acceptsMexico, "yes"));
   if (filters.mexico === "probable") conditions.push(inArray(jobs.acceptsMexico, ["yes", "unknown"]));
