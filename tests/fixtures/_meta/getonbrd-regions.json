@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "id": "africa",
+      "type": "region",
+      "attributes": {
+        "name": "Africa"
+      }
+    },
+    {
+      "id": "antarctica",
+      "type": "region",
+      "attributes": {
+        "name": "Antarctica"
+      }
+    },
+    {
+      "id": "asia",
+      "type": "region",
+      "attributes": {
+        "name": "Asia"
+      }
+    },
+    {
+      "id": "australia",
+      "type": "region",
+      "attributes": {
+        "name": "Australia"
+      }
+    },
+    {
+      "id": "central_america",
+      "type": "region",
+      "attributes": {
+        "name": "Central America"
+      }
+    },
+    {
+      "id": "europe",
+      "type": "region",
+      "attributes": {
+        "name": "Europe"
+      }
+    },
+    {
+      "id": "north_america",
+      "type": "region",
+      "attributes": {
+        "name": "North America"
+      }
+    },
+    {
+      "id": "oceania",
+      "type": "region",
+      "attributes": {
+        "name": "Oceania"
+      }
+    },
+    {
+      "id": "south_america",
+      "type": "region",
+      "attributes": {
+        "name": "South America"
+      }
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 100,
+    "total_pages": 1
+  }
+}
