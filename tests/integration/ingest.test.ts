@@ -1,6 +1,7 @@
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
+import { eq } from "drizzle-orm";
 import { migrate } from "drizzle-orm/libsql/migrator";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { createDb, type Db } from "@/db/client";
@@ -12,6 +13,7 @@ import type { SourceAdapter } from "@/lib/sources/types";
 import { fakeFetch, loadFixture } from "../helpers";
 
 const fixture = loadFixture("getonbrd/search-junior.sample.json");
+const JUNIOR_ID = "desarrollador-a-frontend-junior-acme-remote";
 
 let dir: string;
 let db: Db;
@@ -46,9 +48,28 @@ describe("ingestion", () => {
     await ingest();
     const second = await ingest();
 
-    expect(second.inserted).toBe(0);
-    expect(second.updated + second.unchanged).toBe(2);
+    expect(second).toMatchObject({ inserted: 0, updated: 0, unchanged: 2 });
     expect(await db.select().from(jobs)).toHaveLength(2);
+  });
+
+  it("updates only the postings whose content changed", async () => {
+    await ingest();
+    const [before] = await db.select().from(jobs).where(eq(jobs.externalId, JUNIOR_ID));
+
+    const changed = structuredClone(fixture) as { data: Array<{ id: string; attributes: { max_salary: number } }> };
+    changed.data.find((job) => job.id === JUNIOR_ID)!.attributes.max_salary = 2500;
+    const later = new Date(before.updatedAt.getTime() + 60_000);
+    const stats = await ingestSource(db, getonbrdAdapter, {
+      fetchFn: fakeFetch([{ match: () => true, body: changed }]).fn,
+      delayMs: 0,
+      now: () => later,
+    });
+
+    expect(stats).toMatchObject({ inserted: 0, updated: 1, unchanged: 1 });
+    const [after] = await db.select().from(jobs).where(eq(jobs.externalId, JUNIOR_ID));
+    expect(after.salaryMax).toBe(2500);
+    expect(after.updatedAt).toEqual(later);
+    expect(after.firstSeenAt).toEqual(before.firstSeenAt);
   });
 
   it("logs every run", async () => {

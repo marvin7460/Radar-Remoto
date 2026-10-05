@@ -10,8 +10,7 @@ describe("decideUpsertAction", () => {
     expect(decideUpsertAction("old", "new")).toBe("update");
   });
 
-  // TODO(Marvin): remove `.skip` once decideUpsertAction is finished.
-  it.skip("returns unchanged when the hash is the same", () => {
+  it("returns unchanged when the hash is the same", () => {
     expect(decideUpsertAction("same", "same")).toBe("unchanged");
   });
 });
