@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { normalizeJob } from "@/lib/normalize/normalize-job";
 import { buildSearchUrl, getonbrdAdapter } from "@/lib/sources/getonbrd/adapter";
 import { sourceJobSchema } from "@/lib/sources/types";
 import { fakeFetch, loadFixture, loadFixtureText } from "../helpers";
@@ -54,6 +55,22 @@ describe("getonbrd adapter: mapJob", () => {
     expect(mapped.filter(Boolean).length).toBeGreaterThan(0);
     for (const job of mapped.filter((j) => j !== null))
       expect(() => sourceJobSchema.parse(job)).not.toThrow();
+  });
+});
+
+describe("getonbrd adapter: real remote_local jobs", () => {
+  const jobs = getonbrdAdapter
+    .parsePage(loadFixtureText("getonbrd/search-junior.json"))
+    .map((raw) => getonbrdAdapter.mapJob(raw))
+    .filter((job) => job !== null);
+
+  it("reads allowed countries from expanded locations", () => {
+    const job = jobs.find((j) => j.title === "Front-end (Angular Flutter)")!;
+    expect(job.locations).toContain("Mexico");
+    expect(normalizeJob(job, {})).toMatchObject({
+      ok: true,
+      job: { seniority: "junior", acceptsMexico: "yes" },
+    });
   });
 });
 
