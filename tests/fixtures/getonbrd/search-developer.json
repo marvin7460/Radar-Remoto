@@ -36,7 +36,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 84,
+        "applications_count": 86,
         "location_regions": {
           "data": []
         },
@@ -210,7 +210,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 146,
+        "applications_count": 151,
         "location_regions": {
           "data": []
         },
@@ -338,39 +338,60 @@
           "min": null,
           "max": null
         },
-        "applications_count": 83,
+        "applications_count": 84,
         "location_regions": {
           "data": []
         },
         "location_tenants": {
           "data": [
             {
-              "id": 12,
-              "type": "location_tenant"
+              "id": "brasil",
+              "type": "country",
+              "attributes": {
+                "name": "Brazil"
+              }
             },
             {
-              "id": 6,
-              "type": "location_tenant"
+              "id": "colombia",
+              "type": "country",
+              "attributes": {
+                "name": "Colombia"
+              }
             },
             {
-              "id": 2,
-              "type": "location_tenant"
+              "id": "argentina",
+              "type": "country",
+              "attributes": {
+                "name": "Argentina"
+              }
             },
             {
-              "id": 20,
-              "type": "location_tenant"
+              "id": "uruguay",
+              "type": "country",
+              "attributes": {
+                "name": "Uruguay"
+              }
             },
             {
-              "id": 3,
-              "type": "location_tenant"
+              "id": "peru",
+              "type": "country",
+              "attributes": {
+                "name": "Peru"
+              }
             },
             {
-              "id": 7,
-              "type": "location_tenant"
+              "id": "mexico",
+              "type": "country",
+              "attributes": {
+                "name": "Mexico"
+              }
             },
             {
-              "id": 1,
-              "type": "location_tenant"
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
             }
           ]
         },
@@ -672,16 +693,22 @@
           "min": null,
           "max": null
         },
-        "applications_count": 192,
+        "applications_count": 194,
         "location_regions": {
           "data": [
             {
-              "id": 9,
-              "type": "location_region"
+              "id": "central_america",
+              "type": "region",
+              "attributes": {
+                "name": "Central America"
+              }
             },
             {
-              "id": 6,
-              "type": "location_region"
+              "id": "south_america",
+              "type": "region",
+              "attributes": {
+                "name": "South America"
+              }
             }
           ]
         },
@@ -813,6 +840,666 @@
       }
     },
     {
+      "id": "senior-business-development-representative-sbdr-crewbloom-remote",
+      "type": "job",
+      "attributes": {
+        "title": "Senior Business Development Representative (Sbdr)",
+        "description_headline": "Qualifications and requirements",
+        "description": "<ul><li><strong>3–6+ years of experience</strong> in B2B Business Development, SDR/BDR, Inside Sales, or outbound sales.</li><li>Proven experience in <strong>cold calling, outbound prospecting, lead qualification, and appointment setting</strong>.</li><li>Experience selling <strong>staffing, recruitment, outsourcing, BPO, workforce solutions, professional services, or other B2B services</strong> is strongly preferred.</li><li>Proven ability to engage <strong>Founders, Owners, C-Suite executives, HR leaders, Operations leaders, and other senior decision-makers</strong>.</li><li>Strong <strong>cold-calling, objection-handling, prospecting, qualification, and relationship-building skills</strong>.</li><li>Experience with <strong>LinkedIn Sales Navigator, prospecting platforms, and CRM systems</strong> such as HubSpot, Salesforce, or Zoho.</li><li>Strong account research and personalized outreach capabilities.</li><li>Excellent written and verbal English communication skills, with confidence communicating with US-based prospects.</li><li>Ability to independently manage a high-volume outbound pipeline and consistently generate qualified sales opportunities.</li><li>Experience prospecting within <strong>Healthcare, Legal, Finance, or other US service-based industries</strong> is an advantage.</li></ul>",
+        "projects": "<p>You’ll join CrewBloom’s growing Sales team, focused on expanding our client base and helping US companies build and scale high-performing remote teams. You’ll work closely with Sales leadership and other team members to identify new business opportunities, engage key decision-makers, and build a strong pipeline of qualified prospects.</p><p>This is a collaborative, results-driven environment where you’ll have the opportunity to directly contribute to CrewBloom’s growth while helping businesses access skilled remote talent.</p>",
+        "functions_headline": "Job functions",
+        "functions": "<p>The <strong>Senior Business Development Representative (SBDR)</strong> is responsible for generating qualified sales opportunities for CrewBloom’s <strong>remote staffing solutions</strong> through strategic B2B outbound prospecting.</p><p>The role focuses on identifying and engaging US-based companies that can benefit from building and scaling remote teams, particularly across <strong>Healthcare, Legal, Finance, and other service-based industries</strong>. The SBDR will connect with business owners, executives, and other key decision-makers, understand their staffing needs, and convert qualified conversations into Discovery Calls.</p><p>This is a <strong>hunter-style role</strong> requiring strong cold-calling skills, independent prospecting, personalized outreach, and the ability to confidently communicate the business value of remote staffing.</p><p><strong>Key Responsibilities</strong></p><ul><li>Identify and prospect US-based companies that could benefit from <strong>remote staffing and workforce solutions</strong>.</li><li>Generate qualified opportunities through <strong>cold calling, email outreach, LinkedIn, and other outbound channels</strong>.</li><li>Engage <strong>Founders, Owners, C-Suite executives, VPs, Directors, HR leaders, Operations leaders, and other hiring decision-makers</strong>.</li><li>Understand prospects’ hiring challenges, staffing requirements, operational needs, and potential opportunities for remote talent.</li><li>Clearly communicate CrewBloom’s value proposition and how remote staffing can support <strong>cost efficiency, scalability, and business growth</strong>.</li><li>Personalize outreach based on the prospect’s company, industry, hiring activity, and potential workforce needs.</li><li>Qualify prospects, handle initial objections, and determine fit before scheduling Discovery Calls.</li><li>Maintain accurate prospecting activities, follow-ups, and pipeline information in the CRM.</li><li>Consistently build a high-quality pipeline while balancing outreach volume with personalization and relevance.</li></ul>",
+        "benefits_headline": "Conditions",
+        "benefits": "<ul><li><strong>Join Our Dynamic Team:</strong> Experience our fun, inclusive, innovative culture that values your unique contributions and supports your professional growth.</li><li><strong>Embrace the Opportunities:</strong> Seize daily chances to learn, innovate, and excel. Make a real impact in your field.</li><li><strong>Limitless Career Growth:</strong> Unlock a world of possibilities and resources to propel your career forward.</li><li><strong>Fast-Paced Thrills:</strong> Thrive in a high-energy, engaging atmosphere. Embrace challenges and reap stimulating rewards.</li><li><strong>Flexibility, Your Way:</strong> Embrace the freedom to work from home or any location of your choice. Create your ideal work environment.</li><li><strong>Work-Life Balance at Its Best: </strong>Say goodbye to stressful commutes and hello to quality time with loved ones. Achieve a healthy work-life integration to perform at your best.</li></ul>",
+        "desirable_headline": "Desirable skills",
+        "desirable": "",
+        "remote": true,
+        "remote_modality": "fully_remote",
+        "remote_zone": null,
+        "countries": ["Remote"],
+        "lang": "en",
+        "rejected_reasons": [],
+        "category_name": "Sales",
+        "perks": ["remote_full"],
+        "min_salary": 1000,
+        "max_salary": 1500,
+        "published_at": 1791233296,
+        "response_time_in_days": {
+          "min": null,
+          "max": null
+        },
+        "applications_count": 30,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": []
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "3",
+            "type": "seniority",
+            "attributes": {
+              "name": "Semi Senior",
+              "locale_key": "semi_senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "relationship-building",
+              "type": "tag",
+              "attributes": {
+                "name": "Relationship Building",
+                "keywords": null
+              }
+            },
+            {
+              "id": "crm",
+              "type": "tag",
+              "attributes": {
+                "name": "CRM",
+                "keywords": "CRMs, CRM Software, CRM Systems, Client Relationship Management, Customer Relationship Management, Customer Relations, Customer Management"
+              }
+            },
+            {
+              "id": "salesforce",
+              "type": "tag",
+              "attributes": {
+                "name": "Salesforce",
+                "keywords": "SFDC, salesforce.com, Salesforce Certified Developer I, Salesforce App Builder, Salesforce Certified App Builder, Salesforce CRM, Salesforce Platform, Salesforce API, Salesforce Apex, CRM Sales, CRM Salesforce"
+              }
+            },
+            {
+              "id": "hubspot",
+              "type": "tag",
+              "attributes": {
+                "name": "HubSpot",
+                "keywords": "Hubspot API, HubSpot Administration, HubSpot Automation, HubSpot CMS, HubSpot Certification, HubSpot Professional, HubSpot CRM"
+              }
+            },
+            {
+              "id": "cold-calling",
+              "type": "tag",
+              "attributes": {
+                "name": "Cold Calling",
+                "keywords": ""
+              }
+            },
+            {
+              "id": "outbound-prospecting",
+              "type": "tag",
+              "attributes": {
+                "name": "Outbound Prospecting",
+                "keywords": null
+              }
+            },
+            {
+              "id": "lead-qualification",
+              "type": "tag",
+              "attributes": {
+                "name": "Lead Qualification",
+                "keywords": null
+              }
+            },
+            {
+              "id": "appointment-setting",
+              "type": "tag",
+              "attributes": {
+                "name": "Appointment Setting",
+                "keywords": null
+              }
+            },
+            {
+              "id": "account-research",
+              "type": "tag",
+              "attributes": {
+                "name": "Account Research",
+                "keywords": null
+              }
+            },
+            {
+              "id": "linkedin-sales-navigator",
+              "type": "tag",
+              "attributes": {
+                "name": "LinkedIn Sales Navigator",
+                "keywords": "LinkedIn Sales"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "crewbloom",
+            "type": "company",
+            "attributes": {
+              "name": "CrewBloom",
+              "description": "CrewBloom connects exceptional talent with growing companies across the United States. From startups to established organizations, we help professionals find meaningful work where they can grow, make an impact, and build long-term careers.",
+              "long_description": "<p>From startups to established organizations, we help professionals find meaningful work where they can grow, make an impact, and build long-term careers. Whether you're looking for a remote opportunity, a hybrid role, or an onsite position, CrewBloom connects exceptional talent with growing companies across the United States. </p>",
+              "projects": null,
+              "benefits": "<ul><li><strong>Join Our Dynamic Team:</strong> Experience our fun, inclusive, innovative culture that values your unique contributions and supports your professional growth.</li><li><strong>Embrace the Opportunities:</strong> Seize daily chances to learn, innovate, and excel. Make a real impact in your field.</li><li><strong>Limitless Career Growth:</strong> Unlock a world of possibilities and resources to propel your career forward.</li><li><strong>Fast-Paced Thrills:</strong> Thrive in a high-energy, engaging atmosphere. Embrace challenges and reap stimulating rewards.</li><li><strong>Flexibility, Your Way:</strong> Embrace the freedom to work from home or any location of your choice. Create your ideal work environment.</li><li><strong>Work-Life Balance at Its Best: </strong>Say goodbye to stressful commutes and hello to quality time with loved ones. Achieve a healthy work-life integration to perform at your best.</li></ul><p><br></p>",
+              "web": "https://crewbloom.com/",
+              "twitter": "",
+              "github": "",
+              "facebook": "",
+              "angellist": null,
+              "country": "US",
+              "response_time_in_days": {
+                "min": null,
+                "max": null
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/20570/unnamed.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/senior-business-development-representative-sbdr-crewbloom-remote"
+      }
+    },
+    {
+      "id": "software-developer-full-stack-react-ror-rankmi-remote",
+      "type": "job",
+      "attributes": {
+        "title": "Software Developer Full-Stack React RoR [Contractor]",
+        "description_headline": "Descripción del cargo ",
+        "description": "<ul><li>Desarrollo de Software: Participar en el desarrollo, implementación y mantenimiento de los productos. Siempre utilizando las tecnologías seleccionadas en Rankmi o aprobadas por el Technical Lead y Engineer Manager.</li><li>Revisiones de Código: Realizar revisión de código para asegurar la calidad y adherencia a las mejores prácticas. Proporcionar retroalimentación constructiva a los desarrolladores junior.</li><li>Depuración y Pruebas: Desarrollar y ejecutar pruebas unitarias y de integración para asegurar la calidad del software. Identificar y corregir errores (bugs) en el código a través de pruebas rigurosas y depuración eficaz.</li><li>Colaboración en Equipo: Trabajar en estrecha colaboración con otros miembros del equipo. Buscar siempre la aprobación del Ingeniero Gerente. Participar activamente en las reuniones y ceremonias del equipo.</li><li>Documentación: Ayudar en la creación y mantenimiento de documentación técnica relacionada con el desarrollo de software.</li><li>Mentoría básica: Apoyar y guiar a desarrolladores junior, ayudándoles a mejorar sus habilidades técnicas y comprensión de los proyectos. Compartir conocimientos y promover un ambiente de aprendizaje continuo.</li></ul>",
+        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. <br></strong><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Además, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
+        "functions_headline": "Funciones",
+        "functions": "<ul><li>Entrega de Funcionalidades: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li>Calidad del Código: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisión de código y pruebas rigurosas.</li><li>Mejoramiento Continuo: Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos.</li><li>Satisfacción del Cliente: Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
+        "benefits_headline": "Conditions",
+        "benefits": "<div>Sabemos que el alto desempeño requiere de un gran equilibrio. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li>🤸<strong> Work-Life Balance</strong>: flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong> : Medio día libre en tu cumpleaños, en el de tus hij@so cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨ <strong>Rankmi Vibes</strong> : Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo de HR Tech, ¡queremos conocerte! 🚀</div>",
+        "desirable_headline": "Requisitos",
+        "desirable": "<ul><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente.</li><li>Mínimo de 3 años de experiencia en desarrollo de software.</li><li><strong>Principalmente conocimientos en React y Ruby on Rails. Excepcionalmente, React Native, Python y Node.js.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales. Experiencia en trabajar con equipos de desarrollo y en proyectos de software. Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul>",
+        "remote": true,
+        "remote_modality": "remote_local",
+        "remote_zone": null,
+        "countries": ["Remote"],
+        "lang": "es",
+        "rejected_reasons": [
+          {
+            "not_really_remote": {
+              "title": "The job does not seem to be fully remote",
+              "description": "You have marked this job as \"remote work\", but the text is not clear enough about whether the job is indeed 100% remote. Marking a job as remote means that the professional will be able to work from <strong>any location</strong>, without the obligation to attend an office. If the job is 100% remote, please make sure that the job description clearly states this, to avoid confusion for applicants. <br><br>If you expect the professional to attend an office on a regular basis, but wish to offer flexibility to work some days from home, you should mark it as \"Not remote\" or \"Local remote\" and select the \"Flexible hours\" option in the Benefits list."
+            }
+          }
+        ],
+        "category_name": "Programming",
+        "perks": [
+          "remote_partial",
+          "performance_bonus",
+          "informal_dresscode",
+          "vacation_over_legal",
+          "parental_leave_over_legal"
+        ],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791231124,
+        "response_time_in_days": {
+          "min": 10,
+          "max": 16
+        },
+        "applications_count": 454,
+        "location_regions": {
+          "data": [
+            {
+              "id": "central_america",
+              "type": "region",
+              "attributes": {
+                "name": "Central America"
+              }
+            },
+            {
+              "id": "south_america",
+              "type": "region",
+              "attributes": {
+                "name": "South America"
+              }
+            }
+          ]
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": []
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "3",
+            "type": "seniority",
+            "attributes": {
+              "name": "Semi Senior",
+              "locale_key": "semi_senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "react",
+              "type": "tag",
+              "attributes": {
+                "name": "React",
+                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
+              }
+            },
+            {
+              "id": "ruby-on-rails",
+              "type": "tag",
+              "attributes": {
+                "name": "Ruby on Rails",
+                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
+              }
+            },
+            {
+              "id": "unit-testing",
+              "type": "tag",
+              "attributes": {
+                "name": "Unit Testing",
+                "keywords": "Unit Test Automation, Unit Test Scripts, Unit Test"
+              }
+            },
+            {
+              "id": "integration-testing",
+              "type": "tag",
+              "attributes": {
+                "name": "Integration Testing",
+                "keywords": "Integration Tests, Installation Testing, Integrated Testing, Integrity, Integrity Testing, Interaction Testing, Interface Testing"
+              }
+            },
+            {
+              "id": "debugging",
+              "type": "tag",
+              "attributes": {
+                "name": "Debugging",
+                "keywords": "Debug, Debugging Services, Debugging Tools, DEBUG, Dependency Handling, Deobfuscation, DEX Tools, DEX, Dexguard"
+              }
+            },
+            {
+              "id": "code-review",
+              "type": "tag",
+              "attributes": {
+                "name": "Code Review",
+                "keywords": "Code Auditing, Code Audit Tools, Collaborative Coding, Code Inspection, Code Reading"
+              }
+            },
+            {
+              "id": "technical-documentation",
+              "type": "tag",
+              "attributes": {
+                "name": "Technical Documentation",
+                "keywords": "Technical Reports, Technical Sheets, Technical Stories"
+              }
+            },
+            {
+              "id": "mentoring",
+              "type": "tag",
+              "attributes": {
+                "name": "Mentoring",
+                "keywords": null
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "rankmi",
+            "type": "company",
+            "attributes": {
+              "name": "Rankmi",
+              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
+              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
+              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
+              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
+              "web": "https://www.rankmi.com",
+              "twitter": "rankmioficial",
+              "github": "",
+              "facebook": "rankmioficial",
+              "angellist": "rankmi",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 8,
+                "max": 20
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/software-developer-full-stack-react-ror-rankmi-remote"
+      }
+    },
+    {
+      "id": "full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2",
+      "type": "job",
+      "attributes": {
+        "title": "Full-Stack Developer React + RoR",
+        "description_headline": "Requerimientos del cargo",
+        "description": "<ul><li>Mínimo de <strong>3 años de experiencia en desarrollo de software (excluyente).</strong></li><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente (deseable)</li><li><strong>Excluyente experiencia con React y Ruby on Rails.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales.</li><li>Experiencia en trabajar con equipos de desarrollo y en proyectos de software.</li><li>Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul><div><strong>Condiciones </strong></div><ul><li><strong>En Chile, Perú y México trabajamos híbrido,</strong> por lo que te pediríamos que vayas a la oficina 1 o 2 veces por semana.</li><li>Si vives en otro país, es 100% remoto. </li></ul>",
+        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. </strong></div><div><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Adicionalmente, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
+        "functions_headline": "Funciones del cargo",
+        "functions": "<ul><li><strong>Entrega de Funcionalidades</strong>: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li><strong>Calidad del Código</strong>: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisiones de código y pruebas rigurosas.</li><li><strong>Mejoramiento Continuo: </strong>Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos y prácticas de desarrollo.</li><li><strong>Satisfacción del Cliente: </strong>Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
+        "benefits_headline": "Beneficios 🎁",
+        "benefits": "<div> Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li><strong>🤸 Work-Life Balance:</strong> Modelo de trabajo híbrido en Chile, Perú y México (otros paises 100% remoto), flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀 </div>",
+        "desirable_headline": "Opcionales",
+        "desirable": "<ul><li>React Native, Python y Node.js, GraphQL</li></ul>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "remote_zone": null,
+        "countries": ["Chile", "Peru", "Mexico"],
+        "lang": "es",
+        "rejected_reasons": [],
+        "category_name": "Programming",
+        "perks": [
+          "remote_partial",
+          "computer_provided",
+          "performance_bonus",
+          "informal_dresscode",
+          "vacation_over_legal"
+        ],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791231114,
+        "response_time_in_days": {
+          "min": 4,
+          "max": 16
+        },
+        "applications_count": 132,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 200,
+              "type": "location_city"
+            },
+            {
+              "id": 1,
+              "type": "location_city"
+            },
+            {
+              "id": 130,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "3",
+            "type": "seniority",
+            "attributes": {
+              "name": "Semi Senior",
+              "locale_key": "semi_senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "ruby-on-rails",
+              "type": "tag",
+              "attributes": {
+                "name": "Ruby on Rails",
+                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
+              }
+            },
+            {
+              "id": "git",
+              "type": "tag",
+              "attributes": {
+                "name": "Git",
+                "keywords": ""
+              }
+            },
+            {
+              "id": "react",
+              "type": "tag",
+              "attributes": {
+                "name": "React",
+                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
+              }
+            },
+            {
+              "id": "docker",
+              "type": "tag",
+              "attributes": {
+                "name": "Docker",
+                "keywords": "Docker CE, Docker Engine, Dockers, Docker Containers, Dockerfile Development, DockerHub, Docker Hub, Docker Registries, Docker Registry, Docker Clusters, Docker-compose, Docker Compose, Docker Swarm"
+              }
+            },
+            {
+              "id": "ci-cd",
+              "type": "tag",
+              "attributes": {
+                "name": "CI/CD",
+                "keywords": "CI/CD, CD/CI, CDCI, CICD, DevOps, Continuous Delivery, Continuous Integration, CI, CI/CD Tools"
+              }
+            },
+            {
+              "id": "agile-development",
+              "type": "tag",
+              "attributes": {
+                "name": "Agile Development",
+                "keywords": null
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "rankmi",
+            "type": "company",
+            "attributes": {
+              "name": "Rankmi",
+              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
+              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
+              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
+              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
+              "web": "https://www.rankmi.com",
+              "twitter": "rankmioficial",
+              "github": "",
+              "facebook": "rankmioficial",
+              "angellist": "rankmi",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 8,
+                "max": 20
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2"
+      }
+    },
+    {
+      "id": "full-stack-developer-semi-senior-factor-it-santiago",
+      "type": "job",
+      "attributes": {
+        "title": "Full-Stack Developer Semi Senior",
+        "description_headline": "💻 Requisitos técnicos",
+        "description": "<p><strong>Requeridos</strong></p><p>Experiencia de 2 a 4 años en desarrollo Full Stack, frontend o backend en proyectos productivos. Experiencia desarrollando aplicaciones web con frameworks modernos. Experiencia en desarrollo backend y diseño de APIs REST. Experiencia en integración frontend–backend. Conocimientos de React. Conocimientos demostrables en Node.js. JavaScript y TypeScript. Experiencia con Java en desarrollo Full Stack. Manejo de bases de datos relacionales y/o NoSQL. Control de versiones con Git. Conocimientos de pruebas unitarias. Conocimientos de principios y patrones de desarrollo como SOLID, YAGNI y Clean Architecture. Conocimientos de microservicios y APIs REST/RESTful. Conocimientos de CI/CD. Conocimientos de Docker. Experiencia o conocimientos en Cloud GCP. Capacidad para trabajar bajo metodologías ágiles.</p><p>🧪 <strong>Calidad y buenas prácticas</strong></p><p>Esperamos experiencia aplicando prácticas que permitan construir soluciones confiables y mantenibles: Pruebas unitarias. Code review. Clean Code. SOLID. Manejo adecuado de errores. Versionamiento y branching. CI/CD. Seguridad aplicada al desarrollo. Documentación técnica. Mejora continua.</p><p>🎓 Formación</p><p>Profesional en Ingeniería de Sistemas, Ingeniería Informática, Ingeniería de Software o carreras afines.</p><p>También pueden considerarse perfiles técnicos con experiencia equivalente y sólida trayectoria en desarrollo Full Stack.</p><p><strong>🤝 Habilidades</strong></p><p>Comunicación asertiva. Orientación al cliente. Trabajo en equipo. Planificación y organización. Pensamiento analítico. Innovación. Capacidad de aprendizaje. Proactividad. Orientación a resultados.</p><p>📌<strong> Experiencia</strong></p><p>2 a 4 años de experiencia en desarrollo Full Stack, frontend o backend en proyectos productivos.</p><p><strong>☁️ Plus: OCR en GCP</strong></p><p>Para uno de los perfiles del equipo será especialmente valorada la experiencia en:</p><ul><li><strong>OCR en Google Cloud Platform</strong>.</li><li>Servicios de lectura y extracción de información desde documentos.</li><li>Procesamiento de documentos desde la nube.</li><li>Integración de servicios OCR con aplicaciones backend y APIs.</li><li>Flujos de extracción y procesamiento de información para procesos de negocio.</li></ul><p><strong>La experiencia en OCR no es excluyente para todos los perfiles Full Stack, pero sí será un diferenciador importante para uno de los integrantes de la célula.</strong></p>",
+        "projects": "<p>Buscamos Full Stack Developers Semi Senior para integrarse a una célula de desarrollo enfocada en la evolución de soluciones tecnológicas para una iniciativa de Evaluación de Crédito.</p><p>El equipo estará conformado por perfiles Full Stack que participarán en el desarrollo de funcionalidades end-to-end, trabajando tanto en frontend como backend, integración de APIs, datos y servicios Cloud.</p><p>Buscamos profesionales con experiencia en proyectos productivos, buenas prácticas de desarrollo y capacidad para construir soluciones robustas, seguras y escalables.</p>",
+        "functions_headline": "🎯 Responsabilidades",
+        "functions": "<p>Desarrollar componentes frontend y servicios backend de complejidad media, siguiendo estándares técnicos.</p><p>Implementar funcionalidades end-to-end, desde el frontend hasta el backend y la capa de datos. Diseñar e implementar integraciones entre frontend y backend, gestionando flujos de datos y manejo de errores. Desarrollar y consumir APIs REST. Identificar, analizar y corregir bugs de complejidad media. Realizar mantenimiento correctivo y evolutivo de las aplicaciones. Identificar oportunidades de mejora de performance en frontend y backend.</p><p>Aplicar buenas prácticas de desarrollo Full Stack, incluyendo reutilización de componentes, estructura de código y manejo de errores. Aplicar patrones y principios de diseño orientados a construir código mantenible y escalable. Gestionar ramas, merges y versionamiento del código. Participar en revisiones de código y actividades de mejora continua.</p><p>Aplicar lineamientos de seguridad durante el desarrollo y manejo de información. Documentar funcionalidades, flujos y consideraciones técnicas. Participar en metodologías ágiles como Scrum o Kanban. Colaborar con el equipo técnico en la construcción y evolución de las soluciones.</p>",
+        "benefits_headline": "",
+        "benefits": "",
+        "desirable_headline": "⭐ Deseables",
+        "desirable": "<p>Experiencia con NestJS. Conocimientos de Kubernetes. Experiencia con arquitecturas orientadas a eventos. Conocimientos de brokers de mensajería como Pub/Sub, Kafka o Service Bus. Conocimientos de calidad y seguridad de código con SonarQube y/o Veracode. Experiencia con OpenAPI Specification (OAS). Conocimientos de bases de datos como SQL Server, PostgreSQL o MongoDB. Experiencia con arquitecturas microservicios, hexagonal u orientada a eventos. Conocimientos de TDD, DDD, ATDD, pair programming o prácticas de desarrollo colaborativo. Experiencia con Angular y/o Vue. Conocimientos de Express o .NET Core. Certificaciones o formación complementaria en desarrollo Full Stack.</p>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "remote_zone": null,
+        "countries": ["Chile"],
+        "lang": "lang_not_specified",
+        "rejected_reasons": [],
+        "category_name": "Programming",
+        "perks": [],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791228896,
+        "response_time_in_days": {
+          "min": null,
+          "max": null
+        },
+        "applications_count": 12,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 1,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "3",
+            "type": "seniority",
+            "attributes": {
+              "name": "Semi Senior",
+              "locale_key": "semi_senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "react",
+              "type": "tag",
+              "attributes": {
+                "name": "React",
+                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
+              }
+            },
+            {
+              "id": "node-js",
+              "type": "tag",
+              "attributes": {
+                "name": "Node.js",
+                "keywords": "NodeJS, Node, Jade, Express, Sails.js, Koa, Express.js, MERN, Node Frameworks, Node WebKit, NW.js"
+              }
+            },
+            {
+              "id": "javascript",
+              "type": "tag",
+              "attributes": {
+                "name": "JavaScript",
+                "keywords": "EcmaScript, ES6, ES8, Java Script, React, Vue, Angular, Backbone, Marionette, Ember, Node, Node.js, Nodejs, JS, JavaScript Vanilla, JScript.net"
+              }
+            },
+            {
+              "id": "typescript",
+              "type": "tag",
+              "attributes": {
+                "name": "TypeScript",
+                "keywords": "Typesafe"
+              }
+            },
+            {
+              "id": "java",
+              "type": "tag",
+              "attributes": {
+                "name": "Java",
+                "keywords": "RxJava, Kafka, Spring Boot, Mockito, Java (Backend), Java 8+, Java 11, Java 17, Java 21, Java SE"
+              }
+            },
+            {
+              "id": "git",
+              "type": "tag",
+              "attributes": {
+                "name": "Git",
+                "keywords": ""
+              }
+            },
+            {
+              "id": "unit-testing",
+              "type": "tag",
+              "attributes": {
+                "name": "Unit Testing",
+                "keywords": "Unit Test Automation, Unit Test Scripts, Unit Test"
+              }
+            },
+            {
+              "id": "ci-cd",
+              "type": "tag",
+              "attributes": {
+                "name": "CI/CD",
+                "keywords": "CI/CD, CD/CI, CDCI, CICD, DevOps, Continuous Delivery, Continuous Integration, CI, CI/CD Tools"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "factor-it-y-compania-sac",
+            "type": "company",
+            "attributes": {
+              "name": "Factor IT",
+              "description": "FactorIT, líder en tecnología con presencia en 8 países, ofrece soluciones en Data y Analytics, Transformación Digital e IA. Únete a un equipo innovador y desafiante que impulsa la transformación tecnológica en grandes empresas.",
+              "long_description": "<div>FactorIT es una empresa líder en el sector de tecnología y soluciones de datos, con presencia en 8 países de Latinoamérica y en plena expansión, lo que ofrece la posibilidad de trabajar en proyectos regionales y con un impacto real en múltiples industrias. Nuestra visión es ser el principal socio estratégico de nuestros clientes en su proceso de transformación digital, brindando soluciones innovadoras y personalizadas que integren inteligencia artificial, automatización y analítica avanzada.</div><div>Nos enfocamos en abordar los desafíos más complejos de nuestros clientes, proporcionando servicios de Data &amp; Analytics, Transformación &amp; Desarrollo Digital, Soporte y Continuidad, y Consultoría Estratégica. Nuestro equipo se destaca por su alto expertise técnico, la flexibilidad para adaptarse a las necesidades de cada cliente y una cultura basada en la conversación y entendimiento profundo de los requerimientos del negocio, lo que nos permite proponer soluciones que generan valor y optimizan procesos.</div><div>En FactorIT, promovemos una cultura de innovación, colaboración y aprendizaje continuo. Nos apasiona desafiar a nuestros clientes y a nosotros mismos, siempre buscando mejorar y estar a la vanguardia en tecnologías emergentes. Fomentamos un ambiente donde cada colaborador puede crecer profesionalmente, participar en proyectos desafiantes y aportar sus ideas para impulsar el éxito de la empresa y de nuestros clientes.</div><div>Creemos en la importancia de un equilibrio entre la vida personal y laboral, por lo que ofrecemos flexibilidad laboral y la posibilidad de trabajo remoto. Además, nuestra cultura promueve la inclusión, la diversidad y el trabajo en equipo, haciendo de FactorIT un lugar donde se valora la creatividad, la proactividad y el desarrollo de cada persona. Únete a nosotros y sé parte de un equipo que está transformando el futuro de la tecnología en la región.</div>",
+              "projects": "<p>FactorIT, líder en tecnología y soluciones de datos, te invita a formar parte de un equipo que impulsa la transformación digital para grandes empresas en la región. En este rol de PM, trabajarás en proyectos tradicionales y ágiles, asegurando el gobierno, la entrega y el control de alcance, costo, tiempo y calidad,. Liderarás la interacción de equipos interdisciplinarios, gestionarás riesgos a lo largo de todo el ciclo del proyecto y asegurarás la elaboración y ejecución de planes, tableros de control y actas de los comités, promoviendo la toma de decisiones oportunas para cambios en las variables críticas del proyecto. Participarás en proyectos estratégicos y locales con foco en la transformación tecnológica de la región y en el sector financiero, contribuyendo a la mejora continua de procesos y prácticas de gestión.<br><br><br><br><br></p>",
+              "benefits": "<div>Ofrecemos una modalidad de trabajo híbrida desde Santiago, Chile, brindando flexibilidad horaria para un balance saludable entre la vida profesional y personal adaptándose a las necesidades individuales.</div><div>FactorIT proporciona un ambiente colaborativo, dinámico y con tecnologías de última generación que facilitan el crecimiento profesional constante y la innovación tecnológica.</div><div>Nuestro paquete salarial es competitivo y acorde a la experiencia y perfil, complementado con una cultura inclusiva que valora la diversidad, creatividad y el trabajo en equipo.</div><div>Al unirte a FactorIT, participarás en proyectos desafiantes con impacto real en la transformación tecnológica de la región y en el sector financiero, dentro de una organización que promueve la innovación y el desarrollo profesional continuo.</div>",
+              "web": "http://www.factorit.com",
+              "twitter": "",
+              "github": "",
+              "facebook": "",
+              "angellist": "",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 8,
+                "max": 20
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/15558/Isotipo_a_color_GRANDE.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/full-stack-developer-semi-senior-factor-it-santiago"
+      }
+    },
+    {
       "id": "sales-development-representative-sdr-ignitvio-remote-c9ee",
       "type": "job",
       "attributes": {
@@ -841,7 +1528,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 1,
+        "applications_count": 3,
         "location_regions": {
           "data": []
         },
@@ -985,7 +1672,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 21,
+        "applications_count": 51,
         "location_regions": {
           "data": []
         },
@@ -1145,8 +1832,11 @@
         "location_tenants": {
           "data": [
             {
-              "id": 12,
-              "type": "location_tenant"
+              "id": "brasil",
+              "type": "country",
+              "attributes": {
+                "name": "Brazil"
+              }
             }
           ]
         },
@@ -1263,7 +1953,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 0,
+        "applications_count": 3,
         "location_regions": {
           "data": []
         },
@@ -1581,7 +2271,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 5,
+        "applications_count": 10,
         "location_regions": {
           "data": []
         },
@@ -1818,161 +2508,6 @@
       }
     },
     {
-      "id": "full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2",
-      "type": "job",
-      "attributes": {
-        "title": "Full-Stack Developer React + RoR",
-        "description_headline": "Requerimientos del cargo",
-        "description": "<ul><li>Mínimo de <strong>3 años de experiencia en desarrollo de software (excluyente).</strong></li><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente (deseable)</li><li><strong>Excluyente experiencia con React y Ruby on Rails.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales.</li><li>Experiencia en trabajar con equipos de desarrollo y en proyectos de software.</li><li>Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul><div><strong>Condiciones </strong></div><ul><li><strong>En Chile, Perú y México trabajamos híbrido,</strong> por lo que te pediríamos que vayas a la oficina 1 o 2 veces por semana.</li><li>Si vives en otro país, es 100% remoto. </li></ul>",
-        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. </strong></div><div><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Adicionalmente, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<ul><li><strong>Entrega de Funcionalidades</strong>: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li><strong>Calidad del Código</strong>: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisiones de código y pruebas rigurosas.</li><li><strong>Mejoramiento Continuo: </strong>Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos y prácticas de desarrollo.</li><li><strong>Satisfacción del Cliente: </strong>Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
-        "benefits_headline": "Beneficios 🎁",
-        "benefits": "<div> Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li><strong>🤸 Work-Life Balance:</strong> Modelo de trabajo híbrido en Chile, Perú y México (otros paises 100% remoto), flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀 </div>",
-        "desirable_headline": "Opcionales",
-        "desirable": "<ul><li>React Native, Python y Node.js, GraphQL</li></ul>",
-        "remote": false,
-        "remote_modality": "hybrid",
-        "remote_zone": null,
-        "countries": ["Chile", "Peru", "Mexico"],
-        "lang": "es",
-        "rejected_reasons": [],
-        "category_name": "Programming",
-        "perks": [
-          "remote_partial",
-          "computer_provided",
-          "performance_bonus",
-          "informal_dresscode",
-          "vacation_over_legal"
-        ],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1791205366,
-        "response_time_in_days": {
-          "min": 4,
-          "max": 16
-        },
-        "applications_count": 129,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": [
-            {
-              "id": 200,
-              "type": "location_city"
-            },
-            {
-              "id": 1,
-              "type": "location_city"
-            },
-            {
-              "id": 130,
-              "type": "location_city"
-            }
-          ]
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "3",
-            "type": "seniority",
-            "attributes": {
-              "name": "Semi Senior",
-              "locale_key": "semi_senior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "ruby-on-rails",
-              "type": "tag",
-              "attributes": {
-                "name": "Ruby on Rails",
-                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
-              }
-            },
-            {
-              "id": "git",
-              "type": "tag",
-              "attributes": {
-                "name": "Git",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "react",
-              "type": "tag",
-              "attributes": {
-                "name": "React",
-                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
-              }
-            },
-            {
-              "id": "docker",
-              "type": "tag",
-              "attributes": {
-                "name": "Docker",
-                "keywords": "Docker CE, Docker Engine, Dockers, Docker Containers, Dockerfile Development, DockerHub, Docker Hub, Docker Registries, Docker Registry, Docker Clusters, Docker-compose, Docker Compose, Docker Swarm"
-              }
-            },
-            {
-              "id": "ci-cd",
-              "type": "tag",
-              "attributes": {
-                "name": "CI/CD",
-                "keywords": "CI/CD, CD/CI, CDCI, CICD, DevOps, Continuous Delivery, Continuous Integration, CI, CI/CD Tools"
-              }
-            },
-            {
-              "id": "agile-development",
-              "type": "tag",
-              "attributes": {
-                "name": "Agile Development",
-                "keywords": null
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "rankmi",
-            "type": "company",
-            "attributes": {
-              "name": "Rankmi",
-              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
-              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
-              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
-              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
-              "web": "https://www.rankmi.com",
-              "twitter": "rankmioficial",
-              "github": "",
-              "facebook": "rankmioficial",
-              "angellist": "rankmi",
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 8,
-                "max": 20
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2"
-      }
-    },
-    {
       "id": "semi-senior-java-developer-etl-23people-remote-ebb4",
       "type": "job",
       "attributes": {
@@ -2013,15 +2548,18 @@
           "min": null,
           "max": null
         },
-        "applications_count": 16,
+        "applications_count": 17,
         "location_regions": {
           "data": []
         },
         "location_tenants": {
           "data": [
             {
-              "id": 1,
-              "type": "location_tenant"
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
             }
           ]
         },
@@ -2134,180 +2672,6 @@
       }
     },
     {
-      "id": "software-developer-full-stack-react-ror-rankmi-remote",
-      "type": "job",
-      "attributes": {
-        "title": "Software Developer Full-Stack React RoR [Contractor]",
-        "description_headline": "Descripción del cargo ",
-        "description": "<ul><li>Desarrollo de Software: Participar en el desarrollo, implementación y mantenimiento de los productos. Siempre utilizando las tecnologías seleccionadas en Rankmi o aprobadas por el Technical Lead y Engineer Manager.</li><li>Revisiones de Código: Realizar revisión de código para asegurar la calidad y adherencia a las mejores prácticas. Proporcionar retroalimentación constructiva a los desarrolladores junior.</li><li>Depuración y Pruebas: Desarrollar y ejecutar pruebas unitarias y de integración para asegurar la calidad del software. Identificar y corregir errores (bugs) en el código a través de pruebas rigurosas y depuración eficaz.</li><li>Colaboración en Equipo: Trabajar en estrecha colaboración con otros miembros del equipo. Buscar siempre la aprobación del Ingeniero Gerente. Participar activamente en las reuniones y ceremonias del equipo.</li><li>Documentación: Ayudar en la creación y mantenimiento de documentación técnica relacionada con el desarrollo de software.</li><li>Mentoría básica: Apoyar y guiar a desarrolladores junior, ayudándoles a mejorar sus habilidades técnicas y comprensión de los proyectos. Compartir conocimientos y promover un ambiente de aprendizaje continuo.</li></ul>",
-        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. <br></strong><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Además, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
-        "functions_headline": "Funciones",
-        "functions": "<ul><li>Entrega de Funcionalidades: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li>Calidad del Código: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisión de código y pruebas rigurosas.</li><li>Mejoramiento Continuo: Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos.</li><li>Satisfacción del Cliente: Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
-        "benefits_headline": "Conditions",
-        "benefits": "<div>Sabemos que el alto desempeño requiere de un gran equilibrio. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li>🤸<strong> Work-Life Balance</strong>: flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong> : Medio día libre en tu cumpleaños, en el de tus hij@so cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨ <strong>Rankmi Vibes</strong> : Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo de HR Tech, ¡queremos conocerte! 🚀</div>",
-        "desirable_headline": "Requisitos",
-        "desirable": "<ul><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente.</li><li>Mínimo de 3 años de experiencia en desarrollo de software.</li><li><strong>Principalmente conocimientos en React y Ruby on Rails. Excepcionalmente, React Native, Python y Node.js.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales. Experiencia en trabajar con equipos de desarrollo y en proyectos de software. Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul>",
-        "remote": true,
-        "remote_modality": "remote_local",
-        "remote_zone": null,
-        "countries": ["Remote"],
-        "lang": "es",
-        "rejected_reasons": [
-          {
-            "not_really_remote": {
-              "title": "The job does not seem to be fully remote",
-              "description": "You have marked this job as \"remote work\", but the text is not clear enough about whether the job is indeed 100% remote. Marking a job as remote means that the professional will be able to work from <strong>any location</strong>, without the obligation to attend an office. If the job is 100% remote, please make sure that the job description clearly states this, to avoid confusion for applicants. <br><br>If you expect the professional to attend an office on a regular basis, but wish to offer flexibility to work some days from home, you should mark it as \"Not remote\" or \"Local remote\" and select the \"Flexible hours\" option in the Benefits list."
-            }
-          }
-        ],
-        "category_name": "Programming",
-        "perks": [
-          "remote_partial",
-          "performance_bonus",
-          "informal_dresscode",
-          "vacation_over_legal",
-          "parental_leave_over_legal"
-        ],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1791203252,
-        "response_time_in_days": {
-          "min": 10,
-          "max": 16
-        },
-        "applications_count": 441,
-        "location_regions": {
-          "data": [
-            {
-              "id": 9,
-              "type": "location_region"
-            },
-            {
-              "id": 6,
-              "type": "location_region"
-            }
-          ]
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": []
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "3",
-            "type": "seniority",
-            "attributes": {
-              "name": "Semi Senior",
-              "locale_key": "semi_senior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "react",
-              "type": "tag",
-              "attributes": {
-                "name": "React",
-                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
-              }
-            },
-            {
-              "id": "ruby-on-rails",
-              "type": "tag",
-              "attributes": {
-                "name": "Ruby on Rails",
-                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
-              }
-            },
-            {
-              "id": "unit-testing",
-              "type": "tag",
-              "attributes": {
-                "name": "Unit Testing",
-                "keywords": "Unit Test Automation, Unit Test Scripts, Unit Test"
-              }
-            },
-            {
-              "id": "integration-testing",
-              "type": "tag",
-              "attributes": {
-                "name": "Integration Testing",
-                "keywords": "Integration Tests, Installation Testing, Integrated Testing, Integrity, Integrity Testing, Interaction Testing, Interface Testing"
-              }
-            },
-            {
-              "id": "debugging",
-              "type": "tag",
-              "attributes": {
-                "name": "Debugging",
-                "keywords": "Debug, Debugging Services, Debugging Tools, DEBUG, Dependency Handling, Deobfuscation, DEX Tools, DEX, Dexguard"
-              }
-            },
-            {
-              "id": "code-review",
-              "type": "tag",
-              "attributes": {
-                "name": "Code Review",
-                "keywords": "Code Auditing, Code Audit Tools, Collaborative Coding, Code Inspection, Code Reading"
-              }
-            },
-            {
-              "id": "technical-documentation",
-              "type": "tag",
-              "attributes": {
-                "name": "Technical Documentation",
-                "keywords": "Technical Reports, Technical Sheets, Technical Stories"
-              }
-            },
-            {
-              "id": "mentoring",
-              "type": "tag",
-              "attributes": {
-                "name": "Mentoring",
-                "keywords": null
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "rankmi",
-            "type": "company",
-            "attributes": {
-              "name": "Rankmi",
-              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
-              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
-              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
-              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
-              "web": "https://www.rankmi.com",
-              "twitter": "rankmioficial",
-              "github": "",
-              "facebook": "rankmioficial",
-              "angellist": "rankmi",
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 8,
-                "max": 20
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/software-developer-full-stack-react-ror-rankmi-remote"
-      }
-    },
-    {
       "id": "full-stack-mobile-react-native-java-3it-santiago",
       "type": "job",
       "attributes": {
@@ -2336,7 +2700,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 7,
+        "applications_count": 9,
         "location_regions": {
           "data": []
         },
@@ -2509,20 +2873,29 @@
           "min": null,
           "max": null
         },
-        "applications_count": 44,
+        "applications_count": 56,
         "location_regions": {
           "data": [
             {
-              "id": 9,
-              "type": "location_region"
+              "id": "central_america",
+              "type": "region",
+              "attributes": {
+                "name": "Central America"
+              }
             },
             {
-              "id": 4,
-              "type": "location_region"
+              "id": "north_america",
+              "type": "region",
+              "attributes": {
+                "name": "North America"
+              }
             },
             {
-              "id": 6,
-              "type": "location_region"
+              "id": "south_america",
+              "type": "region",
+              "attributes": {
+                "name": "South America"
+              }
             }
           ]
         },
@@ -2668,7 +3041,7 @@
           "min": 10,
           "max": 26
         },
-        "applications_count": 77,
+        "applications_count": 82,
         "location_regions": {
           "data": []
         },
@@ -2831,8 +3204,11 @@
         "location_tenants": {
           "data": [
             {
-              "id": 1,
-              "type": "location_tenant"
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
             }
           ]
         },
@@ -2973,39 +3349,60 @@
           "min": 15,
           "max": 27
         },
-        "applications_count": 47,
+        "applications_count": 51,
         "location_regions": {
           "data": []
         },
         "location_tenants": {
           "data": [
             {
-              "id": 211,
-              "type": "location_tenant"
+              "id": "nicaragua",
+              "type": "country",
+              "attributes": {
+                "name": "Nicaragua"
+              }
             },
             {
-              "id": 145,
-              "type": "location_tenant"
+              "id": "honduras",
+              "type": "country",
+              "attributes": {
+                "name": "Honduras"
+              }
             },
             {
-              "id": 140,
-              "type": "location_tenant"
+              "id": "guatemala",
+              "type": "country",
+              "attributes": {
+                "name": "Guatemala"
+              }
             },
             {
-              "id": 6,
-              "type": "location_tenant"
+              "id": "colombia",
+              "type": "country",
+              "attributes": {
+                "name": "Colombia"
+              }
             },
             {
-              "id": 2,
-              "type": "location_tenant"
+              "id": "argentina",
+              "type": "country",
+              "attributes": {
+                "name": "Argentina"
+              }
             },
             {
-              "id": 20,
-              "type": "location_tenant"
+              "id": "uruguay",
+              "type": "country",
+              "attributes": {
+                "name": "Uruguay"
+              }
             },
             {
-              "id": 27,
-              "type": "location_tenant"
+              "id": "ecuador",
+              "type": "country",
+              "attributes": {
+                "name": "Ecuador"
+              }
             }
           ]
         },
@@ -3162,15 +3559,18 @@
           "min": null,
           "max": null
         },
-        "applications_count": 15,
+        "applications_count": 19,
         "location_regions": {
           "data": []
         },
         "location_tenants": {
           "data": [
             {
-              "id": 1,
-              "type": "location_tenant"
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
             }
           ]
         },
@@ -3444,16 +3844,22 @@
           "min": null,
           "max": null
         },
-        "applications_count": 72,
+        "applications_count": 78,
         "location_regions": {
           "data": [
             {
-              "id": 9,
-              "type": "location_region"
+              "id": "central_america",
+              "type": "region",
+              "attributes": {
+                "name": "Central America"
+              }
             },
             {
-              "id": 6,
-              "type": "location_region"
+              "id": "south_america",
+              "type": "region",
+              "attributes": {
+                "name": "South America"
+              }
             }
           ]
         },
@@ -3550,323 +3956,6 @@
       },
       "links": {
         "public_url": "https://www.getonbrd.com/jobs/ai-automation-engineer-contract-blupax-pharmaceuticals-remote"
-      }
-    },
-    {
-      "id": "senior-business-development-representative-sbdr-crewbloom-remote",
-      "type": "job",
-      "attributes": {
-        "title": "Senior Business Development Representative (Sbdr)",
-        "description_headline": "Qualifications and requirements",
-        "description": "<ul><li><strong>3–6+ years of experience</strong> in B2B Business Development, SDR/BDR, Inside Sales, or outbound sales.</li><li>Proven experience in <strong>cold calling, outbound prospecting, lead qualification, and appointment setting</strong>.</li><li>Experience selling <strong>staffing, recruitment, outsourcing, BPO, workforce solutions, professional services, or other B2B services</strong> is strongly preferred.</li><li>Proven ability to engage <strong>Founders, Owners, C-Suite executives, HR leaders, Operations leaders, and other senior decision-makers</strong>.</li><li>Strong <strong>cold-calling, objection-handling, prospecting, qualification, and relationship-building skills</strong>.</li><li>Experience with <strong>LinkedIn Sales Navigator, prospecting platforms, and CRM systems</strong> such as HubSpot, Salesforce, or Zoho.</li><li>Strong account research and personalized outreach capabilities.</li><li>Excellent written and verbal English communication skills, with confidence communicating with US-based prospects.</li><li>Ability to independently manage a high-volume outbound pipeline and consistently generate qualified sales opportunities.</li><li>Experience prospecting within <strong>Healthcare, Legal, Finance, or other US service-based industries</strong> is an advantage.</li></ul>",
-        "projects": "<p>You’ll join CrewBloom’s growing Sales team, focused on expanding our client base and helping US companies build and scale high-performing remote teams. You’ll work closely with Sales leadership and other team members to identify new business opportunities, engage key decision-makers, and build a strong pipeline of qualified prospects.</p><p>This is a collaborative, results-driven environment where you’ll have the opportunity to directly contribute to CrewBloom’s growth while helping businesses access skilled remote talent.</p>",
-        "functions_headline": "Job functions",
-        "functions": "<p>The <strong>Senior Business Development Representative (SBDR)</strong> is responsible for generating qualified sales opportunities for CrewBloom’s <strong>remote staffing solutions</strong> through strategic B2B outbound prospecting.</p><p>The role focuses on identifying and engaging US-based companies that can benefit from building and scaling remote teams, particularly across <strong>Healthcare, Legal, Finance, and other service-based industries</strong>. The SBDR will connect with business owners, executives, and other key decision-makers, understand their staffing needs, and convert qualified conversations into Discovery Calls.</p><p>This is a <strong>hunter-style role</strong> requiring strong cold-calling skills, independent prospecting, personalized outreach, and the ability to confidently communicate the business value of remote staffing.</p><p><strong>Key Responsibilities</strong></p><ul><li>Identify and prospect US-based companies that could benefit from <strong>remote staffing and workforce solutions</strong>.</li><li>Generate qualified opportunities through <strong>cold calling, email outreach, LinkedIn, and other outbound channels</strong>.</li><li>Engage <strong>Founders, Owners, C-Suite executives, VPs, Directors, HR leaders, Operations leaders, and other hiring decision-makers</strong>.</li><li>Understand prospects’ hiring challenges, staffing requirements, operational needs, and potential opportunities for remote talent.</li><li>Clearly communicate CrewBloom’s value proposition and how remote staffing can support <strong>cost efficiency, scalability, and business growth</strong>.</li><li>Personalize outreach based on the prospect’s company, industry, hiring activity, and potential workforce needs.</li><li>Qualify prospects, handle initial objections, and determine fit before scheduling Discovery Calls.</li><li>Maintain accurate prospecting activities, follow-ups, and pipeline information in the CRM.</li><li>Consistently build a high-quality pipeline while balancing outreach volume with personalization and relevance.</li></ul>",
-        "benefits_headline": "Conditions",
-        "benefits": "<ul><li><strong>Join Our Dynamic Team:</strong> Experience our fun, inclusive, innovative culture that values your unique contributions and supports your professional growth.</li><li><strong>Embrace the Opportunities:</strong> Seize daily chances to learn, innovate, and excel. Make a real impact in your field.</li><li><strong>Limitless Career Growth:</strong> Unlock a world of possibilities and resources to propel your career forward.</li><li><strong>Fast-Paced Thrills:</strong> Thrive in a high-energy, engaging atmosphere. Embrace challenges and reap stimulating rewards.</li><li><strong>Flexibility, Your Way:</strong> Embrace the freedom to work from home or any location of your choice. Create your ideal work environment.</li><li><strong>Work-Life Balance at Its Best: </strong>Say goodbye to stressful commutes and hello to quality time with loved ones. Achieve a healthy work-life integration to perform at your best.</li></ul>",
-        "desirable_headline": "Desirable skills",
-        "desirable": "",
-        "remote": true,
-        "remote_modality": "fully_remote",
-        "remote_zone": null,
-        "countries": ["Remote"],
-        "lang": "en",
-        "rejected_reasons": [],
-        "category_name": "Sales",
-        "perks": ["remote_full"],
-        "min_salary": 1000,
-        "max_salary": 1500,
-        "published_at": 1790874050,
-        "response_time_in_days": {
-          "min": null,
-          "max": null
-        },
-        "applications_count": 28,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": []
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "3",
-            "type": "seniority",
-            "attributes": {
-              "name": "Semi Senior",
-              "locale_key": "semi_senior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "relationship-building",
-              "type": "tag",
-              "attributes": {
-                "name": "Relationship Building",
-                "keywords": null
-              }
-            },
-            {
-              "id": "crm",
-              "type": "tag",
-              "attributes": {
-                "name": "CRM",
-                "keywords": "CRMs, CRM Software, CRM Systems, Client Relationship Management, Customer Relationship Management, Customer Relations, Customer Management"
-              }
-            },
-            {
-              "id": "salesforce",
-              "type": "tag",
-              "attributes": {
-                "name": "Salesforce",
-                "keywords": "SFDC, salesforce.com, Salesforce Certified Developer I, Salesforce App Builder, Salesforce Certified App Builder, Salesforce CRM, Salesforce Platform, Salesforce API, Salesforce Apex, CRM Sales, CRM Salesforce"
-              }
-            },
-            {
-              "id": "hubspot",
-              "type": "tag",
-              "attributes": {
-                "name": "HubSpot",
-                "keywords": "Hubspot API, HubSpot Administration, HubSpot Automation, HubSpot CMS, HubSpot Certification, HubSpot Professional, HubSpot CRM"
-              }
-            },
-            {
-              "id": "cold-calling",
-              "type": "tag",
-              "attributes": {
-                "name": "Cold Calling",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "outbound-prospecting",
-              "type": "tag",
-              "attributes": {
-                "name": "Outbound Prospecting",
-                "keywords": null
-              }
-            },
-            {
-              "id": "lead-qualification",
-              "type": "tag",
-              "attributes": {
-                "name": "Lead Qualification",
-                "keywords": null
-              }
-            },
-            {
-              "id": "appointment-setting",
-              "type": "tag",
-              "attributes": {
-                "name": "Appointment Setting",
-                "keywords": null
-              }
-            },
-            {
-              "id": "account-research",
-              "type": "tag",
-              "attributes": {
-                "name": "Account Research",
-                "keywords": null
-              }
-            },
-            {
-              "id": "linkedin-sales-navigator",
-              "type": "tag",
-              "attributes": {
-                "name": "LinkedIn Sales Navigator",
-                "keywords": "LinkedIn Sales"
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "crewbloom",
-            "type": "company",
-            "attributes": {
-              "name": "CrewBloom",
-              "description": "CrewBloom connects exceptional talent with growing companies across the United States. From startups to established organizations, we help professionals find meaningful work where they can grow, make an impact, and build long-term careers.",
-              "long_description": "<p>From startups to established organizations, we help professionals find meaningful work where they can grow, make an impact, and build long-term careers. Whether you're looking for a remote opportunity, a hybrid role, or an onsite position, CrewBloom connects exceptional talent with growing companies across the United States. </p>",
-              "projects": null,
-              "benefits": "<ul><li><strong>Join Our Dynamic Team:</strong> Experience our fun, inclusive, innovative culture that values your unique contributions and supports your professional growth.</li><li><strong>Embrace the Opportunities:</strong> Seize daily chances to learn, innovate, and excel. Make a real impact in your field.</li><li><strong>Limitless Career Growth:</strong> Unlock a world of possibilities and resources to propel your career forward.</li><li><strong>Fast-Paced Thrills:</strong> Thrive in a high-energy, engaging atmosphere. Embrace challenges and reap stimulating rewards.</li><li><strong>Flexibility, Your Way:</strong> Embrace the freedom to work from home or any location of your choice. Create your ideal work environment.</li><li><strong>Work-Life Balance at Its Best: </strong>Say goodbye to stressful commutes and hello to quality time with loved ones. Achieve a healthy work-life integration to perform at your best.</li></ul><p><br></p>",
-              "web": "https://crewbloom.com/",
-              "twitter": "",
-              "github": "",
-              "facebook": "",
-              "angellist": null,
-              "country": "US",
-              "response_time_in_days": {
-                "min": null,
-                "max": null
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/20570/unnamed.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/senior-business-development-representative-sbdr-crewbloom-remote"
-      }
-    },
-    {
-      "id": "mobile-developer-ios-swift-42labs-remote",
-      "type": "job",
-      "attributes": {
-        "title": "Mobile Developer iOS Swift",
-        "description_headline": "¿Con que debes contar para postular al cargo?",
-        "description": "<p>Muchas ganas de participar en un equipo colaborativo, con actitud positiva frente a los cambios y desafíos, orientado al cliente, creativo y que nunca para de aprender.</p><p><strong>Requerimientos del cargo</strong></p><ul><li>4 años de experiencia comprobable en asignaciones reales en Cargo de Mobile iOS</li><li>Experiencia en sector Financiero</li><li>Desarrollo y mantenimiento de aplicaciones iOS nativas en Swift</li><li>Uso de UIKit y/o SwiftUI aplicando patrones como MVVM</li><li>Diseño de interfaces intuitivas y accesibles</li><li>Integración de servicios mediante APIs RESTful</li><li>Participación en pruebas unitarias y de UI</li><li>Revisiones de código y mejoras técnicas</li><li>Documentación de decisiones de diseño</li><li>Colaboración con equipos de backend, QA y diseño</li><li>Aseguramiento de la calidad, seguridad y rendimiento de la aplicación</li><li>Identificación de oportunidades de modernización, incluyendo el uso de Swift Concurrency</li></ul>",
-        "projects": "<p>Somos 42Labs, una empresa tecnológica especializada en acompañar a organizaciones del sector financiero y de servicios en sus procesos de transformación digital. Nos mueve resolver desafíos complejos con equipos comprometidos, trabajo bien hecho y un ambiente de colaboración que pone a las personas en el centro.</p><p>¡Nos encontramos en búsqueda de tu talento como Mobile Developer IOS (Swift) para que seas parte de nuestro equipo!</p><p>¿Con que debes contar para postular al cargo?<br> Muchas ganas de participar en un equipo colaborativo, con actitud positiva frente a los cambios y desafíos, orientado al cliente, creativo y que nunca para de aprender.</p>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<ul><li>Construir y mantener aplicaciones nativas robustas utilizando Swift, asegurando la implementación de interfaces mediante UIKit o SwiftUI.</li><li>Aplicar patrones de diseño sólidos (como MVVM) para garantizar un código limpio, escalable y mantenible.</li><li>Gestionar la comunicación entre la aplicación y servicios externos mediante el consumo de APIs RESTful, asegurando el correcto manejo de datos y estados de red.</li><li>Ejecutar y participar en ciclos de pruebas unitarias y de interfaz , además de realizar revisiones de código.</li><li>Identificar oportunidades para mejorar el rendimiento, la seguridad y la estabilidad de la App, liderando la adopción de tecnologías como Swift Concurrency.</li></ul>",
-        "benefits_headline": "Condiciones",
-        "benefits": "<ul><li>Aguinaldos</li><li>Flexi Days: dos días libres al año para lo que necesites.</li><li>Party Time: cinco tardes libres para celebrar fechas importantes.</li><li>Y, sobre todo, un equipo humano donde tu talento es valorado y tu trabajo tiene impacto.</li></ul>",
-        "desirable_headline": "Deseable",
-        "desirable": "",
-        "remote": true,
-        "remote_modality": "remote_local",
-        "remote_zone": null,
-        "countries": ["Remote"],
-        "lang": "es",
-        "rejected_reasons": [],
-        "category_name": "Mobile Development",
-        "perks": ["computer_provided", "informal_dresscode", "vacation_on_birthday"],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1790866699,
-        "response_time_in_days": {
-          "min": 1,
-          "max": 4
-        },
-        "applications_count": 132,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": [
-            {
-              "id": 1,
-              "type": "location_tenant"
-            },
-            {
-              "id": 6,
-              "type": "location_tenant"
-            },
-            {
-              "id": 3,
-              "type": "location_tenant"
-            }
-          ]
-        },
-        "location_cities": {
-          "data": []
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "4",
-            "type": "seniority",
-            "attributes": {
-              "name": "Senior",
-              "locale_key": "senior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "swift",
-              "type": "tag",
-              "attributes": {
-                "name": "Swift",
-                "keywords": "SWIFT Integration, SWIFT Protocol, Swift Package Manager, SwiftLint, SwiftSimplify, SwiftyJSON"
-              }
-            },
-            {
-              "id": "ui-kit",
-              "type": "tag",
-              "attributes": {
-                "name": "UI Kit",
-                "keywords": "UI Kit Design, UI Kitten"
-              }
-            },
-            {
-              "id": "swiftui",
-              "type": "tag",
-              "attributes": {
-                "name": "SwiftUI",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "mvvm",
-              "type": "tag",
-              "attributes": {
-                "name": "MVVM",
-                "keywords": "MVVM+Repository, MVVM-Coordinator, MVVM Architecture, MVVM Patterns, MVVM Design Patterns, MVVM Frameworks, MVVM Coordinator, MVVM Cross, MVP/MVVM"
-              }
-            },
-            {
-              "id": "unit-testing",
-              "type": "tag",
-              "attributes": {
-                "name": "Unit Testing",
-                "keywords": "Unit Test Automation, Unit Test Scripts, Unit Test"
-              }
-            },
-            {
-              "id": "ui-testing",
-              "type": "tag",
-              "attributes": {
-                "name": "UI Testing",
-                "keywords": null
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "42labs-cl-98fe",
-            "type": "company",
-            "attributes": {
-              "name": "42Labs",
-              "description": "En 42Labs, no solo desarrollamos tecnología, construimos soluciones donde lo técnico y lo humano van de la mano, aprendemos, colaboramos y celebramos",
-              "long_description": "<p>En 42LABS no solo desarrollamos software, creamos soluciones que transforman negocios, desde el sector financiero hasta logística y educación, y construimos un lugar donde cada 42LOVER puede ser su mejor versión.</p><p>Nuestra cultura no está escrita en piedra, la escribimos día a día entre todos, aquí la transparencia y la colaboración son la base, no hay jerarquías rígidas ni puertas cerradas, hay un equipo que se apoya, que celebra los éxitos compartidos y que aprende de los desafíos.</p><p><strong>¿Cómo es el día a día con nosotros? </strong></p><ul><li>Acompañamiento desde tu primer día en un viaje memorable de onboarding, con feedback constante para que siempre tengas respaldo técnico y personal.</li><li>Crecimiento a tu medida, con planes de desarrollo individual y nuestra Academia 42Labs para potenciar tus habilidades técnicas y humanas con Udemy.</li><li>Bienestar y equilibrio, sabemos que tienes una vida fuera de la pantalla, por eso, promovemos un balance real con beneficios como nuestros Flexy Days, tardes libres en fechas especiales (Party Time) y un entorno de trabajo híbrido que confía en tu autonomía.</li></ul><p><strong>Nuestro Equipo </strong></p><p>Ser un 42LOVER significa ser parte de una comunidad unida, ingeniosa que te acompaña. Nos gusta la tecnología de vanguardia, pero nos gusta más saber que nuestro trabajo tiene un impacto positivo en las personas.</p><p>Si buscas un lugar donde se te escuche, se te valore y donde puedas dejar tu huella ¡queremos conocerte!</p>",
-              "projects": "<p><strong>¡Somos 42Labs!</strong></p><p>Una empresa tecnológica especializada en acompañar a organizaciones del sector financiero y de servicios en sus procesos de transformación digital. Nos mueve resolver desafíos complejos con equipos comprometidos, trabajo bien hecho y un ambiente de colaboración que pone a las personas en el centro.<br><strong>¡Nos encontramos en búsqueda de tu talento como Technical Lead (OAuth2.0) para que seas parte de nuestro equipo!<br></strong>¿Con que debes contar para postular al cargo?<br>Muchas ganas de participar en un equipo colaborativo, con actitud positiva frente a los cambios y desafíos, orientado al cliente, creativo y que nunca para de aprender.</p>",
-              "benefits": "<ul><li>Salud y protección integral, contamos con seguros complementarios de salud, dental, de vida y catastrófico 100% financiados por nosotros (con opción de extender a tu familia). Además, estamos integrados a la red de beneficios de Caja Los Andes y la ACHS.</li><li>Apoyos para tu estilo de vida, ya que tu hogar es tu oficina, incluimos bonos mensuales para tu conexión a internet y tus plataformas de ocio favoritas. También te acompañamos con aguinaldos en Fiestas Patrias y Navidad.</li><li>Tiempo y flexibilidad, dispones de Flexi Days y Party Time (tardes libres). Celebramos tu cumpleaños con una tarde libre y te damos tiempo extra para hitos como matrimonio, nacimiento de hijos o exámenes de título.</li><li>Crecimiento y comunidad, aquí nunca dejas de aprender con nuestra Academia 42Labs, planes de desarrollo personalizados y acceso a Udemy Business. Nos mantenemos conectados en Discord y fortalecemos lazos en los PartyTwoLabs, nuestros encuentros presenciales para compartir más allá de la pantalla.</li></ul>",
-              "web": "https://www.42labs.cl",
-              "twitter": "",
-              "github": "",
-              "facebook": "",
-              "angellist": null,
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 9,
-                "max": 21
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/18836/getonboard2026-1.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/mobile-developer-ios-swift-42labs-remote"
       }
     }
   ],

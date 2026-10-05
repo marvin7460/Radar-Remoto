@@ -29,39 +29,60 @@
           "min": null,
           "max": null
         },
-        "applications_count": 83,
+        "applications_count": 84,
         "location_regions": {
           "data": []
         },
         "location_tenants": {
           "data": [
             {
-              "id": 12,
-              "type": "location_tenant"
+              "id": "brasil",
+              "type": "country",
+              "attributes": {
+                "name": "Brazil"
+              }
             },
             {
-              "id": 6,
-              "type": "location_tenant"
+              "id": "colombia",
+              "type": "country",
+              "attributes": {
+                "name": "Colombia"
+              }
             },
             {
-              "id": 2,
-              "type": "location_tenant"
+              "id": "argentina",
+              "type": "country",
+              "attributes": {
+                "name": "Argentina"
+              }
             },
             {
-              "id": 20,
-              "type": "location_tenant"
+              "id": "uruguay",
+              "type": "country",
+              "attributes": {
+                "name": "Uruguay"
+              }
             },
             {
-              "id": 3,
-              "type": "location_tenant"
+              "id": "peru",
+              "type": "country",
+              "attributes": {
+                "name": "Peru"
+              }
             },
             {
-              "id": 7,
-              "type": "location_tenant"
+              "id": "mexico",
+              "type": "country",
+              "attributes": {
+                "name": "Mexico"
+              }
             },
             {
-              "id": 1,
-              "type": "location_tenant"
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
             }
           ]
         },
@@ -166,276 +187,6 @@
       }
     },
     {
-      "id": "electrical-engineer-junior-tcit-santiago",
-      "type": "job",
-      "attributes": {
-        "title": "Ingeniero/a de Hardware e IoT / Telemetría — Junior",
-        "description_headline": "Requerimientos",
-        "description": "<p><strong>Formación:</strong> Titulado o egresado de Ingeniería Civil Electrónica, Ingeniería Civil en Telecomunicaciones o Ingeniería (de Ejecución) Electrónica o Eléctrica con foco electrónico.</p><p><strong>Experiencia:</strong> Entre 0 y 2 años. Se exige al menos un proyecto real de electrónica, embebidos o IoT efectivamente construido y funcionando — memoria de título, práctica profesional, proyecto universitario o proyecto personal.</p>",
-        "projects": "<p>En TCIT transformamos digitalmente a distintas organizaciones mediante soluciones de software de calidad, sostenibles e innovadoras, desarrolladas con metodologías ágiles y tecnologías Cloud de última generación. Con más de 9 años de experiencia, hemos construido software para múltiples rubros (gestión agrícola, remates en línea, gestión de causas para tribunales, monitoreo de certificaciones para trabajadores mineros, liquidaciones de sueldo y otras soluciones de gestión para transporte y bodegaje). <br>Buscamos un Ingeniero/a de Hardware e IoT / Telemetría — Junior, para aportar el dominio eléctrico y electrónico que complementa la conducción técnica del CEO, construyendo y documentando las especificaciones de hardware, la configuración de dispositivos, los arneses de alimentación y las pautas de instalación de las soluciones de telemetría e IoT de TCIT.</p>",
-        "functions_headline": "Funciones y responsabilidades",
-        "functions": "<p>Validar en banco los equipos de telemetría antes del despliegue: configuración, pruebas de encendido, fix GNSS, registro en red celular y reporte efectivo a plataforma. Configurar los dispositivos Teltonika: parámetros de servidor y GPRS, Data Acquisition, Codec 8/8E, entradas y salidas, detección de ignición, modos de sleep y actualización FOTA. Proponer y documentar el arnés de alimentación — fusible en línea, derivación de la línea de ignición post-llave, protección contra sobretensión, transientes e inversión de polaridad, compatibilidad 12 V y 24 V — y someterlo a revisión del asesor senior antes de aplicarlo. Redactar las pautas de montaje y los checklists de instalación para terceros: fijación, ruteo de cables con drip loop, posición y orientación de antena, y línea de vista GNSS. Mantener actualizado el bill of materials con precios, alternativas y proveedores, marcando explícitamente los datos no verificados. Apoyar la integración de la cadena de datos junto al equipo de software: middleware de ingesta, protocolos de telemetría, SIM IoT y visualización. Auditar la ejecución de los instaladores terceros aplicando los criterios de aceptación definidos, con evidencia fotográfica y prueba funcional. Diagnosticar fallas de campo atribuibles a hardware, alimentación, antena o cobertura, y proponer correcciones al estándar. Documentar todo lo anterior de forma versionada y trazable, de modo que las decisiones puedan auditarse y reutilizarse al escalar.</p>",
-        "benefits_headline": "Condiciones",
-        "benefits": "<p>Modalidad Presencial en la comuna de Providencia, cercano a Metro Tobalaba<br>Horario: Lunes a Jueves 08:00 a 18:00 hrs y Viernes 08:00 a 14:00 hrs </p>",
-        "desirable_headline": "Deseables",
-        "desirable": "<ul><li>Experiencia con equipos Teltonika (Configurator, Codec 8/8E) o con plataformas tipo Flespi o Traccar.</li><li>Haber trabajado con dispositivos de telemetría, GPS o rastreo vehicular, aunque sea en contexto académico.</li><li>Protocolos de comunicación MQTT y TCP/IP.</li><li>Sistemas eléctricos de vehículos o maquinaria: alternador, batería, línea de ignición, transientes y load dump.</li><li>Conectividad celular LTE Cat-1, LTE-M y NB-IoT, bandas de frecuencia y gestión de SIM IoT.</li><li>Bus CAN, SAE J1939 e ISO 11783 (ISOBUS) aplicado a maquinaria agrícola.</li><li>Programación en C/C++ para microcontroladores y scripting en Python.</li><li>Inglés técnico para lectura de documentación de fabricantes.</li></ul>",
-        "remote": false,
-        "remote_modality": "no_remote",
-        "remote_zone": null,
-        "countries": ["Chile"],
-        "lang": "lang_not_specified",
-        "rejected_reasons": [],
-        "category_name": "Hardware / Electronics",
-        "perks": [
-          "flexible_hours",
-          "health_coverage",
-          "computer_provided",
-          "informal_dresscode",
-          "beverages_and_snacks"
-        ],
-        "min_salary": 1300,
-        "max_salary": 1900,
-        "published_at": 1791221689,
-        "response_time_in_days": {
-          "min": null,
-          "max": null
-        },
-        "applications_count": 15,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": [
-            {
-              "id": 1,
-              "type": "location_city"
-            }
-          ]
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "2",
-            "type": "seniority",
-            "attributes": {
-              "name": "Junior",
-              "locale_key": "junior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "electronics",
-              "type": "tag",
-              "attributes": {
-                "name": "Electronics",
-                "keywords": null
-              }
-            },
-            {
-              "id": "technical-documentation",
-              "type": "tag",
-              "attributes": {
-                "name": "Technical Documentation",
-                "keywords": "Technical Reports, Technical Sheets, Technical Stories"
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "tcit",
-            "type": "company",
-            "attributes": {
-              "name": "TCIT",
-              "description": "Líderes en desarrollo de software en modalidad cloud",
-              "long_description": "<p>Nuestro propósito en TCIT es transformar digitalmente a distintas organizaciones a través de soluciones de calidad, sostenibles e innovadoras. Trabajamos con metodologías ágiles, utilizamos tecnologías de última generación y somos expertos en desarrollo de software en tecnologías Cloud. Además, nos encanta estar involucrados en proyectos que generen impacto social.</p><p>¡Una de nuestras misiones en TCIT es descubrir y potenciar a los mejores y más apasionados talentos!</p><p>A lo largo de nuestros más de 9 años de experiencia hemos desarrollado softwares para distintos rubros, desde un sistema de gestión agrícola, un sistema de remates en línea, un sistema de gestión de las causas para tribunales judiciales, un sistema para monitoreo de certificaciones para trabajadores mineros, un sistema de liquidaciones de sueldo y otras soluciones de gestión de empresas en ámbitos como transporte de carga y bodegaje, entre muchos otros.</p><p>Además, trabajamos en países como Canadá en ambiciosos proyectos con nuestros partners tecnológicos.</p><p>¡Súmate a la revolución digital TCIT!</p>",
-              "projects": "<div>En TCIT lideramos proyectos de desarrollo de software en modalidad cloud para clientes en diversos rubros, con foco en soluciones de calidad, sostenibles e innovadoras. Trabajamos con metodologías ágiles y tecnologías de última generación, y solemos colaborar con socios en proyectos internacionales, incluyendo Canadá. Buscamos ampliar nuestro equipo con profesionales que compartan nuestra misión de transformar digitalmente a las organizaciones y generar impacto social. En TCIT, cada proyecto impulsa nuestra visión de crecimiento y excelencia tecnológica.</div>",
-              "benefits": "<p>- Modalidad de trabajo presencial en la comuna de Providencia.&nbsp;<br>- Horario de 44 horas semanales: L a J 8:00 - 18:00 V 8:00 - 17:00&nbsp;</p>",
-              "web": "http://www.tcit.cl",
-              "twitter": "",
-              "github": "",
-              "facebook": "",
-              "angellist": "",
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 13,
-                "max": 23
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/2314/TCIT_isotipo-color.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/electrical-engineer-junior-tcit-santiago"
-      }
-    },
-    {
-      "id": "full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2",
-      "type": "job",
-      "attributes": {
-        "title": "Full-Stack Developer React + RoR",
-        "description_headline": "Requerimientos del cargo",
-        "description": "<ul><li>Mínimo de <strong>3 años de experiencia en desarrollo de software (excluyente).</strong></li><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente (deseable)</li><li><strong>Excluyente experiencia con React y Ruby on Rails.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales.</li><li>Experiencia en trabajar con equipos de desarrollo y en proyectos de software.</li><li>Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul><div><strong>Condiciones </strong></div><ul><li><strong>En Chile, Perú y México trabajamos híbrido,</strong> por lo que te pediríamos que vayas a la oficina 1 o 2 veces por semana.</li><li>Si vives en otro país, es 100% remoto. </li></ul>",
-        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. </strong></div><div><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Adicionalmente, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<ul><li><strong>Entrega de Funcionalidades</strong>: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li><strong>Calidad del Código</strong>: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisiones de código y pruebas rigurosas.</li><li><strong>Mejoramiento Continuo: </strong>Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos y prácticas de desarrollo.</li><li><strong>Satisfacción del Cliente: </strong>Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
-        "benefits_headline": "Beneficios 🎁",
-        "benefits": "<div> Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li><strong>🤸 Work-Life Balance:</strong> Modelo de trabajo híbrido en Chile, Perú y México (otros paises 100% remoto), flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀 </div>",
-        "desirable_headline": "Opcionales",
-        "desirable": "<ul><li>React Native, Python y Node.js, GraphQL</li></ul>",
-        "remote": false,
-        "remote_modality": "hybrid",
-        "remote_zone": null,
-        "countries": ["Chile", "Peru", "Mexico"],
-        "lang": "es",
-        "rejected_reasons": [],
-        "category_name": "Programming",
-        "perks": [
-          "remote_partial",
-          "computer_provided",
-          "performance_bonus",
-          "informal_dresscode",
-          "vacation_over_legal"
-        ],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1791205366,
-        "response_time_in_days": {
-          "min": 4,
-          "max": 16
-        },
-        "applications_count": 129,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": [
-            {
-              "id": 200,
-              "type": "location_city"
-            },
-            {
-              "id": 1,
-              "type": "location_city"
-            },
-            {
-              "id": 130,
-              "type": "location_city"
-            }
-          ]
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "3",
-            "type": "seniority",
-            "attributes": {
-              "name": "Semi Senior",
-              "locale_key": "semi_senior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "ruby-on-rails",
-              "type": "tag",
-              "attributes": {
-                "name": "Ruby on Rails",
-                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
-              }
-            },
-            {
-              "id": "git",
-              "type": "tag",
-              "attributes": {
-                "name": "Git",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "react",
-              "type": "tag",
-              "attributes": {
-                "name": "React",
-                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
-              }
-            },
-            {
-              "id": "docker",
-              "type": "tag",
-              "attributes": {
-                "name": "Docker",
-                "keywords": "Docker CE, Docker Engine, Dockers, Docker Containers, Dockerfile Development, DockerHub, Docker Hub, Docker Registries, Docker Registry, Docker Clusters, Docker-compose, Docker Compose, Docker Swarm"
-              }
-            },
-            {
-              "id": "ci-cd",
-              "type": "tag",
-              "attributes": {
-                "name": "CI/CD",
-                "keywords": "CI/CD, CD/CI, CDCI, CICD, DevOps, Continuous Delivery, Continuous Integration, CI, CI/CD Tools"
-              }
-            },
-            {
-              "id": "agile-development",
-              "type": "tag",
-              "attributes": {
-                "name": "Agile Development",
-                "keywords": null
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "rankmi",
-            "type": "company",
-            "attributes": {
-              "name": "Rankmi",
-              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
-              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
-              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
-              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
-              "web": "https://www.rankmi.com",
-              "twitter": "rankmioficial",
-              "github": "",
-              "facebook": "rankmioficial",
-              "angellist": "rankmi",
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 8,
-                "max": 20
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2"
-      }
-    },
-    {
       "id": "software-developer-full-stack-react-ror-rankmi-remote",
       "type": "job",
       "attributes": {
@@ -472,21 +223,27 @@
         ],
         "min_salary": null,
         "max_salary": null,
-        "published_at": 1791203252,
+        "published_at": 1791231124,
         "response_time_in_days": {
           "min": 10,
           "max": 16
         },
-        "applications_count": 441,
+        "applications_count": 454,
         "location_regions": {
           "data": [
             {
-              "id": 9,
-              "type": "location_region"
+              "id": "central_america",
+              "type": "region",
+              "attributes": {
+                "name": "Central America"
+              }
             },
             {
-              "id": 6,
-              "type": "location_region"
+              "id": "south_america",
+              "type": "region",
+              "attributes": {
+                "name": "South America"
+              }
             }
           ]
         },
@@ -610,6 +367,448 @@
       }
     },
     {
+      "id": "full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2",
+      "type": "job",
+      "attributes": {
+        "title": "Full-Stack Developer React + RoR",
+        "description_headline": "Requerimientos del cargo",
+        "description": "<ul><li>Mínimo de <strong>3 años de experiencia en desarrollo de software (excluyente).</strong></li><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente (deseable)</li><li><strong>Excluyente experiencia con React y Ruby on Rails.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales.</li><li>Experiencia en trabajar con equipos de desarrollo y en proyectos de software.</li><li>Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul><div><strong>Condiciones </strong></div><ul><li><strong>En Chile, Perú y México trabajamos híbrido,</strong> por lo que te pediríamos que vayas a la oficina 1 o 2 veces por semana.</li><li>Si vives en otro país, es 100% remoto. </li></ul>",
+        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. </strong></div><div><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Adicionalmente, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
+        "functions_headline": "Funciones del cargo",
+        "functions": "<ul><li><strong>Entrega de Funcionalidades</strong>: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li><strong>Calidad del Código</strong>: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisiones de código y pruebas rigurosas.</li><li><strong>Mejoramiento Continuo: </strong>Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos y prácticas de desarrollo.</li><li><strong>Satisfacción del Cliente: </strong>Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
+        "benefits_headline": "Beneficios 🎁",
+        "benefits": "<div> Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li><strong>🤸 Work-Life Balance:</strong> Modelo de trabajo híbrido en Chile, Perú y México (otros paises 100% remoto), flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀 </div>",
+        "desirable_headline": "Opcionales",
+        "desirable": "<ul><li>React Native, Python y Node.js, GraphQL</li></ul>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "remote_zone": null,
+        "countries": ["Chile", "Peru", "Mexico"],
+        "lang": "es",
+        "rejected_reasons": [],
+        "category_name": "Programming",
+        "perks": [
+          "remote_partial",
+          "computer_provided",
+          "performance_bonus",
+          "informal_dresscode",
+          "vacation_over_legal"
+        ],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791231114,
+        "response_time_in_days": {
+          "min": 4,
+          "max": 16
+        },
+        "applications_count": 132,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 200,
+              "type": "location_city"
+            },
+            {
+              "id": 1,
+              "type": "location_city"
+            },
+            {
+              "id": 130,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "3",
+            "type": "seniority",
+            "attributes": {
+              "name": "Semi Senior",
+              "locale_key": "semi_senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "ruby-on-rails",
+              "type": "tag",
+              "attributes": {
+                "name": "Ruby on Rails",
+                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
+              }
+            },
+            {
+              "id": "git",
+              "type": "tag",
+              "attributes": {
+                "name": "Git",
+                "keywords": ""
+              }
+            },
+            {
+              "id": "react",
+              "type": "tag",
+              "attributes": {
+                "name": "React",
+                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
+              }
+            },
+            {
+              "id": "docker",
+              "type": "tag",
+              "attributes": {
+                "name": "Docker",
+                "keywords": "Docker CE, Docker Engine, Dockers, Docker Containers, Dockerfile Development, DockerHub, Docker Hub, Docker Registries, Docker Registry, Docker Clusters, Docker-compose, Docker Compose, Docker Swarm"
+              }
+            },
+            {
+              "id": "ci-cd",
+              "type": "tag",
+              "attributes": {
+                "name": "CI/CD",
+                "keywords": "CI/CD, CD/CI, CDCI, CICD, DevOps, Continuous Delivery, Continuous Integration, CI, CI/CD Tools"
+              }
+            },
+            {
+              "id": "agile-development",
+              "type": "tag",
+              "attributes": {
+                "name": "Agile Development",
+                "keywords": null
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "rankmi",
+            "type": "company",
+            "attributes": {
+              "name": "Rankmi",
+              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
+              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
+              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
+              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
+              "web": "https://www.rankmi.com",
+              "twitter": "rankmioficial",
+              "github": "",
+              "facebook": "rankmioficial",
+              "angellist": "rankmi",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 8,
+                "max": 20
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2"
+      }
+    },
+    {
+      "id": "lider-tecnico-full-stack-python-angular-azure-grupo-sud-santiago",
+      "type": "job",
+      "attributes": {
+        "title": "Líder Técnico Full-Stack (Python + Angular + Azure)",
+        "description_headline": "Requerimientos del cargo",
+        "description": "<ul><li>Título de Ingeniería Civil Informática, Ciencias de la Computación, Ejecución en Informática o carrera afín.</li><li>Mínimo 5 años construyendo y sosteniendo software en producción, de ellos al menos 2 liderando técnicamente un equipo.</li><li>Python y Angular/TypeScript en profundidad, con proyectos verificables. Diseño de APIs REST (idealmente FastAPI) y PostgreSQL/SQL avanzado.</li><li>Azure en producción: App Service, Azure DevOps (CI/CD) y Entra ID.</li><li>Experiencia tomando y evolucionando un producto construido por otra persona.</li><li>Experiencia consolidando servicios distribuidos, con SSO y observabilidad.</li><li>Experiencia aceptando entregables de proveedores externos o software factories.</li><li>Inglés técnico B1–B2 o superior.</li></ul>",
+        "projects": "<p>Somos un holding chileno de empresas de marketing, publicidad y experiencias, con operación en Chile, Perú, Colombia y México. Construimos nuestro propio software: un back office que soporta tesorería, proyectos e integraciones de todo el grupo, más una cartera de productos digitales para nuestras empresas.</p><p>La plataforma entra a producción este trimestre. Hoy está fragmentada en módulos independientes: tres backends en Azure App Service y tres aplicaciones Angular, sin SSO ni sistema de diseño común. Buscamos a quien la tome, la estabilice, la estandarice y la consolide, sin reescribirla desde cero. En paralelo avanzan nueve desarrollos con proveedores externos, y tú respondes por su calidad. Es un rol para ordenar y sostener algo que crece rápido, no para administrar una plataforma madura.</p>",
+        "functions_headline": "Funciones del cargo",
+        "functions": "<ul><li>Ser dueño técnico de la plataforma: arquitectura, calidad, defectos críticos y evolución.</li><li>Unificar servicios y frontends en una arquitectura coherente, con SSO y un sistema de diseño común.</li><li>Definir criterios de aceptación, revisar código y aceptar o rechazar entregables de la software factory y de los desarrolladores externos.</li><li>Liderar a un equipo de 3 desarrolladores Full Stack (Junior y Semi-Senior): definir prioridades, dar feedback, mentorear y gestionar su desempeño.</li><li>Definir los estándares del área: repositorio, CI/CD, pruebas automatizadas y documentación. Responder por el despliegue, el monitoreo y la disponibilidad en Azure.</li><li>Traducir los requerimientos del negocio en tareas ejecutables con Scrum o Kanban.</li><li>Velar por la seguridad y la protección de datos personales (Ley 21.719).</li></ul>",
+        "benefits_headline": "Condiciones",
+        "benefits": "<ul><li>Modalidad híbrida en Santiago.</li><li>Horario flexible.</li><li>Seguro complementario de salud.</li><li>Un rol con alto impacto y autonomía para definir el estándar técnico del grupo.</li></ul>",
+        "desirable_headline": "Opcionales",
+        "desirable": "<ul><li>Docker y despliegue en AKS o Azure Container Apps.</li><li>Integraciones con ERP contables y plataformas de tesorería o pagos.</li><li>Librerías de componentes o sistemas de diseño (por ejemplo, PrimeNG).</li><li>Sistemas multi-país con permisos por rol (RBAC).</li><li>Uso de IA en el ciclo de desarrollo o experiencia construyendo soluciones con IA.</li><li>Certificaciones ágiles (PSM, CSM) o de Azure.</li></ul>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "remote_zone": null,
+        "countries": ["Chile"],
+        "lang": "es",
+        "rejected_reasons": [],
+        "category_name": "Programming",
+        "perks": [
+          "pet_friendly",
+          "flexible_hours",
+          "remote_partial",
+          "health_coverage",
+          "computer_provided",
+          "informal_dresscode"
+        ],
+        "min_salary": 4300,
+        "max_salary": 4900,
+        "published_at": 1791226213,
+        "response_time_in_days": {
+          "min": null,
+          "max": null
+        },
+        "applications_count": 6,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 1,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "4",
+            "type": "seniority",
+            "attributes": {
+              "name": "Senior",
+              "locale_key": "senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "python",
+              "type": "tag",
+              "attributes": {
+                "name": "Python",
+                "keywords": "Django, Jython, Cheetah, Flask, Jinja2, bottle, itty, NumPy, SciPy, phyton, pyton, Pytohn, Python 2.7, Python 2, Python 3.10, Python 3, Pyhton, Python Automation, Python Script, Python Programming, Python Scripting, Python Testing"
+              }
+            },
+            {
+              "id": "angularjs",
+              "type": "tag",
+              "attributes": {
+                "name": "Angular",
+                "keywords": "Angular, Angular.js, Angular 1, AngularUI, AngularJS, Angular 11, Angular 12"
+              }
+            },
+            {
+              "id": "typescript",
+              "type": "tag",
+              "attributes": {
+                "name": "TypeScript",
+                "keywords": "Typesafe"
+              }
+            },
+            {
+              "id": "azure-app-service",
+              "type": "tag",
+              "attributes": {
+                "name": "Azure App Service",
+                "keywords": "Azure Web Apps, Azure Service Apps"
+              }
+            },
+            {
+              "id": "azure-devops",
+              "type": "tag",
+              "attributes": {
+                "name": "Azure DevOps",
+                "keywords": "Azure DevOps Pipelines, AzDO, Azure Deploy, Azure DevTest Labs, Azure Boards, Azure Repos"
+              }
+            },
+            {
+              "id": "rest-api-design",
+              "type": "tag",
+              "attributes": {
+                "name": "REST API Design",
+                "keywords": null
+              }
+            },
+            {
+              "id": "postgresql",
+              "type": "tag",
+              "attributes": {
+                "name": "PostgreSQL",
+                "keywords": "postgres, psql, postgre, Postgres, Postgres SQL, POSGRESQL, Postgres Extensions, PostgreSQL PL/pgSQL, PostgreSQL Queries, PostgreSQL Optimization, PostGIS, PL/pgSQL, PLpgSQL"
+              }
+            },
+            {
+              "id": "single-sign-on",
+              "type": "tag",
+              "attributes": {
+                "name": "Single Sign-On",
+                "keywords": null
+              }
+            },
+            {
+              "id": "observability",
+              "type": "tag",
+              "attributes": {
+                "name": "Observability",
+                "keywords": "Observabilidad, Observability Features, Observability Patterns, Observability Tools"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "grupo-sud",
+            "type": "company",
+            "attributes": {
+              "name": "GRUPO SUD",
+              "description": "GrupoSud es un grupo latinoamericano de agencias especializadas en comunicacion, creatividad, produccion y experiencias de marca, con operaciones en Chile, Colombia, Peru y Mexico.",
+              "long_description": "<p><strong>GrupoSud es un grupo independiente de agencias especializadas en comunicacion, creatividad, produccion y experiencias de marca, con operaciones en Chile, Colombia, Peru y Mexico.</strong></p><p>Desde el año 2007 hemos ayudado a importantes marcas a planificar y ejecutar comunicacion que funciona a nivel local, con equipos senior y escala regional.</p><p><strong>Que hacemos</strong></p><ul><li><strong>Relaciones Publicas y Comunicacion Corporativa:</strong> relacion con medios, gestion de reputacion, comunicacion de crisis y programas regionales de PR.</li><li><strong>Produccion Audiovisual y de Contenidos: </strong> Publicidad integral, creatividad, comerciales, branded content, video corporativo y produccion de eventos</li><li><strong>Influencer Marketing y Content Creator</strong></li><li><strong>Performance Marketing</strong></li></ul>",
+              "projects": null,
+              "benefits": "<p>Seguro Complementario, 5 días administrativos, entre otros</p>",
+              "web": "http://www.gruposud.com",
+              "twitter": "",
+              "github": "",
+              "facebook": "",
+              "angellist": null,
+              "country": "CL",
+              "response_time_in_days": {
+                "min": null,
+                "max": null
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/20677/Logo_GRUPOSUD7.jpg"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/lider-tecnico-full-stack-python-angular-azure-grupo-sud-santiago"
+      }
+    },
+    {
+      "id": "electrical-engineer-junior-tcit-santiago",
+      "type": "job",
+      "attributes": {
+        "title": "Ingeniero/a de Hardware e IoT / Telemetría — Junior",
+        "description_headline": "Requerimientos",
+        "description": "<p><strong>Formación:</strong> Titulado o egresado de Ingeniería Civil Electrónica, Ingeniería Civil en Telecomunicaciones o Ingeniería (de Ejecución) Electrónica o Eléctrica con foco electrónico.</p><p><strong>Experiencia:</strong> Entre 0 y 2 años. Se exige al menos un proyecto real de electrónica, embebidos o IoT efectivamente construido y funcionando — memoria de título, práctica profesional, proyecto universitario o proyecto personal.</p>",
+        "projects": "<p>En TCIT transformamos digitalmente a distintas organizaciones mediante soluciones de software de calidad, sostenibles e innovadoras, desarrolladas con metodologías ágiles y tecnologías Cloud de última generación. Con más de 9 años de experiencia, hemos construido software para múltiples rubros (gestión agrícola, remates en línea, gestión de causas para tribunales, monitoreo de certificaciones para trabajadores mineros, liquidaciones de sueldo y otras soluciones de gestión para transporte y bodegaje). <br>Buscamos un Ingeniero/a de Hardware e IoT / Telemetría — Junior, para aportar el dominio eléctrico y electrónico que complementa la conducción técnica del CEO, construyendo y documentando las especificaciones de hardware, la configuración de dispositivos, los arneses de alimentación y las pautas de instalación de las soluciones de telemetría e IoT de TCIT.</p>",
+        "functions_headline": "Funciones y responsabilidades",
+        "functions": "<p>Validar en banco los equipos de telemetría antes del despliegue: configuración, pruebas de encendido, fix GNSS, registro en red celular y reporte efectivo a plataforma. Configurar los dispositivos Teltonika: parámetros de servidor y GPRS, Data Acquisition, Codec 8/8E, entradas y salidas, detección de ignición, modos de sleep y actualización FOTA. Proponer y documentar el arnés de alimentación — fusible en línea, derivación de la línea de ignición post-llave, protección contra sobretensión, transientes e inversión de polaridad, compatibilidad 12 V y 24 V — y someterlo a revisión del asesor senior antes de aplicarlo. Redactar las pautas de montaje y los checklists de instalación para terceros: fijación, ruteo de cables con drip loop, posición y orientación de antena, y línea de vista GNSS. Mantener actualizado el bill of materials con precios, alternativas y proveedores, marcando explícitamente los datos no verificados. Apoyar la integración de la cadena de datos junto al equipo de software: middleware de ingesta, protocolos de telemetría, SIM IoT y visualización. Auditar la ejecución de los instaladores terceros aplicando los criterios de aceptación definidos, con evidencia fotográfica y prueba funcional. Diagnosticar fallas de campo atribuibles a hardware, alimentación, antena o cobertura, y proponer correcciones al estándar. Documentar todo lo anterior de forma versionada y trazable, de modo que las decisiones puedan auditarse y reutilizarse al escalar.</p>",
+        "benefits_headline": "Condiciones",
+        "benefits": "<p>Modalidad Presencial en la comuna de Providencia, cercano a Metro Tobalaba<br>Horario: Lunes a Jueves 08:00 a 18:00 hrs y Viernes 08:00 a 14:00 hrs </p>",
+        "desirable_headline": "Deseables",
+        "desirable": "<ul><li>Experiencia con equipos Teltonika (Configurator, Codec 8/8E) o con plataformas tipo Flespi o Traccar.</li><li>Haber trabajado con dispositivos de telemetría, GPS o rastreo vehicular, aunque sea en contexto académico.</li><li>Protocolos de comunicación MQTT y TCP/IP.</li><li>Sistemas eléctricos de vehículos o maquinaria: alternador, batería, línea de ignición, transientes y load dump.</li><li>Conectividad celular LTE Cat-1, LTE-M y NB-IoT, bandas de frecuencia y gestión de SIM IoT.</li><li>Bus CAN, SAE J1939 e ISO 11783 (ISOBUS) aplicado a maquinaria agrícola.</li><li>Programación en C/C++ para microcontroladores y scripting en Python.</li><li>Inglés técnico para lectura de documentación de fabricantes.</li></ul>",
+        "remote": false,
+        "remote_modality": "no_remote",
+        "remote_zone": null,
+        "countries": ["Chile"],
+        "lang": "lang_not_specified",
+        "rejected_reasons": [],
+        "category_name": "Hardware / Electronics",
+        "perks": [
+          "flexible_hours",
+          "health_coverage",
+          "computer_provided",
+          "informal_dresscode",
+          "beverages_and_snacks"
+        ],
+        "min_salary": 1300,
+        "max_salary": 1900,
+        "published_at": 1791221689,
+        "response_time_in_days": {
+          "min": null,
+          "max": null
+        },
+        "applications_count": 18,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 1,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "2",
+            "type": "seniority",
+            "attributes": {
+              "name": "Junior",
+              "locale_key": "junior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "electronics",
+              "type": "tag",
+              "attributes": {
+                "name": "Electronics",
+                "keywords": null
+              }
+            },
+            {
+              "id": "technical-documentation",
+              "type": "tag",
+              "attributes": {
+                "name": "Technical Documentation",
+                "keywords": "Technical Reports, Technical Sheets, Technical Stories"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "tcit",
+            "type": "company",
+            "attributes": {
+              "name": "TCIT",
+              "description": "Líderes en desarrollo de software en modalidad cloud",
+              "long_description": "<p>Nuestro propósito en TCIT es transformar digitalmente a distintas organizaciones a través de soluciones de calidad, sostenibles e innovadoras. Trabajamos con metodologías ágiles, utilizamos tecnologías de última generación y somos expertos en desarrollo de software en tecnologías Cloud. Además, nos encanta estar involucrados en proyectos que generen impacto social.</p><p>¡Una de nuestras misiones en TCIT es descubrir y potenciar a los mejores y más apasionados talentos!</p><p>A lo largo de nuestros más de 9 años de experiencia hemos desarrollado softwares para distintos rubros, desde un sistema de gestión agrícola, un sistema de remates en línea, un sistema de gestión de las causas para tribunales judiciales, un sistema para monitoreo de certificaciones para trabajadores mineros, un sistema de liquidaciones de sueldo y otras soluciones de gestión de empresas en ámbitos como transporte de carga y bodegaje, entre muchos otros.</p><p>Además, trabajamos en países como Canadá en ambiciosos proyectos con nuestros partners tecnológicos.</p><p>¡Súmate a la revolución digital TCIT!</p>",
+              "projects": "<div>En TCIT lideramos proyectos de desarrollo de software en modalidad cloud para clientes en diversos rubros, con foco en soluciones de calidad, sostenibles e innovadoras. Trabajamos con metodologías ágiles y tecnologías de última generación, y solemos colaborar con socios en proyectos internacionales, incluyendo Canadá. Buscamos ampliar nuestro equipo con profesionales que compartan nuestra misión de transformar digitalmente a las organizaciones y generar impacto social. En TCIT, cada proyecto impulsa nuestra visión de crecimiento y excelencia tecnológica.</div>",
+              "benefits": "<p>- Modalidad de trabajo presencial en la comuna de Providencia.&nbsp;<br>- Horario de 44 horas semanales: L a J 8:00 - 18:00 V 8:00 - 17:00&nbsp;</p>",
+              "web": "http://www.tcit.cl",
+              "twitter": "",
+              "github": "",
+              "facebook": "",
+              "angellist": "",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 13,
+                "max": 23
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/2314/TCIT_isotipo-color.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/electrical-engineer-junior-tcit-santiago"
+      }
+    },
+    {
       "id": "sales-development-representative-bsale-santiago-8338",
       "type": "job",
       "attributes": {
@@ -648,7 +847,7 @@
           "min": 10,
           "max": 26
         },
-        "applications_count": 77,
+        "applications_count": 82,
         "location_regions": {
           "data": []
         },
@@ -803,7 +1002,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 40,
+        "applications_count": 41,
         "location_regions": {
           "data": []
         },
@@ -952,7 +1151,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 39,
+        "applications_count": 41,
         "location_regions": {
           "data": []
         },
@@ -1114,7 +1313,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 24,
+        "applications_count": 25,
         "location_regions": {
           "data": []
         },
@@ -1436,7 +1635,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 16,
+        "applications_count": 17,
         "location_regions": {
           "data": []
         },
@@ -1609,7 +1808,7 @@
           "min": 16,
           "max": 30
         },
-        "applications_count": 30,
+        "applications_count": 31,
         "location_regions": {
           "data": []
         },
@@ -1742,15 +1941,18 @@
           "min": null,
           "max": null
         },
-        "applications_count": 166,
+        "applications_count": 171,
         "location_regions": {
           "data": []
         },
         "location_tenants": {
           "data": [
             {
-              "id": 1,
-              "type": "location_tenant"
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
             }
           ]
         },
@@ -2048,7 +2250,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 131,
+        "applications_count": 133,
         "location_regions": {
           "data": []
         },
@@ -2204,7 +2406,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 114,
+        "applications_count": 117,
         "location_regions": {
           "data": []
         },
@@ -2353,7 +2555,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 212,
+        "applications_count": 214,
         "location_regions": {
           "data": []
         },
@@ -2494,7 +2696,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 33,
+        "applications_count": 32,
         "location_regions": {
           "data": []
         },
@@ -2659,7 +2861,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 248,
+        "applications_count": 249,
         "location_regions": {
           "data": []
         },
@@ -2819,7 +3021,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 22,
+        "applications_count": 23,
         "location_regions": {
           "data": []
         },
@@ -2976,7 +3178,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 49,
+        "applications_count": 50,
         "location_regions": {
           "data": []
         },
@@ -3105,178 +3307,6 @@
       }
     },
     {
-      "id": "lider-tecnico-full-stack-python-angular-azure-grupo-sud-santiago",
-      "type": "job",
-      "attributes": {
-        "title": "Líder Técnico Full-Stack (Python + Angular + Azure)",
-        "description_headline": "Requerimientos del cargo",
-        "description": "<ul><li>Título de Ingeniería Civil Informática, Ciencias de la Computación, Ejecución en Informática o carrera afín.</li><li>Mínimo 5 años construyendo y sosteniendo software en producción, de ellos al menos 2 liderando técnicamente un equipo.</li><li>Python y Angular/TypeScript en profundidad, con proyectos verificables. Diseño de APIs REST (idealmente FastAPI) y PostgreSQL/SQL avanzado.</li><li>Azure en producción: App Service, Azure DevOps (CI/CD) y Entra ID.</li><li>Experiencia tomando y evolucionando un producto construido por otra persona.</li><li>Experiencia consolidando servicios distribuidos, con SSO y observabilidad.</li><li>Experiencia aceptando entregables de proveedores externos o software factories.</li><li>Inglés técnico B1–B2 o superior.</li></ul>",
-        "projects": "<p>Somos un holding chileno de empresas de marketing, publicidad y experiencias, con operación en Chile, Perú, Colombia y México. Construimos nuestro propio software: un back office que soporta tesorería, proyectos e integraciones de todo el grupo, más una cartera de productos digitales para nuestras empresas.</p><p>La plataforma entra a producción este trimestre. Hoy está fragmentada en módulos independientes: tres backends en Azure App Service y tres aplicaciones Angular, sin SSO ni sistema de diseño común. Buscamos a quien la tome, la estabilice, la estandarice y la consolide, sin reescribirla desde cero. En paralelo avanzan nueve desarrollos con proveedores externos, y tú respondes por su calidad. Es un rol para ordenar y sostener algo que crece rápido, no para administrar una plataforma madura.</p>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<ul><li>Ser dueño técnico de la plataforma: arquitectura, calidad, defectos críticos y evolución.</li><li>Unificar servicios y frontends en una arquitectura coherente, con SSO y un sistema de diseño común.</li><li>Definir criterios de aceptación, revisar código y aceptar o rechazar entregables de la software factory y de los desarrolladores externos.</li><li>Liderar a un equipo de 3 desarrolladores Full Stack (Junior y Semi-Senior): definir prioridades, dar feedback, mentorear y gestionar su desempeño.</li><li>Definir los estándares del área: repositorio, CI/CD, pruebas automatizadas y documentación. Responder por el despliegue, el monitoreo y la disponibilidad en Azure.</li><li>Traducir los requerimientos del negocio en tareas ejecutables con Scrum o Kanban.</li><li>Velar por la seguridad y la protección de datos personales (Ley 21.719).</li></ul>",
-        "benefits_headline": "Condiciones",
-        "benefits": "<ul><li>Modalidad híbrida en Santiago.</li><li>Horario flexible.</li><li>Seguro complementario de salud.</li><li>Un rol con alto impacto y autonomía para definir el estándar técnico del grupo.</li></ul>",
-        "desirable_headline": "Opcionales",
-        "desirable": "<ul><li>Docker y despliegue en AKS o Azure Container Apps.</li><li>Integraciones con ERP contables y plataformas de tesorería o pagos.</li><li>Librerías de componentes o sistemas de diseño (por ejemplo, PrimeNG).</li><li>Sistemas multi-país con permisos por rol (RBAC).</li><li>Uso de IA en el ciclo de desarrollo o experiencia construyendo soluciones con IA.</li><li>Certificaciones ágiles (PSM, CSM) o de Azure.</li></ul>",
-        "remote": false,
-        "remote_modality": "hybrid",
-        "remote_zone": null,
-        "countries": ["Chile"],
-        "lang": "es",
-        "rejected_reasons": [],
-        "category_name": "Programming",
-        "perks": [
-          "pet_friendly",
-          "flexible_hours",
-          "remote_partial",
-          "health_coverage",
-          "computer_provided",
-          "informal_dresscode"
-        ],
-        "min_salary": 4300,
-        "max_salary": 4900,
-        "published_at": 1791215715,
-        "response_time_in_days": {
-          "min": null,
-          "max": null
-        },
-        "applications_count": 3,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": [
-            {
-              "id": 1,
-              "type": "location_city"
-            }
-          ]
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "4",
-            "type": "seniority",
-            "attributes": {
-              "name": "Senior",
-              "locale_key": "senior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "python",
-              "type": "tag",
-              "attributes": {
-                "name": "Python",
-                "keywords": "Django, Jython, Cheetah, Flask, Jinja2, bottle, itty, NumPy, SciPy, phyton, pyton, Pytohn, Python 2.7, Python 2, Python 3.10, Python 3, Pyhton, Python Automation, Python Script, Python Programming, Python Scripting, Python Testing"
-              }
-            },
-            {
-              "id": "angularjs",
-              "type": "tag",
-              "attributes": {
-                "name": "Angular",
-                "keywords": "Angular, Angular.js, Angular 1, AngularUI, AngularJS, Angular 11, Angular 12"
-              }
-            },
-            {
-              "id": "typescript",
-              "type": "tag",
-              "attributes": {
-                "name": "TypeScript",
-                "keywords": "Typesafe"
-              }
-            },
-            {
-              "id": "azure-app-service",
-              "type": "tag",
-              "attributes": {
-                "name": "Azure App Service",
-                "keywords": "Azure Web Apps, Azure Service Apps"
-              }
-            },
-            {
-              "id": "azure-devops",
-              "type": "tag",
-              "attributes": {
-                "name": "Azure DevOps",
-                "keywords": "Azure DevOps Pipelines, AzDO, Azure Deploy, Azure DevTest Labs, Azure Boards, Azure Repos"
-              }
-            },
-            {
-              "id": "rest-api-design",
-              "type": "tag",
-              "attributes": {
-                "name": "REST API Design",
-                "keywords": null
-              }
-            },
-            {
-              "id": "postgresql",
-              "type": "tag",
-              "attributes": {
-                "name": "PostgreSQL",
-                "keywords": "postgres, psql, postgre, Postgres, Postgres SQL, POSGRESQL, Postgres Extensions, PostgreSQL PL/pgSQL, PostgreSQL Queries, PostgreSQL Optimization, PostGIS, PL/pgSQL, PLpgSQL"
-              }
-            },
-            {
-              "id": "single-sign-on",
-              "type": "tag",
-              "attributes": {
-                "name": "Single Sign-On",
-                "keywords": null
-              }
-            },
-            {
-              "id": "observability",
-              "type": "tag",
-              "attributes": {
-                "name": "Observability",
-                "keywords": "Observabilidad, Observability Features, Observability Patterns, Observability Tools"
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "grupo-sud",
-            "type": "company",
-            "attributes": {
-              "name": "GRUPO SUD",
-              "description": "GrupoSud es un grupo latinoamericano de agencias especializadas en comunicacion, creatividad, produccion y experiencias de marca, con operaciones en Chile, Colombia, Peru y Mexico.",
-              "long_description": "<p><strong>GrupoSud es un grupo independiente de agencias especializadas en comunicacion, creatividad, produccion y experiencias de marca, con operaciones en Chile, Colombia, Peru y Mexico.</strong></p><p>Desde el año 2007 hemos ayudado a importantes marcas a planificar y ejecutar comunicacion que funciona a nivel local, con equipos senior y escala regional.</p><p><strong>Que hacemos</strong></p><ul><li><strong>Relaciones Publicas y Comunicacion Corporativa:</strong> relacion con medios, gestion de reputacion, comunicacion de crisis y programas regionales de PR.</li><li><strong>Produccion Audiovisual y de Contenidos: </strong> Publicidad integral, creatividad, comerciales, branded content, video corporativo y produccion de eventos</li><li><strong>Influencer Marketing y Content Creator</strong></li><li><strong>Performance Marketing</strong></li></ul>",
-              "projects": null,
-              "benefits": "<p>Seguro Complementario, 5 días administrativos, entre otros</p>",
-              "web": "http://www.gruposud.com",
-              "twitter": "",
-              "github": "",
-              "facebook": "",
-              "angellist": null,
-              "country": "CL",
-              "response_time_in_days": {
-                "min": null,
-                "max": null
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/20677/Logo_GRUPOSUD7.jpg"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/lider-tecnico-full-stack-python-angular-azure-grupo-sud-santiago"
-      }
-    },
-    {
       "id": "sdr-para-llamadas-b2b-planazos-remote",
       "type": "job",
       "attributes": {
@@ -3305,7 +3335,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 12,
+        "applications_count": 21,
         "location_regions": {
           "data": []
         },
@@ -3456,36 +3486,54 @@
           "min": 0,
           "max": 10
         },
-        "applications_count": 162,
+        "applications_count": 170,
         "location_regions": {
           "data": [
             {
-              "id": 9,
-              "type": "location_region"
+              "id": "central_america",
+              "type": "region",
+              "attributes": {
+                "name": "Central America"
+              }
             }
           ]
         },
         "location_tenants": {
           "data": [
             {
-              "id": 7,
-              "type": "location_tenant"
+              "id": "mexico",
+              "type": "country",
+              "attributes": {
+                "name": "Mexico"
+              }
             },
             {
-              "id": 1,
-              "type": "location_tenant"
+              "id": "chile",
+              "type": "country",
+              "attributes": {
+                "name": "Chile"
+              }
             },
             {
-              "id": 2,
-              "type": "location_tenant"
+              "id": "argentina",
+              "type": "country",
+              "attributes": {
+                "name": "Argentina"
+              }
             },
             {
-              "id": 3,
-              "type": "location_tenant"
+              "id": "peru",
+              "type": "country",
+              "attributes": {
+                "name": "Peru"
+              }
             },
             {
-              "id": 27,
-              "type": "location_tenant"
+              "id": "ecuador",
+              "type": "country",
+              "attributes": {
+                "name": "Ecuador"
+              }
             }
           ]
         },
@@ -3634,7 +3682,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 50,
+        "applications_count": 51,
         "location_regions": {
           "data": []
         },
@@ -3783,7 +3831,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 173,
+        "applications_count": 174,
         "location_regions": {
           "data": []
         },
