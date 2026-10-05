@@ -1,8 +1,8 @@
 import type { NewJobRow } from "@/db/schema";
+import { classifySeniority } from "@/lib/classify/seniority";
 import type { SourceJob } from "@/lib/sources/types";
 import { detectEligibility } from "./eligibility";
 import { parseSalaryText, toMonthlyUsd, type Salary, type UsdRates } from "./salary";
-import { seniorityFromLabels } from "./seniority";
 import { isTechRole } from "./tech-role";
 import { detectTechnologies } from "./technologies";
 import { parseTimezoneText, rangeFromOffsets } from "./timezone";
@@ -11,7 +11,7 @@ import { parseTimezoneText, rangeFromOffsets } from "./timezone";
  * Bump when the normalization rules change: it is part of the content hash,
  * so the next ingestion re-normalizes every stored job with the new rules.
  */
-export const NORMALIZER_VERSION = 2;
+export const NORMALIZER_VERSION = 3;
 
 export type NormalizedJob = Omit<
   NewJobRow,
@@ -20,14 +20,9 @@ export type NormalizedJob = Omit<
 
 export type NormalizeResult = { ok: true; job: NormalizedJob } | { ok: false; reason: "not_tech" };
 
-function fallbackSeniority(job: SourceJob) {
-  const fromLabels = seniorityFromLabels(job.seniorityLabels);
-  return fromLabels !== "unknown" ? fromLabels : seniorityFromLabels([job.title]);
-}
-
 /**
  * Turns one posting in the common schema into a clean database row:
- * filters non-tech roles, answers "can Mexico apply?", parses salaries
+ * filters non-tech roles, classifies seniority, answers "can Mexico apply?", parses salaries
  * into monthly USD, and canonicalizes technologies.
  */
 export function normalizeJob(job: SourceJob, usdRates: UsdRates): NormalizeResult {
@@ -39,6 +34,11 @@ export function normalizeJob(job: SourceJob, usdRates: UsdRates): NormalizeResul
       : parseTimezoneText(job.locations.join(" · "));
   const eligibility = detectEligibility(job.locations, timezone);
 
+  const seniority = classifySeniority({
+    title: job.title,
+    labels: job.seniorityLabels,
+    description: job.description,
+  });
   const parsed = job.salary ?? parseSalaryText(job.salaryText);
   const salary: Salary = parsed
     ? { min: parsed.min, max: parsed.max, currency: parsed.currency, period: parsed.period }
@@ -52,9 +52,8 @@ export function normalizeJob(job: SourceJob, usdRates: UsdRates): NormalizeResul
       url: job.url,
       title: job.title,
       company: job.company,
-      // Labels from the source win; the title is the fallback ("Senior React Developer").
-      // Phase 3 replaces this with the measured classifier.
-      seniority: fallbackSeniority(job),
+      seniority: seniority.level,
+      seniorityReason: seniority.reason,
       seniorityRaw: job.seniorityLabels.join(", ") || null,
       locationRaw: job.locations.join(" · ") || null,
       allowedRegions: eligibility.regions,

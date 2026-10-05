@@ -178,6 +178,10 @@ export function detectTechnologies(tags: readonly string[], title: string, descr
   return [...found];
 }
 
+export function technologyBySlug(slug: string): string | undefined {
+  return TECHNOLOGIES.find((tech) => tech.slug === slug)?.name;
+}
+
 export function technologySlug(name: string): string | undefined {
   return TECHNOLOGIES.find((tech) => tech.name === name)?.slug;
 }

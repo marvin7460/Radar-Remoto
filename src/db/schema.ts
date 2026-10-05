@@ -20,6 +20,7 @@ export const jobs = sqliteTable(
     title: text("title").notNull(),
     company: text("company").notNull(),
     seniority: text("seniority", { enum: SENIORITIES }).notNull().default("unknown"),
+    seniorityReason: text("seniority_reason"),
     seniorityRaw: text("seniority_raw"),
     locationRaw: text("location_raw"),
     /** Region codes we recognized ("LATAM", "US", "WORLDWIDE"…). */
@@ -78,6 +79,19 @@ export const ingestionRuns = sqliteTable(
   (t) => [index("ingestion_runs_source_started_idx").on(t.source, t.startedAt)],
 );
 
+/**
+ * Hand labels for measuring the classifiers (precision/recall in the README).
+ * "unknown" means the posting itself doesn't say.
+ */
+export const jobLabels = sqliteTable("job_labels", {
+  jobId: integer("job_id")
+    .primaryKey()
+    .references(() => jobs.id, { onDelete: "cascade" }),
+  seniority: text("seniority", { enum: SENIORITIES }).notNull(),
+  acceptsMexico: text("accepts_mexico", { enum: ACCEPTS_MEXICO }).notNull(),
+  labeledAt: integer("labeled_at", { mode: "timestamp" }).notNull(),
+});
+
 /** Daily exchange rates with base USD: `rate` = units of `quote` per 1 USD. */
 export const fxRates = sqliteTable(
   "fx_rates",
@@ -97,3 +111,4 @@ export type AcceptsMexico = (typeof ACCEPTS_MEXICO)[number];
 export type JobRow = typeof jobs.$inferSelect;
 export type NewJobRow = typeof jobs.$inferInsert;
 export type IngestionRun = typeof ingestionRuns.$inferSelect;
+export type JobLabel = typeof jobLabels.$inferSelect;

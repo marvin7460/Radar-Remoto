@@ -1,5 +1,5 @@
 import type { JobRow } from "@/db/schema";
-import type { JobWithCopies } from "@/lib/jobs/queries";
+import type { JobWithCopies } from "@/lib/search/search-jobs";
 import {
   ACCEPTS_MEXICO_LABEL,
   formatMonthlyMxn,
@@ -53,6 +53,7 @@ export function JobCard({ job, now, usdToMxn }: { job: JobWithCopies; now: Date;
         <div className="flex flex-wrap gap-1.5">
           <span
             className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${SENIORITY_STYLE[job.seniority]}`}
+            title={job.seniorityReason ?? undefined}
           >
             {SENIORITY_LABEL[job.seniority]}
           </span>
