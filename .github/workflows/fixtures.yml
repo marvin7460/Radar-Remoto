@@ -1,0 +1,38 @@
+name: Refresh API fixtures
+
+# Manual only: downloads one small real response per source into
+# tests/fixtures and commits it, so tests stay offline but realistic.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fixtures
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run fixtures:fetch
+      - name: Commit changed fixtures
+        run: |
+          npx prettier --write tests/fixtures > /dev/null
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tests/fixtures
+          if git diff --cached --quiet; then
+            echo "Fixtures unchanged."
+            exit 0
+          fi
+          git commit -m "test: refresh real API fixtures"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
