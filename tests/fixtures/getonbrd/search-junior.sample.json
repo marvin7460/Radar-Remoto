@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "id": "desarrollador-a-frontend-junior-acme-remote",
+      "type": "job",
+      "attributes": {
+        "title": "Desarrollador/a Frontend Junior",
+        "description": "<p>Buscamos una persona <strong>junior</strong> para nuestro equipo de producto.</p>",
+        "functions": "<ul><li>Construir componentes en React</li><li>Escribir tests</li></ul>",
+        "desirable": "<p>Experiencia con TypeScript &amp; Tailwind</p>",
+        "remote": true,
+        "remote_modality": "fully_remote",
+        "remote_zone": "Latin America",
+        "countries": ["Remote"],
+        "min_salary": 1200,
+        "max_salary": 1800,
+        "published_at": 1759622400,
+        "seniority": { "data": { "id": 2, "type": "seniority", "attributes": { "name": "Junior" } } },
+        "company": { "data": { "id": "acme", "type": "company", "attributes": { "name": "Acme Labs" } } },
+        "tags": {
+          "data": [
+            { "id": "react", "type": "tag", "attributes": { "name": "React" } },
+            { "id": "typescript", "type": "tag", "attributes": { "name": "TypeScript" } }
+          ]
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/programming/desarrollador-a-frontend-junior-acme-remote"
+      }
+    },
+    {
+      "id": "senior-backend-engineer-globex-remote",
+      "type": "job",
+      "attributes": {
+        "title": "Senior Backend Engineer",
+        "description": "<p>5+ years of experience with Node.js</p>",
+        "remote": true,
+        "remote_modality": "fully_remote",
+        "remote_zone": null,
+        "countries": ["Chile", "Mexico"],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1759536000,
+        "seniority": { "data": { "id": 4, "type": "seniority" } },
+        "company": { "data": { "id": "globex-corp", "type": "company" } },
+        "tags": { "data": [{ "id": "node-js", "type": "tag" }] }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/programming/senior-backend-engineer-globex-remote"
+      }
+    },
+    {
+      "id": "practicante-qa-initech-santiago",
+      "type": "job",
+      "attributes": {
+        "title": "Practicante QA",
+        "description": "<p>Trabajo presencial en Santiago</p>",
+        "remote": false,
+        "remote_modality": "no_remote",
+        "countries": ["Chile"],
+        "published_at": 1759449600,
+        "seniority": { "data": { "id": 1, "type": "seniority" } },
+        "company": { "data": { "id": "initech", "type": "company" } }
+      },
+      "links": { "public_url": "https://www.getonbrd.com/jobs/qa/practicante-qa-initech-santiago" }
+    },
+    {
+      "id": "broken-posting-without-title",
+      "type": "job",
+      "attributes": {
+        "remote": true,
+        "published_at": 1759449600
+      }
+    }
+  ],
+  "meta": { "page": 1, "per_page": 50, "total_pages": 1 }
+}

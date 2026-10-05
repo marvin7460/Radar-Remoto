@@ -1,0 +1,30 @@
+name: Ingest jobs
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 h, off the top of the hour (GitHub delays :00 crons)
+  workflow_dispatch:
+
+# Never let two ingestions overlap.
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+      TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Apply pending migrations
+        run: npm run db:migrate
+      - name: Ingest all sources
+        run: npm run ingest
