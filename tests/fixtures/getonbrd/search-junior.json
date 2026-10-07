@@ -29,7 +29,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 84,
+        "applications_count": 90,
         "location_regions": {
           "data": []
         },
@@ -187,6 +187,489 @@
       }
     },
     {
+      "id": "ingeniero-trainee-tecnologias-y-datos-agrosuper-rancagua",
+      "type": "job",
+      "attributes": {
+        "title": "Ingeniero Trainee Tecnologías y Datos",
+        "description_headline": "Requisitos",
+        "description": "<p>Buscamos profesionales de Ingeniería Civil e Ingeniería Informática, con competencias de liderazgo y motivación por su crecimiento profesional. El objetivo del cargo es apoyar la operación de las distintas áreas de la Gerencia Tecnologías y Datos, logrando experiencia, aprendizaje y desarrollo de habilidades que te permitan asumir desafíos mayores dentro de la organización.</p><p>Para este rol, consideraremos tu preparación en:</p><ul><li>Herramientas tecnológicas (lenguaje de programación, IA).</li><li>Inglés intermedio a avanzado (excluyente). </li></ul><p>Además, esperamos que tengas una actitud proactiva para proponer mejoras, capacidad de autogestión y compromiso con el trabajo colaborativo. Valoraremos tu motivación por aprender, tu disposición para liderar iniciativas y tu orientación a la mejora continua y la eficiencia operacional.</p><p>En Agrosuper, las personas son el alma del negocio; por eso promovemos un equipo diverso e inclusivo, incluyendo la incorporación de personas con discapacidad que quieran sumarse a un entorno que busca hacer las cosas siempre mejor.</p>",
+        "projects": "En Agrosuper nos motivamos por hacer las cosas siempre mejor, con espíritu de crecimiento y desarrollo, disfrutando lo bueno de la vida. Somos un grupo humano de más de 13.000 personas que lleva alimentos de alta calidad a la mesa de las familias de Chile y el mundo. En este contexto, buscamos un/a Trainee para integrarse a la Gerencia Tecnologías y Datos en nuestra Oficina Central en Rancagua. El objetivo es apoyar la operación de las distintas áreas de la gerencia, incorporando aprendizaje práctico y experiencia orientada a mejora continua, eficiencia operacional y participación en proyectos alineados a las necesidades del negocio.",
+        "functions_headline": "Principales Funciones:",
+        "functions": "<p>Como Trainee Tecnologías y Datos en Agrosuper, trabajaremos para que adquieras experiencia y habilidades de liderazgo a través de la participación activa en la operación y en proyectos de la Gerencia Tecnologías y Datos. Tu foco estará en apoyar la mejora continua y la eficiencia operacional, colaborando con las áreas asignadas (Proyectos de Transformación Digital IT y OT, Gobierno de Datos, Automatización, entre otros.</p><ul><li>Evaluar y analizar de aspectos técnicos de los procesos de TyD.</li><li>Autogestionar e innovar en procesos de mejora a nivel transversal. </li><li>Liderar proyectos de las áreas asignadas (proyectos en las distintas subgerencias donde el Trainee va rotando).</li></ul><p>Nos aseguraremos de que tu proceso sea formativo y orientado a crecimiento, con foco en estándares de calidad y resultados medibles dentro de la gerencia.</p>",
+        "benefits_headline": "Te mostramos algunos de nuestros beneficios:",
+        "benefits": "<p>En Agrosuper ofrecemos un entorno laboral centrado en el crecimiento profesional y el desarrollo continuo. Contamos con planes de crecimiento y desarrollo, capacitaciones y becas de estudios para potenciar tus habilidades y apoyar tu carrera a largo plazo.</p><p>Además, disponemos de convenios con distintas instituciones para facilitar tu bienestar y formación continua. Nuestro sistema de bonos asociados al desempeño reconoce y premia el compromiso y resultados tanto individuales como de equipo.</p><p>Valoramos la inclusión y la diversidad, fomentando la incorporación de personas con discapacidad como parte fundamental de nuestro equipo humano. Formarás parte de una empresa sólida, con un propósito claro: “Alimentar lo bueno de la vida todos los días”, trabajando en un ambiente que promueve el crecimiento, la colaboración y la calidad de vida.</p><p>¡Ven a ser parte de Agrosuper!</p>",
+        "desirable_headline": "Deseable",
+        "desirable": "<ul><li>Experiencia o proyectos personales/académicos en automatización, analítica de datos o iniciativas de mejora continua.</li><li>Conocimientos en buenas prácticas de programación y/o fundamentos de ciencia de datos.</li><li>Habilidades para trabajar con objetivos, priorizar tareas y comunicar avances de forma clara.</li><li>Participación previa en proyectos en equipo (talleres, ayudantías, voluntariado, hackatones o actividades universitarias).</li></ul><p>Si además te caracteriza la curiosidad por la innovación (incluyendo IA) y el interés por asumir responsabilidades gradualmente, te va a resultar un gran desafío.</p>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "remote_zone": null,
+        "countries": ["Chile"],
+        "lang": "lang_not_specified",
+        "rejected_reasons": [
+          {
+            "insufficient_project_info": {
+              "title": "Insufficient project info",
+              "description": "It is important for those who apply for a job to have total clarity about the area in which they will eventually join or the project in which they will collaborate. We recommend that you include details about the type of projects they will be assigned to, what roles or people they will be working with, if these projects include dealing with clients or not and what type of clients. Ads that include these details have a higher success rate."
+            }
+          }
+        ],
+        "category_name": "Product, Innovation & Agile",
+        "perks": [
+          "outdoors",
+          "wellness",
+          "flexible_hours",
+          "life_insurance",
+          "meals_provided",
+          "remote_partial",
+          "commuting_buses",
+          "computer_repairs",
+          "dental_insurance",
+          "free_car_parking",
+          "computer_provided",
+          "education_stipend",
+          "recreational_areas",
+          "shopping_discounts",
+          "beverages_and_snacks"
+        ],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791404853,
+        "response_time_in_days": {
+          "min": null,
+          "max": null
+        },
+        "applications_count": 0,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 8,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "2",
+            "type": "seniority",
+            "attributes": {
+              "name": "Junior",
+              "locale_key": "junior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "programming",
+              "type": "tag",
+              "attributes": {
+                "name": "Programming",
+                "keywords": "Programming APIs, Programming Practices, Programming Principles, Programming Best Practices, Programming Basics, Programming Fundamentals, Programming Frameworks"
+              }
+            },
+            {
+              "id": "ai",
+              "type": "tag",
+              "attributes": {
+                "name": "Artificial Intelligence",
+                "keywords": "Inteligencia Artificial, Machine Learning, ML, NLP, Natural Language Processing, NLU, Computer Vision, Deep Learning, TensorFlow, Scikit-learn, AI/ML, AgentOps, AIOps, AI Applications, AI Development, AI"
+              }
+            },
+            {
+              "id": "project-leadership",
+              "type": "tag",
+              "attributes": {
+                "name": "Project Leadership",
+                "keywords": "Project Governance"
+              }
+            },
+            {
+              "id": "technical-analysis",
+              "type": "tag",
+              "attributes": {
+                "name": "Technical Analysis",
+                "keywords": "Technology Analysis"
+              }
+            },
+            {
+              "id": "data-governance",
+              "type": "tag",
+              "attributes": {
+                "name": "Data governance",
+                "keywords": "Gobernanza de datos, gobierno de datos, Database Governance"
+              }
+            },
+            {
+              "id": "process-improvement",
+              "type": "tag",
+              "attributes": {
+                "name": "Process Improvement",
+                "keywords": null
+              }
+            },
+            {
+              "id": "digital-transformation",
+              "type": "tag",
+              "attributes": {
+                "name": "Digital Transformation",
+                "keywords": null
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "agrosuper",
+            "type": "company",
+            "attributes": {
+              "name": "Agrosuper",
+              "description": "En Agrosuper nos motiva hacer las cosas siempre mejor, con espíritu de crecimiento y desarrollo, disfrutando lo bueno de la vida  ¡Ven a ser parte!",
+              "long_description": "<p>Agrosuper lo conformamos un grupo humano de más de 13.000 personas, unidos por el sueño de llevar alimentos de la más alta calidad a la mesa de las familias de Chile y el mundo.</p><p>Nos motiva hacer las cosas siempre mejor, con espíritu de crecimiento y desarrollo, disfrutando lo bueno de la vida. </p><p>Sabemos que lo más importante son las personas, sin ellas, disfrutar de nuestros productos, no sería posible. Por este motivo buscamos a los mejores para que se unan a nuestro equipo y a una empresa que quiere potenciar las nuevas ideas y tu desarrollo profesional ¡Ven a ser parte!</p><p>Somos una compañía, nacida en la Región de O´Higgins, que elabora alimentos de pollo, cerdo, cecinas y elaborados. Nuestro proceso productivo se encuentra completamente integrado y comprende desde la fabricación del alimento para los animales, sectores de crianza, plantas de procesos, centros de distribución y oficinas comerciales que nos permiten llegar con un amplio portafolio de productos a clientes y consumidores en Chile y el mundo. </p><p>Nuestro equipo de trabajo se encuentra a lo largo de todo Chile y en nuestras oficinas internacionales en México, Estados Unidos, Italia, China y Japón. Todos ellos aportan con su talento y conocimiento al desarrollo sustentable de la compañía y las comunas donde contamos con instalaciones productivas, alimentando lo bueno de la vida todos los días.</p>",
+              "projects": "<p>En Agrosuper trabajamos para alimentar lo bueno de la vida, con un enfoque de crecimiento y desarrollo continuo. Este rol se enmarca dentro de la Gerencia Industrial, con presencia en las Platas de Rosario, Lo Miranda o San Vicente. El proyecto implica participar en proyectos vigentes que buscan excelencia operacional, salud y seguridad ocupacional, transformación digital y calidad, con una visión de largo plazo dentro de la cadena de valor de la compañía.&nbsp;<br>Buscamos desarrollar a futuros líderes que, en un plazo máximo de un año, estén habilitados para ejercer cargos de liderazgo dentro de la organización, adquiriendo conocimientos, habilidades y experiencias relevantes para el rol.</p>",
+              "benefits": "<p>En Agrosuper ofrecemos un entorno laboral centrado en el crecimiento profesional y el desarrollo continuo. Contamos con planes estructurados de capacitación y becas de estudios para potenciar tus habilidades y apoyar tu carrera a largo plazo.</p><p>Además, disponemos de convenios con diversas instituciones que facilitan tu bienestar y formación continua. Nuestro sistema de bonos asociados al desempeño reconoce y premia el compromiso y resultados tanto individuales como de equipo.</p><p>Valoramos la inclusión y la diversidad, fomentando la incorporación de personas con discapacidad como parte fundamental de nuestro equipo humano.</p><p>Formarás parte de una empresa sólida, sólida y con un propósito claro: \"Alimentar lo bueno de la vida todos los días\", trabajando en un ambiente que promueve el crecimiento, la colaboración y la calidad de vida.</p>",
+              "web": "https://trabajos.agrosuper.cl/",
+              "twitter": "",
+              "github": "",
+              "facebook": "",
+              "angellist": "",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 15,
+                "max": 27
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/11871/logo.jpg"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/ingeniero-trainee-tecnologias-y-datos-agrosuper-rancagua"
+      }
+    },
+    {
+      "id": "asesor-a-de-proveedores-de-mercado-publico-direccion-chilecompra-santiago",
+      "type": "job",
+      "attributes": {
+        "title": "Asesor(a) de Proveedores de Mercado Público",
+        "description_headline": "Requerimientos del Cargo",
+        "description": "<p>Título profesional obtenido de una carrera de al menos 8 semestres de duración, del ámbito de la Ingeniería Comercial, Ingeniería Civil Industrial, Administración Pública, o afín, de una institución reconocida por el Estado de Chile.</p><p><strong>Deseable</strong>:<br>Especialización en Análisis de datos, Inteligencia de negocios, Gestión de Procesos, Automatización, RPA o Inteligencia Artificial aplicada a negocios.</p><ul><li><strong>Experiencia laboral mínima requerida:</strong></li></ul><p>Al menos 3 años de experiencia en áreas asociadas a la gestión de proveedores o cartera de clientes, asesoría en gestión comercial, o proyectos de desarrollo de proveedores.</p><ul><li><strong>Experiencia laboral deseable:</strong></li></ul><p>- Experiencia en análisis de mercado, operación de plataformas digitales o e-commerce. <br>- Experiencia en automatización de tareas operativas utilizando RPA o flujos automáticos. <br>- Experiencia liderando proyectos de transformación digital o automatización.</p>",
+        "projects": "<p>La plataforma de compras públicas que administra ChileCompra:<strong> Mercado Público, es el sitio transaccional de comercio electrónico más grande de Chile</strong>. Allí los servicios públicos efectúan sus adquisiciones a través de casi 2 millones de orden de compra al año, por más de 16 mil millones de dólares, permitiendo oportunidades de negocio a más de 120 mil proveedores. <strong>Por lo que nuestro servicio es crítico para el funcionamiento del Estado de Chile.</strong></p><p>Actualmente, estamos impulsando una estrategia de <strong>modernización para generar mayor eficiencia en las compras y gasto público</strong>, mediante la renovación de plataformas y servicios como la tienda de convenio marco en Magento y nuevos sistemas que faciliten la toma de decisiones, monitoreo y evaluación de los procesos de compra. Esta transformación incluye el paso desde una arquitectura tradicional basada en un data center físico y sistemas monolíticos, hacia una arquitectura de software multinube, con respaldos tanto físicos como en la nube.</p>",
+        "functions_headline": "Funciones del Cargo",
+        "functions": "<p>El rol se enfoca en <strong>diseñar, implementar y gestionar estrategias e iniciativas orientadas a fortalecer la participación de proveedores en el sistema de compras públicas</strong>, mediante la administración del Registro Nacional de Proveedores y de los catálogos electrónicos de Convenios Marco, <strong>impulsando la mejora continua, la optimización de procesos y el uso de analítica de datos, con el fin de potenciar la eficiencia operativa y la calidad del servicio</strong> de la Dirección ChileCompra. Para ello deberá:</p><ol><li>Conocer y caracterizar a los proveedores del Estado por segmento, identificando sus necesidades, características y comportamiento dentro del sistema de compras públicas, y definiendo objetivos y líneas de trabajo orientadas a fortalecer la eficiencia, la probidad y la transparencia en su participación en el sistema.</li><li>Diseñar e implementar estrategias que promuevan la participación de usuarios proveedores en el sistema de compras públicas.</li><li>Apoyar el diseño, estructuración y evaluación de nuevos Convenios Marco, colaborando en la definición de su estrategia, reglas de negocio y procesos de adjudicación.</li><li>Garantizar el correcto funcionamiento del portafolio de Convenios Marco, verificando el cumplimiento de los contratos en base a lo establecido en cada convenio.</li><li>Administrar y monitorear la operación del Registro Nacional de Proveedores, asegurando su correcto funcionamiento mediante el monitoreo de información, verificación de antecedentes, gestión de brechas y acompañamiento a usuarios proveedores en la administración del Registro.</li><li>Gestionar información estratégica de proveedores y contratos, generando reportes, indicadores y tableros de control para la toma de decisiones.</li><li>Analizar y optimizar los procesos asociados a la gestión y participación de proveedores, identificando e implementando oportunidades de mejoras orientadas a la eficiencia y calidad operativa.</li></ol>",
+        "benefits_headline": "Condiciones",
+        "benefits": "<ul><li>La modalidad de contratación es a<strong> contrata con renovación anual, según evaluación de desempeño.</strong></li><li>La modalidad de trabajo es <strong>presencial.</strong></li><li>Contamos con <strong>15 días de vacaciones más 6 días de permisos</strong> administrativos con goce de sueldo, <strong>anuales.</strong></li><li><strong>Consideramos la hora de colación dentro de la jornada laboral</strong>, y tenemos una banda de ingreso flexible, <strong>desde las 07:30hrs hasta las 09:30hrs.</strong></li><li>La posición tiene una <strong>renta bruta mensual grado 13 EFS, correspondiente a $2.828.199.</strong> Trimestralmente (en los meses de marzo, junio, septiembre y diciembre) puede pagarse bono sujeto a cumplimiento de metas institucionales, ascendiendo la renta bruta en dichos meses a $3.452.427. <strong>Por lo que la renta bruta mensualizada (promedio) corresponde a $3.036.275.</strong></li><li>Puedes revisar más sobre nuestros beneficios en nuestra información institucional de Get on Board!</li></ul>",
+        "desirable_headline": "Habilidades y Herramientas",
+        "desirable": "<ul><li><strong>Conocimientos requeridos:</strong></li></ul><p>- Gestión y operación de proveedores y/o carteras de clientes de alto volumen <br>- Gestión de contratos <br>- Análisis y Monitoreo de Mercado <br>- Diseño de indicadores, reportería y KPI operacionales <br>- Uso de herramientas de análisis y visualización de datos (SQL, Python y similares para el análisis de datos) <br>- Uso de herramientas de Inteligencia Artificial aplicada a procesos de atención usuaria o análisis de datos</p><ul><li><strong>Conocimientos deseables:</strong></li></ul><p>- Gestión de contratos con múltiples proveedores <br>- Levantamiento, análisis y mejora de procesos <br>- Manejo de herramientas de automatización (RPA o flujos automáticos) <br>- Reportería automatizada y tableros de control <br>- Análisis y Monitoreo de Mercado<br> - Compras y Contratación Pública</p>",
+        "remote": false,
+        "remote_modality": "no_remote",
+        "remote_zone": null,
+        "countries": ["Chile"],
+        "lang": "es",
+        "rejected_reasons": [],
+        "category_name": "Sales",
+        "perks": [
+          "wellness",
+          "flexible_hours",
+          "internal_talks",
+          "computer_provided",
+          "performance_bonus",
+          "conference_stipend"
+        ],
+        "min_salary": 3100,
+        "max_salary": 3100,
+        "published_at": 1791389486,
+        "response_time_in_days": {
+          "min": null,
+          "max": null
+        },
+        "applications_count": 8,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 1,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "3",
+            "type": "seniority",
+            "attributes": {
+              "name": "Semi Senior",
+              "locale_key": "semi_senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "supplier-management",
+              "type": "tag",
+              "attributes": {
+                "name": "Supplier Management",
+                "keywords": "Supplier Administration, Supplier Coordination, Supplier Negotiation, Supplier Onboarding, Supplier Evaluation, Supplier Interaction, Supplier Engagement, Supplier Relationships, Supplier Qualification"
+              }
+            },
+            {
+              "id": "public-procurement",
+              "type": "tag",
+              "attributes": {
+                "name": "Public Procurement",
+                "keywords": "Public Procurement Law, Public Procurement Systems"
+              }
+            },
+            {
+              "id": "contract-management",
+              "type": "tag",
+              "attributes": {
+                "name": "Contract Management",
+                "keywords": "Contract Management Platforms, Contract Lifecycle Management, Contract Management Systems, Contract Processes, Contractor Management, Contract Administration, Contract Handling, Contract Law, Contracting Law"
+              }
+            },
+            {
+              "id": "process-optimization",
+              "type": "tag",
+              "attributes": {
+                "name": "Process Optimization",
+                "keywords": null
+              }
+            },
+            {
+              "id": "data-analysis",
+              "type": "tag",
+              "attributes": {
+                "name": "Data Analysis",
+                "keywords": "Data Mining, Data Analytics, Data Analyst, Reporting Analyst, Business Intelligence, BI, Análisis de datos, Analista de datos"
+              }
+            },
+            {
+              "id": "performance-reporting",
+              "type": "tag",
+              "attributes": {
+                "name": "Performance Reporting",
+                "keywords": null
+              }
+            },
+            {
+              "id": "digital-platforms",
+              "type": "tag",
+              "attributes": {
+                "name": "Digital Platforms",
+                "keywords": "Digital Portals"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "direccion-chilecompra",
+            "type": "company",
+            "attributes": {
+              "name": "Dirección ChileCompra",
+              "description": "Innovación y Compromiso con impacto público.\n\n\n¡Sé parte de la modernización del Estado en ChileCompra!",
+              "long_description": "<p>La Dirección ChileCompra es la institución que administra la plataforma de compras públicas de Chile, <a href=\"http://www.mercadopublico.cl/\" target=\"_blank\" rel=\"nofollow noopener noreferrer external\"><strong>www.mercadopublico.cl</strong></a>, reuniendo en un solo lugar la demanda de los compradores públicos y la oferta de miles de proveedores privados.</p><p><a href=\"http://www.mercadopublico.cl/\" target=\"_blank\" rel=\"nofollow noopener noreferrer external\"><strong>www.mercadopublico.cl</strong></a><strong> es el sitio transaccional de comercio electrónico más grande de Chile</strong>. Allí los servicios públicos efectúan sus adquisiciones a través de casi 2 millones de orden de compra al año por más de 16 mil millones de dólares, permitiendo oportunidades de negocio a más de 120 mil proveedores. Por lo que nuestro servicio es crítico para el funcionamiento del Estado de Chile.</p>",
+              "projects": "<p>La plataforma de compras públicas que administra ChileCompra: <a href=\"http://www.mercadopublico.cl/\"><strong>www.mercadopublico.cl</strong></a><strong> es el sitio transaccional de comercio electrónico más grande de Chile</strong>. Allí los servicios públicos efectúan sus adquisiciones a través de casi 2 millones de orden de compra al año, por más de 16 mil millones de dólares, permitiendo oportunidades de negocio a más de 120 mil proveedores. <strong>Por lo que nuestro servicio es crítico para el funcionamiento del Estado de Chile.<br><br></strong>Actualmente, estamos impulsando una estrategia de <strong>modernización para generar mayor eficiencia en las compras y gasto público</strong>, mediante la renovación de plataformas y servicios como la tienda de convenio marco en Magento y nuevos sistemas que faciliten la toma de decisiones, monitoreo y evaluación de los procesos de compra. Esta transformación incluye el paso desde una arquitectura tradicional basada en un data center físico y sistemas monolíticos, hacia una arquitectura de software multinube, con respaldos tanto físicos como en la nube.<br><br></p>",
+              "benefits": "<ul><li>Oportunidad para aprender y aportar tus conocimientos a la plataforma transaccional más importante de Chile</li><li>Ambiente laboral respetuoso donde se anima la participación activa</li><li>Actividades de fortalecimiento de equipos</li><li>Capacitaciones</li><li>Aguinaldo de fiestas patrias (septiembre), para navidad (diciembre), y para escolaridad hijos menores de 24 años (marzo y junio)</li><li>15 días de vacaciones + 6 días de permisos administrativos anuales</li><li>Banda horaria flexible de ingreso desde 07:30hrs a 09:30hr</li><li>Caja de Compensación Los Andes</li><li>Seguro de accidentes laborales con ACHS</li><li>Beneficio de sala cuna para menores de 2 años, y de jardín infantil para niños y niñas en edad preescolar&nbsp;</li><li>Convenio con Ticket Out para obtener descuentos en diferentes parques, cine y eventos de entretenimiento</li><li>Programa de Bienestar institucional con seguro complementario de salud, vida y catastrófico, beneficio dental y bono de vacaciones</li><li>Código de vestimenta libre</li><li>Computador de trabajo</li></ul>",
+              "web": "https://www.chilecompra.cl/",
+              "twitter": "",
+              "github": "",
+              "facebook": "",
+              "angellist": "",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 25,
+                "max": 35
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/11748/Logo_ChileCompra.jpg"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/asesor-a-de-proveedores-de-mercado-publico-direccion-chilecompra-santiago"
+      }
+    },
+    {
+      "id": "full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2",
+      "type": "job",
+      "attributes": {
+        "title": "Full-Stack Developer React + RoR",
+        "description_headline": "Requerimientos del cargo",
+        "description": "<ul><li>Mínimo de <strong>3 años de experiencia en desarrollo de software (excluyente).</strong></li><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente (deseable)</li><li><strong>Excluyente experiencia con React y Ruby on Rails.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales.</li><li>Experiencia en trabajar con equipos de desarrollo y en proyectos de software.</li><li>Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul><div><strong>Condiciones </strong></div><ul><li><strong>En Chile, Perú y México trabajamos híbrido,</strong> por lo que te pediríamos que vayas a la oficina 1 o 2 veces por semana.</li><li>Si vives en otro país, es 100% remoto. </li></ul>",
+        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. </strong></div><div><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Adicionalmente, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
+        "functions_headline": "Funciones del cargo",
+        "functions": "<ul><li><strong>Entrega de Funcionalidades</strong>: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li><strong>Calidad del Código</strong>: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisiones de código y pruebas rigurosas.</li><li><strong>Mejoramiento Continuo: </strong>Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos y prácticas de desarrollo.</li><li><strong>Satisfacción del Cliente: </strong>Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
+        "benefits_headline": "Beneficios 🎁",
+        "benefits": "<div> Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li><strong>🤸 Work-Life Balance:</strong> Modelo de trabajo híbrido en Chile, Perú y México (otros paises 100% remoto), flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀 </div>",
+        "desirable_headline": "Opcionales",
+        "desirable": "<ul><li>React Native, Python y Node.js, GraphQL</li></ul>",
+        "remote": false,
+        "remote_modality": "hybrid",
+        "remote_zone": null,
+        "countries": ["Chile", "Peru", "Mexico"],
+        "lang": "es",
+        "rejected_reasons": [],
+        "category_name": "Programming",
+        "perks": [
+          "remote_partial",
+          "computer_provided",
+          "performance_bonus",
+          "informal_dresscode",
+          "vacation_over_legal"
+        ],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791378976,
+        "response_time_in_days": {
+          "min": 4,
+          "max": 16
+        },
+        "applications_count": 157,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 200,
+              "type": "location_city"
+            },
+            {
+              "id": 1,
+              "type": "location_city"
+            },
+            {
+              "id": 130,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "3",
+            "type": "seniority",
+            "attributes": {
+              "name": "Semi Senior",
+              "locale_key": "semi_senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "ruby-on-rails",
+              "type": "tag",
+              "attributes": {
+                "name": "Ruby on Rails",
+                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
+              }
+            },
+            {
+              "id": "git",
+              "type": "tag",
+              "attributes": {
+                "name": "Git",
+                "keywords": ""
+              }
+            },
+            {
+              "id": "react",
+              "type": "tag",
+              "attributes": {
+                "name": "React",
+                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
+              }
+            },
+            {
+              "id": "docker",
+              "type": "tag",
+              "attributes": {
+                "name": "Docker",
+                "keywords": "Docker CE, Docker Engine, Dockers, Docker Containers, Dockerfile Development, DockerHub, Docker Hub, Docker Registries, Docker Registry, Docker Clusters, Docker-compose, Docker Compose, Docker Swarm"
+              }
+            },
+            {
+              "id": "ci-cd",
+              "type": "tag",
+              "attributes": {
+                "name": "CI/CD",
+                "keywords": "CI/CD, CD/CI, CDCI, CICD, DevOps, Continuous Delivery, Continuous Integration, CI, CI/CD Tools"
+              }
+            },
+            {
+              "id": "agile-development",
+              "type": "tag",
+              "attributes": {
+                "name": "Agile Development",
+                "keywords": null
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "rankmi",
+            "type": "company",
+            "attributes": {
+              "name": "Rankmi",
+              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
+              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
+              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
+              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
+              "web": "https://www.rankmi.com",
+              "twitter": "rankmioficial",
+              "github": "",
+              "facebook": "rankmioficial",
+              "angellist": "rankmi",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 8,
+                "max": 20
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2"
+      }
+    },
+    {
       "id": "software-developer-full-stack-react-ror-rankmi-remote",
       "type": "job",
       "attributes": {
@@ -223,12 +706,12 @@
         ],
         "min_salary": null,
         "max_salary": null,
-        "published_at": 1791231124,
+        "published_at": 1791378964,
         "response_time_in_days": {
           "min": 10,
           "max": 16
         },
-        "applications_count": 454,
+        "applications_count": 524,
         "location_regions": {
           "data": [
             {
@@ -367,41 +850,35 @@
       }
     },
     {
-      "id": "full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2",
+      "id": "it-support-engineer-mediastream-bogota-2539",
       "type": "job",
       "attributes": {
-        "title": "Full-Stack Developer React + RoR",
-        "description_headline": "Requerimientos del cargo",
-        "description": "<ul><li>Mínimo de <strong>3 años de experiencia en desarrollo de software (excluyente).</strong></li><li>Título universitario en Ciencias de la Computación, Ingeniería de Software o un campo relacionado, o experiencia equivalente (deseable)</li><li><strong>Excluyente experiencia con React y Ruby on Rails.</strong></li><li>Conocimiento de bases de datos relacionales y no relacionales.</li><li>Experiencia en trabajar con equipos de desarrollo y en proyectos de software.</li><li>Experiencia con herramientas y prácticas de desarrollo ágil (YouTrack, Git, Docker, CI/CD, etc.).</li></ul><div><strong>Condiciones </strong></div><ul><li><strong>En Chile, Perú y México trabajamos híbrido,</strong> por lo que te pediríamos que vayas a la oficina 1 o 2 veces por semana.</li><li>Si vives en otro país, es 100% remoto. </li></ul>",
-        "projects": "<div>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial. </strong></div><div><br></div><div><strong>Misión del cargo</strong></div><ul><li>Contribuir al diseño, implementación y mantenimiento de aplicaciones de alta calidad en la empresa. Colaborar con otros desarrolladores y equipos para entregar soluciones eficientes y escalables. Adicionalmente, también actúa como un puente entre los desarrolladores junior y senior, apoyando tanto en tareas técnicas como en la mentoría básica.</li></ul>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<ul><li><strong>Entrega de Funcionalidades</strong>: Completar las tareas y funcionalidades asignadas dentro del plazo y con alta calidad. Asegurar que el código sea eficiente, mantenible y escalable.</li><li><strong>Calidad del Código</strong>: Mantener altos estándares de calidad en el código, siguiendo las mejores prácticas de desarrollo. Contribuir a la reducción de errores y problemas mediante revisiones de código y pruebas rigurosas.</li><li><strong>Mejoramiento Continuo: </strong>Demostrar una mejora continua en habilidades técnicas y conocimiento del producto. Participar en la implementación de mejoras en procesos y prácticas de desarrollo.</li><li><strong>Satisfacción del Cliente: </strong>Contribuir al desarrollo de soluciones que cumplan o superen las expectativas del cliente. Responder de manera eficaz a los problemas y solicitudes del cliente.</li></ul>",
-        "benefits_headline": "Beneficios 🎁",
-        "benefits": "<div> Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</div><ul><li><strong>🤸 Work-Life Balance:</strong> Modelo de trabajo híbrido en Chile, Perú y México (otros paises 100% remoto), flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><div>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀 </div>",
-        "desirable_headline": "Opcionales",
-        "desirable": "<ul><li>React Native, Python y Node.js, GraphQL</li></ul>",
+        "title": "IT Support Engineer",
+        "description_headline": "Descripción del Puesto",
+        "description": "<div>Buscamos un IT Support Engineer con una fuerte orientación al cliente y habilidades de comunicación efectivas. Deberá ser capaz de diagnosticar problemas técnicos con rapidez y ofrecer soluciones que satisfagan las necesidades de nuestros clientes. Se valorará la capacidad de trabajar en equipo, así como la disposición para aprender y adaptarse a nuevas tecnologías. La atención al detalle es fundamental para documentar cada caso de soporte de manera precisa y mantener una alta satisfacción del cliente. Un interés genuino por ayudar a los demás y la habilidad para explicar conceptos técnicos a una audiencia no técnica serán clave para su éxito en esta posición.</div>",
+        "projects": "<div>En Mediastream, llevamos más de 12 años liderando la tecnología de streaming, colaborando con importantes empresas y canales de transmisión a nivel mundial. Nuestro equipo profesional se dedica a crear experiencias excepcionales en la visualización del contenido audiovisual, desarrollando herramientas que satisfacen las necesidades de la audiencia digital actual. Ofrecemos una solución end-to-end que incluye un valioso acompañamiento a los clientes desde la gestión y transmisión del contenido hasta el análisis del comportamiento del público al consumirlo, todo respaldado por un servicio personalizado y soporte 24/7.</div>",
+        "functions_headline": "Responsabilidades del Puesto",
+        "functions": "<ul><li>Proporcionar soporte técnico a los clientes por teléfono, correo electrónico y chat, identificando y resolviendo problemas.</li><li>Guiar a los clientes a través de soluciones paso a paso, ofreciendo instrucciones claras y entendibles.</li><li>Diagnosticar y resolver problemas de hardware, software y conectividad, colaborando con otros equipos internos.</li><li>Documentar detalladamente cada caso de soporte, describiendo el problema, las soluciones aplicadas y los resultados obtenidos.</li><li>Monitorear y mantener un alto nivel de satisfacción del cliente, asegurando la resolución oportuna de problemas.</li><li>Colaborar con el equipo de desarrollo para identificar problemas recurrentes y proponer mejoras en los productos basadas en la retroalimentación de los clientes.</li><li>Participar en la creación de recursos de autoayuda, como guías y tutoriales, para empoderar a los clientes a solucionar problemas por sí mismos.</li><li>Mantenerse actualizado sobre las últimas actualizaciones de productos y tecnologías para ofrecer el mejor nivel de soporte posible.</li><li>Contribuir a un ambiente de trabajo positivo y colaborativo en el equipo de soporte técnico.</li></ul>",
+        "benefits_headline": "Beneficios",
+        "benefits": "<div>Ofrecemos un ambiente de trabajo dinámico y colaborativo, con oportunidades de desarrollo profesional. Además, brindamos acceso a capacitaciones y actualizaciones constantes sobre nuevas tecnologías y productos. Como parte de Mediastream, tendrás la oportunidad de contribuir a la cultura de innovación que nos caracteriza y disfrutar de un ambiente inclusivo y de apoyo.</div>",
+        "desirable_headline": "Perfil Deseable",
+        "desirable": "<div>Se valorará experiencia con herramientas de gestión de tickets, conocimiento en redes informáticas y sistemas operativos, así como alguna noción sobre tecnologías de streaming. Aunque no es imprescindible. El dominio de otros idiomas puede ser una ventaja en nuestra diversa base de clientes</div>",
         "remote": false,
-        "remote_modality": "hybrid",
+        "remote_modality": "no_remote",
         "remote_zone": null,
-        "countries": ["Chile", "Peru", "Mexico"],
-        "lang": "es",
+        "countries": ["Colombia"],
+        "lang": "lang_not_specified",
         "rejected_reasons": [],
-        "category_name": "Programming",
-        "perks": [
-          "remote_partial",
-          "computer_provided",
-          "performance_bonus",
-          "informal_dresscode",
-          "vacation_over_legal"
-        ],
+        "category_name": "Technical Support",
+        "perks": ["health_coverage", "computer_provided"],
         "min_salary": null,
         "max_salary": null,
-        "published_at": 1791231114,
+        "published_at": 1791290876,
         "response_time_in_days": {
-          "min": 4,
-          "max": 16
+          "min": null,
+          "max": null
         },
-        "applications_count": 132,
+        "applications_count": 34,
         "location_regions": {
           "data": []
         },
@@ -411,15 +888,7 @@
         "location_cities": {
           "data": [
             {
-              "id": 200,
-              "type": "location_city"
-            },
-            {
-              "id": 1,
-              "type": "location_city"
-            },
-            {
-              "id": 130,
+              "id": 183,
               "type": "location_city"
             }
           ]
@@ -432,93 +901,237 @@
         },
         "seniority": {
           "data": {
-            "id": "3",
+            "id": "2",
             "type": "seniority",
             "attributes": {
-              "name": "Semi Senior",
-              "locale_key": "semi_senior"
+              "name": "Junior",
+              "locale_key": "junior"
             }
           }
         },
         "tags": {
           "data": [
             {
-              "id": "ruby-on-rails",
+              "id": "technical-support",
               "type": "tag",
               "attributes": {
-                "name": "Ruby on Rails",
-                "keywords": "Bundler, HAML, RoR, Rails, RoR 4+, Ruby on Jets, Rails v4, Rails 4, Rails 5, Rails 6, Rails API, Rails Frontend, Rails Architecture, Rails Action Cable, Rails Asset Pipeline, Rake, Railway"
+                "name": "Technical Support",
+                "keywords": "Technical Troubleshooting, Tech Support, System Support, Tech Environment, Technical Services, Technology Services, Technical Issue Resolution, technical support, Tech support, Técnico IT, IT Technician, Técnico en Soporte, Soporte, Soporte técnico"
               }
             },
             {
-              "id": "git",
+              "id": "software-troubleshooting",
               "type": "tag",
               "attributes": {
-                "name": "Git",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "react",
-              "type": "tag",
-              "attributes": {
-                "name": "React",
-                "keywords": "ReactJS, React-Native, GatsbyJS, react.js, React JS, React.ts, React Web, React 18, React ES6, React Community, React Programming, React.js"
-              }
-            },
-            {
-              "id": "docker",
-              "type": "tag",
-              "attributes": {
-                "name": "Docker",
-                "keywords": "Docker CE, Docker Engine, Dockers, Docker Containers, Dockerfile Development, DockerHub, Docker Hub, Docker Registries, Docker Registry, Docker Clusters, Docker-compose, Docker Compose, Docker Swarm"
-              }
-            },
-            {
-              "id": "ci-cd",
-              "type": "tag",
-              "attributes": {
-                "name": "CI/CD",
-                "keywords": "CI/CD, CD/CI, CDCI, CICD, DevOps, Continuous Delivery, Continuous Integration, CI, CI/CD Tools"
-              }
-            },
-            {
-              "id": "agile-development",
-              "type": "tag",
-              "attributes": {
-                "name": "Agile Development",
+                "name": "Software Troubleshooting",
                 "keywords": null
+              }
+            },
+            {
+              "id": "hardware-troubleshooting",
+              "type": "tag",
+              "attributes": {
+                "name": "Hardware Troubleshooting",
+                "keywords": null
+              }
+            },
+            {
+              "id": "network-connectivity",
+              "type": "tag",
+              "attributes": {
+                "name": "Network Connectivity",
+                "keywords": null
+              }
+            },
+            {
+              "id": "customer-support",
+              "type": "tag",
+              "attributes": {
+                "name": "Customer Support",
+                "keywords": "Customer Support Automation, Customer Support Platforms, Customer Support Tools, Multichannel Support"
               }
             }
           ]
         },
         "company": {
           "data": {
-            "id": "rankmi",
+            "id": "mediastream--2",
             "type": "company",
             "attributes": {
-              "name": "Rankmi",
-              "description": "Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. Todo rediseñado y potenciado con Inteligencia Artificial. ",
-              "long_description": "<p>Rankmi es la plataforma para automatizar todos los procesos de Gestión de Personas en un solo lugar, permitiendo que las empresas y sus líderes se enfoquen en construir culturas organizacionales centradas en las personas. </p>",
-              "projects": "<p>Somos la plataforma que unifica en un solo lugar todos los procesos de Gestión de Personas —desde la Nómina, Talento, Beneficios hasta la Comunicación —. <strong>Todo rediseñado y potenciado con Inteligencia Artificial.&nbsp;<br></strong><br></p><p><strong>Misión del cargo</strong></p><ul><li>Serás responsable de liderar y desarrollar las operaciones comerciales de Rankmi en Chile, asegurando el crecimiento sostenido del negocio, la satisfacción del cliente y el cumplimiento de los objetivos estratégicos de la compañía, junto a un equipo de clase mundial!</li></ul>",
-              "benefits": "<p>Sabemos que el alto desempeño requiere de un gran balance. Por eso, diseñamos una propuesta de valor que cuida de ti y de los tuyos:</p><ul><li>🤸<strong> Work-Life Balance</strong>: Modelo de trabajo híbrido, flexibilidad horaria (aquí confiamos en tu responsabilidad), días de vacaciones adicionales para desconectarte y día libre por mudanza.</li><li>💖 <strong>We Care</strong>: Medio día libre en tu cumpleaños, en el de tus hij@s o cónyuge. Postnatal adicional para papás. Bono por matrimonio/unión civil, nacimiento y programa de referidos. Además, sabemos que tus mascotas también son familia, por eso te damos un día libre en caso de su partida.</li><li>✨<strong> Rankmi Vibes</strong>: Olvídate de los trajes corporativos, tenemos un dress code relajado, ambiente multicultural y trabajamos con metodologías ágiles en equipos multidisciplinarios.</li></ul><p>Si eres un eterno aprendiz, te mueve el dinamismo y quieres desafiar el statu quo del HR Tech, ¡queremos conocerte! 🚀</p>",
-              "web": "https://www.rankmi.com",
-              "twitter": "rankmioficial",
+              "name": "Mediastream",
+              "description": "Más de 18 años liderando la tecnología streaming, trabajando con grandes empresas y broadcasters en todo el mundo.\n",
+              "long_description": "<p>Somos un <strong>equipo profesional</strong> dedicado a crear una experiencia extraordinaria en la visualización del contenido audiovisual de nuestros clientes, por eso desarrollamos nuestras propias herramientas para satisfacer las necesidades de la audiencia digital de hoy.</p><p>Ofrecemos una <strong>solución end-to-end</strong> donde nuestro valor agregado es el acompañamiento que le brindamos a los clientes. Creemos en ellos desde su primera necesidad de gestionar y transmitir el contenido, adaptamos nuestros productos a medida y entregamos soluciones para conocer cómo se comporta el público mientras consume el contenido.Por eso, contamos con el mejor servicio personalizado y <strong>soporte 24/7 para cada necesidad</strong>.</p>",
+              "projects": "<div><strong>Mediastream</strong> es una empresa con más de 12 años liderando la tecnología de streaming, trabajando con grandes empresas y broadcasters a nivel mundial. Nuestro equipo profesional crea una experiencia extraordinaria en la visualización de contenido audiovisual y desarrollamos herramientas propias para satisfacer las necesidades de la audiencia digital actual. Ofrecemos una solución end-to-end, con un acompañamiento cercano a los clientes y un servicio personalizado 24/7. En Mediastream, gestionamos proyectos SaaS orientados a transformar la captación, distribución y análisis del contenido de nuestros clientes, con un enfoque en soluciones para organizaciones que demandan alta disponibilidad, escalabilidad y rendimiento en entornos de streaming.</div>",
+              "benefits": "<p>En Mediastream ofrecemos un entorno laboral dinámico y colaborativo que fomenta la innovación constante y el crecimiento profesional continuo. Promovemos una cultura inclusiva basada en el apoyo mutuo y el desarrollo tanto personal como profesional. Contamos con amplias oportunidades de capacitación en tecnologías de vanguardia y trabajamos en conjunto con un equipo de alto nivel para enfrentar desafíos relevantes dentro de la industria del streaming y distribución audiovisual.<br><br></p>",
+              "web": "http://mediastre.am",
+              "twitter": "mediastream",
               "github": "",
-              "facebook": "rankmioficial",
-              "angellist": "rankmi",
+              "facebook": "",
+              "angellist": "",
               "country": "CL",
               "response_time_in_days": {
-                "min": 8,
-                "max": 20
+                "min": 7,
+                "max": 19
               },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1339/rankmi-color-original-icon.png"
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1436/Avatar_MS___1_2x.png"
             }
           }
         }
       },
       "links": {
-        "public_url": "https://www.getonbrd.com/jobs/full-stack-developer-react-ror-rankmi-ciudad-de-mexico-santiago-lima-58b2"
+        "public_url": "https://www.getonbrd.com/jobs/it-support-engineer-mediastream-bogota-2539"
+      }
+    },
+    {
+      "id": "data-engineer-senior-grupo-mariposa-remote-a1d5",
+      "type": "job",
+      "attributes": {
+        "title": "Data Engineer Senior",
+        "description_headline": "Requerimientos del cargo",
+        "description": "<ul><li>3-5 años de experiencia en <strong>Data Engineering</strong> o Ingeniería de Software con manejo de grandes volúmenes de datos.</li><li>Experiencia trabajando con <strong>Azure Databricks</strong>.</li><li>Experiencia en procesos de <strong>extracción, transformación, carga e integración de datos</strong>.</li><li>Conocimientos de <strong>arquitectura de datos, infraestructura y computación en la nube</strong>, preferiblemente Azure.</li><li>Experiencia aplicando <strong>buenas prácticas de desarrollo e integración continua</strong>.</li></ul>",
+        "projects": "<p><strong>Global Mobility Apex, S.A.</strong> es una corporación multinacional de bebidas y alimentos fundada en 1885, con presencia en más de 14 países y más de 15,000 colaboradores. Nuestro portafolio de bebidas es el más amplio de la región, con socios estratégicos como PepsiCo y AB InBev. En los últimos años hemos impulsado una expansión global, estructurándonos en cuatro unidades de negocio: apex (transformación), cbc (distribución), beliv (innovación en bebidas) y bia (alimentos). Buscamos talentos para acompañar nuestra estrategia de crecimiento y liderar iniciativas tecnológicas que soporten nuestra misión de entregar valor y alegría a nuestros clientes y comunidades.</p>",
+        "functions_headline": "Funciones del cargo",
+        "functions": "<p><strong>Diseño y optimización de soluciones de datos:</strong> Diseñar, construir y optimizar soluciones de datos de extremo a extremo sobre <strong>Azure Databricks</strong>, asegurando rendimiento, confiabilidad, seguridad y eficiencia en costos.</p><p><strong>Procesamiento de datos:</strong> Coordinar el funcionamiento de los diferentes entornos donde se ejecutan los procesos de procesamiento de datos, asegurando su correcta operación.</p><p><strong>ETL e integración de datos:</strong> Extraer, transformar y cargar datos de acuerdo con las necesidades del negocio, desarrollando integraciones eficientes que permitan realizar la ingesta de la información requerida.</p><p><strong>Integración continua:</strong> Generar flujos de integración continua que permitan validar de forma eficaz los desarrollos y procesos implementados.</p><p><strong>Mentoría:</strong> Mentorizar a ingenieros junior, promoviendo buenas prácticas de desarrollo y soluciones escalables.</p><p><strong>Mejora continua:</strong> Proponer e implementar mejoras tecnológicas que permitan optimizar los flujos y soluciones de datos.</p><h3><h3><strong>Principales retos</strong><br></h3></h3><ul><li>Diseñar y mantener estructuras de datos eficientes, escalables e intuitivas.</li><li>Mantener buenas prácticas de código en el desarrollo de soluciones.</li><li>Procesar volúmenes de datos en crecimiento sin incrementar de forma descontrolada los costos en la nube.</li><li>Implementar mecanismos de <strong>data quality</strong> sin afectar la velocidad de procesamiento.</li></ul>",
+        "benefits_headline": "Condiciones",
+        "benefits": "<ul><li>Ambiente de trabajo colaborativo y dinámico.</li><li>Desarrollo profesional continuo y oportunidades de crecimiento.</li><li>Flexibilidad de horarios y equilibrio entre vida laboral y personal.</li></ul>",
+        "desirable_headline": "Deseables",
+        "desirable": "<ul><li>Postgrado o especialización en Ingeniería de Datos, Big Data o Arquitectura Cloud.</li><li>Experiencia específica trabajando con servicios y arquitectura sobre <strong>Microsoft Azure</strong>.</li></ul>",
+        "remote": true,
+        "remote_modality": "fully_remote",
+        "remote_zone": null,
+        "countries": ["Remote"],
+        "lang": "es",
+        "rejected_reasons": [],
+        "category_name": "Data Science / Analytics",
+        "perks": ["remote_full", "flexible_hours", "health_coverage"],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791248527,
+        "response_time_in_days": {
+          "min": 25,
+          "max": 35
+        },
+        "applications_count": 35,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": []
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "4",
+            "type": "seniority",
+            "attributes": {
+              "name": "Senior",
+              "locale_key": "senior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "data-quality",
+              "type": "tag",
+              "attributes": {
+                "name": "Data Quality",
+                "keywords": "Data Quality Analysis, Data Quality Assessment, Data Quality Assurance, Data Quality Audit, Data Quality Checks, Data Quality Control, Data Quality Improvement, Data Quality Management, Data Quality Monitoring, Data Quality Testing"
+              }
+            },
+            {
+              "id": "azure-databricks",
+              "type": "tag",
+              "attributes": {
+                "name": "Azure Databricks",
+                "keywords": null
+              }
+            },
+            {
+              "id": "data-engineering",
+              "type": "tag",
+              "attributes": {
+                "name": "Data Engineering",
+                "keywords": "Data Engineering Tools"
+              }
+            },
+            {
+              "id": "etl",
+              "type": "tag",
+              "attributes": {
+                "name": "ETL",
+                "keywords": "ETL Automation, ETL Development, ETL DataStage, ETL PowerCenter, ETL Design, ETL/ELT Automation, ETL/ELT, ETL Platforms, ETL SSIS, ETLs, ETL Tools, ETL Frameworks, ETL Pipelines, ETL Programming, ETL Mapping, ETL Processing, Extract Transform Load"
+              }
+            },
+            {
+              "id": "data-integration",
+              "type": "tag",
+              "attributes": {
+                "name": "Data Integration",
+                "keywords": "Data Integration Software, Data Integration Tools, Data Integrations, Database Integration, Database Integrations"
+              }
+            },
+            {
+              "id": "cloud-computing",
+              "type": "tag",
+              "attributes": {
+                "name": "Cloud Computing",
+                "keywords": "Azure, Heroku, Google App Engine, Linode, Openstack, GCP, AWS, Amazon Web Services, Huawei cloud, Dynatrace, Google Cloud Platform, DigitalOcean, Cloud Computing Platforms, Cloud Technologies, Cloud Technology"
+              }
+            },
+            {
+              "id": "data-architecture",
+              "type": "tag",
+              "attributes": {
+                "name": "Data Architecture",
+                "keywords": "Arquitectura de datos, Lambda, KAPPA, Cloudera, Kafka, Data Architectures, Database Modelling, Database Models, Database Modeling, Database Analysis, Data Analysis Tools, Database Analytics, Database Architecture"
+              }
+            },
+            {
+              "id": "continuous-integration",
+              "type": "tag",
+              "attributes": {
+                "name": "Continuous Integration",
+                "keywords": "Travis CI, Jenkins, PhantomJS, xCode Service, Integración Continua, Continuous QA Learning, Continuous Testing"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "grupo-mariposa",
+            "type": "company",
+            "attributes": {
+              "name": "Grupo Mariposa",
+              "description": "Somos una corporación multinacional de bebidas y alimentos fundada en 1885 con operaciones en más 14 países, con más de 15,000 colaboradores.",
+              "long_description": "<p>Somos una corporación multinacional de bebidas y alimentos fundada en 1885 con operaciones en más 14 países, con más de 15,000 colaboradores. Tenemos el portafolio de bebidas más grande de la región, y contamos con socios estratégicos como PepsiCo y AB InBev. El último año hemos tenido una expansión a nivel global que nos ha llevado a dividirnos en 4 unidades de negocio: apex (transformación), cbc (distribución), beliv (innovación en bebidas) y bia (alimentos); y como parte de nuestra estrategia dinámica de expansión y crecimiento requerimos talentos para unirse a nuestra corporación.</p><p>Queremos que el mejor talento del mundo sea parte de nuestros sueños. Queremos que trabajando con nosotros compartas nuestros anhelos, los hagas tuyos y logres lo que tú también deseas. ¿Te interesa?</p><p><strong>Busca la oportunidad perfecta para ti y acompáñanos a llevar alegría y desarrollo cada vez más lejos.</strong></p>",
+              "projects": "<p><strong>Sobre la empresa<br></strong><br></p><p>Grupo Mariposa es una corporación multinacional de bebidas y alimentos, fundada en 1885, con operaciones en más de 14 países y más de 15,000 colaboradores. Contamos con el portafolio de bebidas más grande de la región y alianzas estratégicas con PepsiCo y AB InBev. Nos organizamos en 4 unidades de negocio: apex (transformación), cbc (distribución), beliv (innovación en bebidas) y bia (alimentos). Buscamos talentos que se sumen a nuestra estrategia de expansión y crecimiento, compartiendo nuestros anhelos y aportando su visión para lograr grandes resultados.</p><p>Buscamos el \"Data Engineering Lead\" que lidere la plataforma de datos corporativa en un entorno multi-cloud, con foco en Azure y soporte en Google Cloud Platform (GCP). Este rol define, lidera y escala la estrategia de ingeniería de datos para la región, garantizando una plataforma robusta, gobernada y escalable para analítica avanzada, BI y productos digitales en múltiples países.</p>",
+              "benefits": "<ul><li>Ambiente de trabajo colaborativo y dinámico.</li><li>Desarrollo profesional continuo y oportunidades de crecimiento.</li><li>Flexibilidad de horarios y equilibrio entre vida laboral y personal.</li></ul>",
+              "web": "https://grupomariposa.com/",
+              "twitter": "",
+              "github": "ApexDigitalM5/dashboard",
+              "facebook": "",
+              "angellist": "",
+              "country": "GT",
+              "response_time_in_days": {
+                "min": 0,
+                "max": 12
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/12414/logo_grupo_mariposa.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/data-engineer-senior-grupo-mariposa-remote-a1d5"
       }
     },
     {
@@ -557,7 +1170,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 6,
+        "applications_count": 13,
         "location_regions": {
           "data": []
         },
@@ -728,7 +1341,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 18,
+        "applications_count": 34,
         "location_regions": {
           "data": []
         },
@@ -847,7 +1460,7 @@
           "min": 10,
           "max": 26
         },
-        "applications_count": 82,
+        "applications_count": 89,
         "location_regions": {
           "data": []
         },
@@ -1151,7 +1764,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 41,
+        "applications_count": 52,
         "location_regions": {
           "data": []
         },
@@ -1313,7 +1926,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 25,
+        "applications_count": 32,
         "location_regions": {
           "data": []
         },
@@ -1462,7 +2075,7 @@
           "min": 5,
           "max": 9
         },
-        "applications_count": 30,
+        "applications_count": 35,
         "location_regions": {
           "data": []
         },
@@ -1635,7 +2248,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 17,
+        "applications_count": 18,
         "location_regions": {
           "data": []
         },
@@ -1780,139 +2393,6 @@
       }
     },
     {
-      "id": "operador-de-monitoreo-mediastream-bogota-9f68",
-      "type": "job",
-      "attributes": {
-        "title": "Operador de Monitoreo",
-        "description_headline": "Descripción",
-        "description": "<div>El rol de Operador de Monitoreo tiene como misión garantizar la disponibilidad y correcto funcionamiento del frontend OTT en múltiples dispositivos. Será responsable del monitoreo continuo de la plataforma, validación de playback en Live y VOD, detección temprana de incidentes, gestión y priorización de tickets, y coordinación con equipos internos para asegurar el cumplimiento de los SLA definidos con el cliente. </div><div>Requisitos: Formación en Ingeniería de Sistemas, Telecomunicaciones o carreras afines (también se considerarán técnicos o tecnólogos con experiencia). Experiencia mínima de 1 año. </div>",
-        "projects": "<div>En Mediastream ofrecemos una solución end-to-end para la gestión y distribución de contenidos audiovisuales. Nuestro equipo se dedica a garantizar la disponibilidad, estabilidad y escalabilidad de plataformas OTT para grandes emisoras y clientes globales. Como Operador de Monitoreo 24/7 – Frontend OTT, formarás parte de un equipo técnico de alto rendimiento que trabaja para asegurar una experiencia de usuario fluida, segura y confiable en múltiples dispositivos, mediante monitoreo continuo, detección temprana de incidentes y coordinación con Desarrollo, Sistemas y Backend. Participarás en iniciativas de mejora continua del modelo de monitoreo y operación, y colaborarás en la generación de reportes para la gestión de SLA con clientes.</div>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<ul><li>Ejecutar monitoreo continuo del frontend OTT en distintos dispositivos para garantizar disponibilidad y rendimiento.</li><li>Validar la reproducción de contenidos Live y VOD; verificar el journey completo del usuario (login, navegación, inicio de reproducción).</li><li>Detectar incidentes operativos de manera proactiva y gestionar tickets con priorización según severidad.</li><li>Escalar oportunamente a Desarrollo o Sistemas y realizar seguimiento hasta la resolución y validación de cierre.</li><li>Documentar incidentes y soluciones para análisis posterior; apoyar en la generación de reportes diarios, semanales y mensuales.</li><li>Identificar tendencias de fallas recurrentes y validar dashboards operativos (Crashlytics, autenticación, middleware).</li><li>Coordinar con el equipo de Soporte para cobertura 24/7 y participar en mejoras continuas del modelo de monitoreo y operación.</li><li>Monitorear entornos en iOS, Android, Android TV, Samsung Tizen, LG webOS, Hisense Roku Web y navegadores móviles/desktop.</li></ul>",
-        "benefits_headline": "Beneficios",
-        "benefits": "<div>En Mediastream ofrecemos un entorno laboral dinámico y colaborativo que fomenta la innovación y el crecimiento profesional. Promovemos una cultura inclusiva con apoyo mutuo y desarrollo personal y profesional. Contamos con amplias oportunidades de capacitación en tecnologías de vanguardia y trabajamos junto a un equipo de alto nivel para enfrentar los retos de la industria del streaming y distribución audiovisual. Beneficios: formación continua, oportunidades de crecimiento, trabajo en equipo, y un entorno estable para desarrollar tu carrera en tecnologías de streaming de punta.</div>",
-        "desirable_headline": "Requisitos deseables",
-        "desirable": "<div>Experiencia adicional en herramientas de monitoreo y dashboards, familiaridad con entornos de streaming en dispositivos de televisores inteligentes, y capacidad para colaborar de forma proactiva en proyectos de optimización de rendimiento y experiencia de usuario en plataformas OTT.</div>",
-        "remote": false,
-        "remote_modality": "no_remote",
-        "remote_zone": null,
-        "countries": ["Colombia"],
-        "lang": "lang_not_specified",
-        "rejected_reasons": [],
-        "category_name": "SysAdmin / DevOps / QA",
-        "perks": [],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1790700770,
-        "response_time_in_days": {
-          "min": 16,
-          "max": 30
-        },
-        "applications_count": 31,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": [
-            {
-              "id": 183,
-              "type": "location_city"
-            }
-          ]
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "2",
-            "type": "seniority",
-            "attributes": {
-              "name": "Junior",
-              "locale_key": "junior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "mobile-platforms",
-              "type": "tag",
-              "attributes": {
-                "name": "Mobile Platforms",
-                "keywords": null
-              }
-            },
-            {
-              "id": "incident-management",
-              "type": "tag",
-              "attributes": {
-                "name": "Incident Management",
-                "keywords": null
-              }
-            },
-            {
-              "id": "sla-management",
-              "type": "tag",
-              "attributes": {
-                "name": "SLA Management",
-                "keywords": null
-              }
-            },
-            {
-              "id": "playback-validation",
-              "type": "tag",
-              "attributes": {
-                "name": "Playback Validation",
-                "keywords": null
-              }
-            },
-            {
-              "id": "crashlytics",
-              "type": "tag",
-              "attributes": {
-                "name": "Crashlytics",
-                "keywords": null
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "mediastream--2",
-            "type": "company",
-            "attributes": {
-              "name": "Mediastream",
-              "description": "Más de 18 años liderando la tecnología streaming, trabajando con grandes empresas y broadcasters en todo el mundo.\n",
-              "long_description": "<p>Somos un <strong>equipo profesional</strong> dedicado a crear una experiencia extraordinaria en la visualización del contenido audiovisual de nuestros clientes, por eso desarrollamos nuestras propias herramientas para satisfacer las necesidades de la audiencia digital de hoy.</p><p>Ofrecemos una <strong>solución end-to-end</strong> donde nuestro valor agregado es el acompañamiento que le brindamos a los clientes. Creemos en ellos desde su primera necesidad de gestionar y transmitir el contenido, adaptamos nuestros productos a medida y entregamos soluciones para conocer cómo se comporta el público mientras consume el contenido.Por eso, contamos con el mejor servicio personalizado y <strong>soporte 24/7 para cada necesidad</strong>.</p>",
-              "projects": "<div><strong>Mediastream</strong> es una empresa con más de 12 años liderando la tecnología de streaming, trabajando con grandes empresas y broadcasters a nivel mundial. Nuestro equipo profesional crea una experiencia extraordinaria en la visualización de contenido audiovisual y desarrollamos herramientas propias para satisfacer las necesidades de la audiencia digital actual. Ofrecemos una solución end-to-end, con un acompañamiento cercano a los clientes y un servicio personalizado 24/7. En Mediastream, gestionamos proyectos SaaS orientados a transformar la captación, distribución y análisis del contenido de nuestros clientes, con un enfoque en soluciones para organizaciones que demandan alta disponibilidad, escalabilidad y rendimiento en entornos de streaming.</div>",
-              "benefits": "<p>En Mediastream ofrecemos un entorno laboral dinámico y colaborativo que fomenta la innovación constante y el crecimiento profesional continuo. Promovemos una cultura inclusiva basada en el apoyo mutuo y el desarrollo tanto personal como profesional. Contamos con amplias oportunidades de capacitación en tecnologías de vanguardia y trabajamos en conjunto con un equipo de alto nivel para enfrentar desafíos relevantes dentro de la industria del streaming y distribución audiovisual.<br><br></p>",
-              "web": "http://mediastre.am",
-              "twitter": "mediastream",
-              "github": "",
-              "facebook": "",
-              "angellist": "",
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 5,
-                "max": 17
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/1436/Avatar_MS___1_2x.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/operador-de-monitoreo-mediastream-bogota-9f68"
-      }
-    },
-    {
       "id": "ejecutivo-de-operaciones-sendu-remote",
       "type": "job",
       "attributes": {
@@ -1941,7 +2421,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 171,
+        "applications_count": 196,
         "location_regions": {
           "data": []
         },
@@ -2093,7 +2573,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 35,
+        "applications_count": 39,
         "location_regions": {
           "data": []
         },
@@ -2250,7 +2730,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 133,
+        "applications_count": 139,
         "location_regions": {
           "data": []
         },
@@ -2358,8 +2838,8 @@
               "angellist": "",
               "country": "CL",
               "response_time_in_days": {
-                "min": 6,
-                "max": 20
+                "min": 7,
+                "max": 21
               },
               "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/7178/bice_vida_logo.jpeg"
             }
@@ -2406,7 +2886,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 117,
+        "applications_count": 140,
         "location_regions": {
           "data": []
         },
@@ -2555,7 +3035,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 214,
+        "applications_count": 220,
         "location_regions": {
           "data": []
         },
@@ -2696,7 +3176,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 32,
+        "applications_count": 33,
         "location_regions": {
           "data": []
         },
@@ -2861,7 +3341,7 @@
           "min": null,
           "max": null
         },
-        "applications_count": 249,
+        "applications_count": 272,
         "location_regions": {
           "data": []
         },
@@ -2993,35 +3473,35 @@
       }
     },
     {
-      "id": "practicante-area-pos-agendapro-santiago",
+      "id": "practicante-de-recursos-humanos-lovandi-sac-lima",
       "type": "job",
       "attributes": {
-        "title": "Practicante área POS",
-        "description_headline": "Requerimientos",
-        "description": "<div>Estudiante en práctica de cualquier carrera (Administración, Ingeniería Comercial, Ingeniería Industrial, Ingeniería en Informática u otras afines son un plus, pero no excluyente). Orden y capacidad de síntesis: te gusta ordenar información, simplificar procesos y dejar las cosas documentadas de forma clara. Buena comunicación escrita: sabes redactar de forma clara y directa; escribir procedimientos y guías te resulta natural (o te motiva aprender a hacerlo bien). Herramientas: manejo básico de herramientas de oficina (Excel/Sheets, documentos, presentaciones); no se requiere experiencia previa con dashboards o CRM, pero sí ganas de aprender a usarlos. Proactividad y autonomía: te mueves bien conversando con distintos interlocutores (ejecutivos de onboarding, clientes, otras áreas) y tomas la iniciativa sin esperar que te digan cada paso.</div>",
-        "projects": "<div>Practicante Área POS — Onboarding &amp; Customer Success Payments</div><div>📍 Presencial — base en Santiago, metro Los Leones</div><div>Buscamos un(a) estudiante en práctica con ganas de aprender cómo funciona el negocio de POS de AgendaPro por dentro: cómo se activa un comercio, cómo se implementa y qué hace que un cliente realmente adopte el producto. Trabajarás codo a codo con la líder del área, construyendo la base de conocimiento del proceso de onboarding y customer success POS en Chile, y apoyando directamente a los ejecutivos en su día a día.</div>",
-        "functions_headline": "Practicante Onboarding & Customer Success Payments",
-        "functions": "<div>Convertir el conocimiento que hoy vive en la cabeza del equipo (y disperso en planillas, chats y tickets) en una base de conocimiento clara, ordenada y fácil de usar — y, al mismo tiempo, ser un aporte concreto para que los ejecutivos puedan enfocarse en lo que más valor genera: estar con los comercios.</div><div><strong>Qué harás / Responsabilidades</strong></div><div>Mapear y documentar: levantar en detalle partes del proceso de onboarding y customer success POS: seguimientos y reactivaciones. Construir la base de conocimiento para IA: diseñar y mantener al día un repositorio (wiki/carpeta compartida) con procedimientos, guías paso a paso, preguntas frecuentes y casos de escalamiento, orientado a clientes, ya que será consumido por una IA para el bot. Levantar información desde el equipo: detectar casos repetitivos y proponer cómo estandarizar la forma de resolverlos. Apoyar la operación diaria: actualizar dashboards y planillas de seguimiento, apoyar la coordinación de agendas y envíos de equipos a regiones, y colaborar en la puesta en marcha de comercios cuando se necesite. Aportar con datos: colaborar en el análisis de datos de activación y uso del POS (cohortes, comercios sin activar, motivos de no uso) para identificar oportunidades de mejora en el proceso. Crear material de capacitación: ayudar a preparar material de capacitación para comercios y sumarlo a la academia pública. Sumarte a reuniones del equipo: participar de weeklys y dailys, tomar notas y dar seguimiento a los compromisos que queden pendientes.</div>",
-        "benefits_headline": "Condiciones",
-        "benefits": "<div>Práctica profesional, remuneración y duración a convenir según los requisitos de tu institución (idealmente 6 meses). Base en Santiago, con posibilidad de ir a terreno en algunas instancias. Trabajo directo y cercano con la líder del área: acompañamiento, feedback continuo y visibilidad real del negocio de POS.</div>",
-        "desirable_headline": "Suma puntos",
-        "desirable": "<div>Experiencia o interés en atención al cliente, procesos, operaciones o mejora continua. Conocimientos básicos de herramientas de dashboard, CRM o gestión de tickets. Afinidad tecnológica y de IA.</div>",
+        "title": "Practicante de Recursos Humanos",
+        "description_headline": "Requisitos y perfil",
+        "description": "<p>Buscamos un(a) practicante con interés real en Recursos Humanos y un enfoque metódico para apoyar procesos clave. Ser estudiante o egresado(a) de <strong>Psicología</strong>, <strong>Recursos Humanos</strong>, <strong>Administración</strong> o carreras afines. Valoramos mucho la <strong>buena comunicación</strong> y la <strong>organización</strong>, ya que trabajará coordinando entrevistas y dando seguimiento a postulantes.</p><p>Se requiere <strong>manejo de Excel</strong> y <strong>Google Drive</strong> para organizar información, registrar avances y mantener documentos al día. También buscamos una persona <strong>proactiva</strong>, <strong>responsable</strong> y con <strong>ganas de aprender</strong>, capaz de seguir lineamientos y proponer mejoras sencillas cuando identifique oportunidades de orden y eficiencia.</p><p><strong>Deseable</strong>: experiencia previa en reclutamiento o apoyo administrativo (prácticas, voluntariados o trabajos afines). Si no cuentas con experiencia, tu actitud y capacidad de aprendizaje son lo más importante para nosotros.</p>",
+        "projects": "En LOVANDI Joyería buscamos un(a) Practicante de Recursos Humanos que apoye al equipo en los procesos diarios de gestión de talento, asegurando orden, seguimiento y comunicación interna efectiva. La persona acompañará reclutamiento y selección brindando soporte operativo desde la publicación/recepción de postulaciones hasta la coordinación de entrevistas. Además, contribuirá con tareas administrativas clave del área como control de asistencia y horarios, organización y custodia de documentación del personal, y apoyo en comunicados internos. También participará en iniciativas de bienestar, fortaleciendo una experiencia positiva para nuestros colaboradores.",
+        "functions_headline": "Funciones del rol",
+        "functions": "<ul><li>Apoyar en los procesos de reclutamiento y selección: recepción de postulantes, registro y seguimiento.</li><li>Coordinar entrevistas y mantener la comunicación con candidatos(as) durante el proceso.</li><li>Realizar seguimiento a postulantes (estado de avance y próximas acciones), asegurando actualización oportuna.</li><li>Apoyar el control de asistencia y horarios, verificando información y reportes según corresponda.</li><li>Organizar y mantener documentación del personal de manera ordenada y actualizada.</li><li>Contribuir con la preparación y difusión de comunicados internos.</li><li>Apoyar en la logística y ejecución de actividades de bienestar del equipo.</li><li>Gestionar tareas del día a día del área con proactividad, orden y atención al detalle.</li></ul>",
+        "benefits_headline": "Beneficios y modalidad",
+        "benefits": "<p>Trabajamos en <strong>modalidad presencial en Lima</strong>, con acompañamiento para que puedas desarrollar habilidades prácticas en el área de Recursos Humanos. Tendrás la oportunidad de participar en procesos reales de reclutamiento y selección, organizar documentación del personal, apoyar comunicados internos y colaborar en <strong>actividades de bienestar</strong>. Buscamos que tu práctica sea formativa, con trabajo ordenado, metas claras y aprendizaje continuo.</p>",
+        "desirable_headline": "Deseable",
+        "desirable": "<ul><li>Experiencia previa en reclutamiento o funciones administrativas relacionadas.</li><li>Conocimiento básico de procesos de selección (filtros, coordinación y seguimiento).</li><li>Experiencia utilizando hojas de cálculo y carpetas compartidas en Google Drive para control documental.</li></ul>",
         "remote": false,
-        "remote_modality": "hybrid",
+        "remote_modality": "no_remote",
         "remote_zone": null,
-        "countries": ["Chile"],
-        "lang": "lang_not_specified",
+        "countries": ["Peru"],
+        "lang": "es",
         "rejected_reasons": [],
-        "category_name": "Customer Support",
-        "perks": ["flexible_hours", "computer_provided", "informal_dresscode", "beverages_and_snacks"],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1790077944,
+        "category_name": "People & HR",
+        "perks": ["computer_provided", "informal_dresscode"],
+        "min_salary": 1000,
+        "max_salary": 1300,
+        "published_at": 1791392911,
         "response_time_in_days": {
           "min": null,
           "max": null
         },
-        "applications_count": 23,
+        "applications_count": 0,
         "location_regions": {
           "data": []
         },
@@ -3031,7 +3511,7 @@
         "location_cities": {
           "data": [
             {
-              "id": 1,
+              "id": 130,
               "type": "location_city"
             }
           ]
@@ -3055,27 +3535,27 @@
         "tags": {
           "data": [
             {
-              "id": "process-documentation",
+              "id": "human-resources",
               "type": "tag",
               "attributes": {
-                "name": "Process Documentation",
-                "keywords": "Procedure Manuals, Procedural Documentation, Procedures Documentation, Procedure Documentation"
+                "name": "Human Resources",
+                "keywords": null
               }
             },
             {
-              "id": "knowledge-management",
+              "id": "recruitment",
               "type": "tag",
               "attributes": {
-                "name": "Knowledge Management",
-                "keywords": "Knowledge Management Systems"
+                "name": "Recruitment",
+                "keywords": "Recruiting Methods, Recruiting, Recruitment Process"
               }
             },
             {
-              "id": "process-mapping",
+              "id": "interview-coordination",
               "type": "tag",
               "attributes": {
-                "name": "Process Mapping",
-                "keywords": "Process Modeling Tools, Problem Modeling, Process Modeling, Process Structuring"
+                "name": "Interview Coordination",
+                "keywords": null
               }
             },
             {
@@ -3087,34 +3567,18 @@
               }
             },
             {
-              "id": "google-sheets",
+              "id": "google-drive",
               "type": "tag",
               "attributes": {
-                "name": "Google Sheets",
-                "keywords": "Google Sheet, Google Spreadsheet, Google Spreadsheets, Google Spreadsheet API, Google Script, Google Scripts"
+                "name": "Google Drive",
+                "keywords": "Google Docs Editors, Google Docs API, Google Docs"
               }
             },
             {
-              "id": "data-analysis",
+              "id": "internal-communications",
               "type": "tag",
               "attributes": {
-                "name": "Data Analysis",
-                "keywords": "Data Mining, Data Analytics, Data Analyst, Reporting Analyst, Business Intelligence, BI, Análisis de datos, Analista de datos"
-              }
-            },
-            {
-              "id": "written-communication",
-              "type": "tag",
-              "attributes": {
-                "name": "Written Communication",
-                "keywords": "Written Advocacy, Written English"
-              }
-            },
-            {
-              "id": "operations-support",
-              "type": "tag",
-              "attributes": {
-                "name": "Operations Support",
+                "name": "Internal Communications",
                 "keywords": null
               }
             }
@@ -3122,567 +3586,63 @@
         },
         "company": {
           "data": {
-            "id": "agendapro",
+            "id": "lovandi-sac",
             "type": "company",
             "attributes": {
-              "name": "AgendaPro",
-              "description": "Ayudamos a dueños de negocios a cobrar a sus clientes online y aceptar reservas fácilmente ",
-              "long_description": "<p>AgendaPro permite a dueños y administradores de Centros de Estética, Salud, Belleza y Deporte cobrar a sus clientes online, y aceptar reservas fácilmente. Somos una de las Startup tecnológicas de Y Combinator con mayor crecimiento en Latinoamérica: tenemos más de 15.000 clientes en más de 17 países dentro de los cuales está: Argentina, Chile, Colombia, México, Perú, y próximamente Brasil. </p><p>Nuestra misión es crear un “software todo-en-uno” simple e intuitivo, que permita a Centros de Salud, Belleza, y Bienestar conectar su negocio con el mundo digital, para que puedan enfocarse en lo más importante: sus clientes y hacer crecer su negocio. Esto a través de herramientas de marketing, gestión, pagos, y fidelización de clientes. </p><p>En AgendaPro resolvemos problemas desde la perspectiva de nuestros clientes a través de la tecnología. Las soluciones a estos problemas las construimos juntos en un entorno colaborativo, con equipos multidisciplinarios, 100% horizontales, donde se valora la voz de las ideas sobre todo lo demás. </p>",
-              "projects": "<div><strong>AgendaPro</strong> simplifica el día a día a dueños y administradores de Centros de Salud, Belleza y Deporte a través de un software de gestión todo-en-uno 💻 y soluciones POS 💰 (punto de ventas), el cual les permite enfocarse en lo más importante: sus clientes y hacer crecer su negocio.</div><div>Actualmente, tenemos más de 16.000 clientes en todo LATAM y Europa y somos parte de <strong>Y Combinator</strong>, una de las aceleradoras con más prestigio a nivel mundial. Reconocida por apoyar a empresas como Rappi, Stripe, Airbnb y Dropbox entre otras. Así que llegarás en el momento perfecto para colaborar con nuestras metas de crecimiento 🚀.</div><div>¿Preparado para crecer y enfrentar grandes desafíos con nosotros? 😎</div>",
-              "benefits": "<ul><li>El puesto es presencial en Santiago, Chile, contando con una oficina cómoda muy cercana al metro y con estacionamientos de bici</li><li>Incluimos stock options dependiendo de tu performance</li><li>Vacaciones sobre lo legal</li></ul>",
-              "web": "https://www.agendapro.com",
-              "twitter": "agendapro_cl",
-              "github": "",
-              "facebook": "agendapro",
-              "angellist": "",
-              "country": "US",
-              "response_time_in_days": {
-                "min": 1,
-                "max": 13
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/2696/Nuevo_logo_AgendaPro_cuadrado.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/practicante-area-pos-agendapro-santiago"
-      }
-    },
-    {
-      "id": "paid-media-talana-lima",
-      "type": "job",
-      "attributes": {
-        "title": "Paid Media",
-        "description_headline": "Requerimientos del cargo",
-        "description": "<p><strong>¿Qué buscamos?<br></strong></p><ul><li>Estudios en Marketing, Publicidad, Ingeniería Comercial, Administración o carreras afines.</li><li>Experiencia mínima de 1 año, idealmente 2, en marketing digital, performance o adquisición.</li><li>Persona analítica, curiosa, ordenada y con iniciativa para probar cosas nuevas.</li><li>Interés genuino por entender no solo cuántos leads llegan, sino qué canales realmente generan negocio.</li></ul>",
-        "projects": "<p>En Talana estamos en búsqueda de un/a <strong>Paid Media</strong> que tenga el rol de apoyar la generación de demanda y adquisición de nuevos clientes a través de canales digitales pagados, con foco principal en Google Search y Meta Ads, identificando además nuevas oportunidades y canales de conversión que permitan escalar resultados de manera eficiente.</p>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<p><strong>¿Cuáles serán tus funciones?<br></strong></p><ul><li>Gestión de Campañas: Crear, configurar y optimizar campañas de Google Ads Search y Meta Ads, orientadas a generación de leads, tráfico calificado y conversión.</li><li>Investigación y Segmentación: Realizar investigación continua de keywords, audiencias y oportunidades de segmentación.</li><li>Análisis de Performance: Monitorear presupuesto y métricas clave (CTR, CPC, CVR, CPL, CPA) y optimizar campañas, anuncios y distribución de presupuesto.</li><li>Exploración de Nuevos Canales: Diseñar pequeños experimentos para validar nuevos canales, audiencias y formatos (YouTube, LinkedIn Ads, remarketing, entre otros), y recomendar si deben escalarse, mantenerse en prueba o descartarse.</li><li>Trabajo Colaborativo: Coordinar con equipos de contenido, diseño, web y comercial para mejorar landings, activos de conversión y calidad de los leads.</li></ul>",
-        "benefits_headline": "Condiciones",
-        "benefits": "<ul><li>Seguro EPS</li><li>Early Friday todo el año</li><li>100% vestimenta flexible</li><li>Herramientas de trabajo</li></ul><p>Y mucho más!!!</p><p>\"Todas las contrataciones están sujetas a la ley 21015. En Talana creemos en lugares de trabajo inclusivos y diversos, donde todas las personas son bienvenidas\".</p>",
-        "desirable_headline": "Opcionales",
-        "desirable": "",
-        "remote": false,
-        "remote_modality": "hybrid",
-        "remote_zone": null,
-        "countries": ["Peru"],
-        "lang": "lang_not_specified",
-        "rejected_reasons": [],
-        "category_name": "Digital Marketing",
-        "perks": [],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1789997206,
-        "response_time_in_days": {
-          "min": null,
-          "max": null
-        },
-        "applications_count": 50,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": [
-            {
-              "id": 130,
-              "type": "location_city"
-            }
-          ]
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "2",
-            "type": "seniority",
-            "attributes": {
-              "name": "Junior",
-              "locale_key": "junior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "google-adwords",
-              "type": "tag",
-              "attributes": {
-                "name": "Google Ads",
-                "keywords": "Google AdWords, Adsense, Google Ads Manager, Google Ads Editor, Google Ads Display, Google Ads Search, Google Ads API, Google Ads Certification, Google Ads Design, Google Ads Video, AdWords"
-              }
-            },
-            {
-              "id": "facebook-ads",
-              "type": "tag",
-              "attributes": {
-                "name": "Meta Ads",
-                "keywords": "Facebook Ads, Meta Business, Meta BM, Meta Ads Manager"
-              }
-            },
-            {
-              "id": "campaign-optimization",
-              "type": "tag",
-              "attributes": {
-                "name": "Campaign Optimization",
-                "keywords": null
-              }
-            },
-            {
-              "id": "keyword-research",
-              "type": "tag",
-              "attributes": {
-                "name": "Keyword Research",
-                "keywords": "Keywords Research, KW Research, Keyword Planning, Keyword Planner, Keyword Selection"
-              }
-            },
-            {
-              "id": "audience-segmentation",
-              "type": "tag",
-              "attributes": {
-                "name": "Audience Segmentation",
-                "keywords": null
-              }
-            },
-            {
-              "id": "performance-marketing",
-              "type": "tag",
-              "attributes": {
-                "name": "Performance Marketing",
-                "keywords": "Perform. Marketing"
-              }
-            },
-            {
-              "id": "conversion-tracking",
-              "type": "tag",
-              "attributes": {
-                "name": "Conversion Tracking",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "budget-optimization",
-              "type": "tag",
-              "attributes": {
-                "name": "Budget Optimization",
-                "keywords": null
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "talana-linq",
-            "type": "company",
-            "attributes": {
-              "name": "Talana",
-              "description": "Talana es un partner en gestión de personas. Acompañamos y guiamos con un ecosistema de soluciones seguro, fácil y rápido, que centraliza todo en un sólo lugar. Gracias a nuestra experiencia y tecnología, simplificamos el día a día para que los colabora.",
-              "long_description": "",
-              "projects": "<div>En Talana, plataforma líder en la transformación de la gestión de Recursos Humanos a través de<br>tecnología, estamos en búsqueda de un/a <strong>System Reliability Engineer, </strong>que se una a nuestro equipo de tecnología.&nbsp;</div><div>Tu principal misión sería asegurar la confiabilidad, disponibilidad, rendimiento y escalabilidad de las plataformas y servicios de Talana. Ademas, ser el soporte continuo y desarrollar la gestión de proyectos pre-productivos y productivos a múltiples equipos dentro de la organización.</div>",
-              "benefits": "<ul><li>💸 Ajuste de renta por UF cada 3 meses, sin tope</li><li>🏝️ 5 Talana Days: te regalamos 5 días libres al año</li><li>🏡 Trabajo híbrido</li><li>🏥 Seguro complementario de salud y dental</li><li>💰 Aguinaldos fiestas patrias y Navidad</li><li>💻 Te pasamos todos los implementos de trabajo</li><li>😎 Dress Code 100% flexible</li><li>👨🏻‍🍼 Postnatal paternal extendido</li><li>🤩 Muchas sorpresas más!!</li></ul><div><br></div>",
-              "web": "https://talana.com",
-              "twitter": "",
-              "github": "",
-              "facebook": "",
-              "angellist": "",
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 15,
-                "max": 25
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/3712/Logo_Talana_23_-_oscuro__1_.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/paid-media-talana-lima"
-      }
-    },
-    {
-      "id": "sdr-para-llamadas-b2b-planazos-remote",
-      "type": "job",
-      "attributes": {
-        "title": "SDR para Llamadas B2B",
-        "description_headline": "Qué buscamos",
-        "description": "<ul><li>Experiencia en ventas por teléfono B2B (SDR, televentas o captación).</li><li>Español nativo o muy fluido, con buena dicción y trato cercano.</li><li>Valoramos acento de España.</li><li>Capacidad de gestionar objeciones y no rendirte tras el primer “no”.</li><li>Autonomía: trabajas por tu cuenta y reportas resultados cada semana.</li><li>Disponibilidad de horas en horario de oficina de España (L-V, mañanas y tardes).</li></ul><p>Buscamos a una persona comunicativa, persistente y orientada a resultados. Te tiene que gustar hablar con perfiles empresariales, mantener el ritmo de llamadas y mejorar continuamente tu discurso para convertir conversaciones en reuniones o altas.</p>",
-        "projects": "En Planazos somos un marketplace de entradas y experiencias de última hora en Madrid. Conectamos a organizadores de eventos con personas que buscan planes para hoy o para este fin de semana. Nuestro objetivo es seguir creciendo ampliando la oferta: cuantas más salas, teatros, talleres y experiencias se sumen, más fácil es que Planazos cubra la demanda real del momento. En este rol de SDR, ayudamos a alimentar el pipeline captando nuevos organizadores a través de llamadas B2B en España, para que puedan publicar su inventario en Planazos y vender lo que, de otro modo, quedaría sin vender.",
-        "functions_headline": "Qué harás",
-        "functions": "<ul><li>Llamar a organizadores de eventos, teatros, salas, talleres y experiencias en Madrid para presentar Planazos.</li><li>Explicar la propuesta: vender entradas que de otro modo quedarían sin vender, sin coste inicial para ellos.</li><li>Conseguir reuniones o demos con David, el fundador, o cerrar el alta directamente.</li><li>Registrar cada llamada y su resultado en un CRM o en una hoja compartida.</li></ul><p>Trabajarás con un guion de llamada, listas de contactos y material de apoyo desde el primer día, con foco en generar oportunidades y avanzar el proceso hasta el alta.</p>",
-        "benefits_headline": "Qué ofrecemos",
-        "benefits": "<ul><li>Compensación con fijo + comisión por cada organizador captado (por alta o porcentaje).</li><li>Trabajo 100% remoto.</li><li>Posibilidad de pasar a un puesto estable si funciona.</li><li>Guion, listas de contactos y material de apoyo desde el primer día.</li></ul><p>Si te motiva el reto de captar organizadores por teléfono y te gusta medir y mejorar tus resultados, únete a Planazos y ayúdanos a llenar nuestra oferta de planes para hoy y este fin de semana.</p>",
-        "desirable_headline": "Qué ofrecemos",
-        "desirable": "<ul><li>Trabajo 100% remoto.</li><li>Guion de llamada, listas de contactos y material de apoyo desde el primer día.</li><li>Posibilidad de pasar a un puesto estable si funciona.</li><li>Foco en captación B2B para ampliar rápidamente la oferta de Planazos.</li></ul>",
-        "remote": true,
-        "remote_modality": "fully_remote",
-        "remote_zone": null,
-        "countries": ["Remote"],
-        "lang": "es",
-        "rejected_reasons": [],
-        "category_name": "Sales",
-        "perks": ["remote_full", "flexible_hours"],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1791211809,
-        "response_time_in_days": {
-          "min": null,
-          "max": null
-        },
-        "applications_count": 21,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": []
-        },
-        "modality": {
-          "data": {
-            "id": 3,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "2",
-            "type": "seniority",
-            "attributes": {
-              "name": "Junior",
-              "locale_key": "junior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "b2b-sales",
-              "type": "tag",
-              "attributes": {
-                "name": "B2B Sales",
-                "keywords": "Sales B2B"
-              }
-            },
-            {
-              "id": "cold-calling",
-              "type": "tag",
-              "attributes": {
-                "name": "Cold Calling",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "lead-generation",
-              "type": "tag",
-              "attributes": {
-                "name": "Lead Generation",
-                "keywords": "Apollo, Outreach, Lusha, Lead Generation Design, Lead Acquisition, Lead Capture Strategies, Lead Capture, Lead Conversion, Lead Qualification, Lead Prospecting, Lead Mining, Lead Nurturing, Lead Optimization"
-              }
-            },
-            {
-              "id": "objection-handling",
-              "type": "tag",
-              "attributes": {
-                "name": "Objection Handling",
-                "keywords": null
-              }
-            },
-            {
-              "id": "spanish",
-              "type": "tag",
-              "attributes": {
-                "name": "Spanish",
-                "keywords": "Spanish (B2-C1), Spanish Language, Spanish Communication, Spanish Fluency"
-              }
-            },
-            {
-              "id": "appointment-setting",
-              "type": "tag",
-              "attributes": {
-                "name": "Appointment Setting",
-                "keywords": null
-              }
-            },
-            {
-              "id": "crm",
-              "type": "tag",
-              "attributes": {
-                "name": "CRM",
-                "keywords": "CRMs, CRM Software, CRM Systems, Client Relationship Management, Customer Relationship Management, Customer Relations, Customer Management"
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "planazos",
-            "type": "company",
-            "attributes": {
-              "name": "Planazos",
-              "description": "Somos Planazos, un marketplace de entradas y experiencias de última hora en Madrid. Conectamos a organizadores de eventos con gente que busca planes para hoy o este fin de semana.",
+              "name": "LOVANDI SAC",
+              "description": "Lovandi Joyería es una marca peruana especializada en joyería y accesorios, enfocada en brindar productos de calidad, atención personalizada y experiencias que conecten con cada cliente.",
               "long_description": "",
               "projects": null,
-              "benefits": "<ul><li>Compensación con fijo + comisión por cada organizador captado (por alta o porcentaje).</li><li>Trabajo 100% remoto.</li><li>Posibilidad de pasar a un puesto estable si funciona.</li><li>Guion, listas de contactos y material de apoyo desde el primer día.</li></ul><p>Si te motiva el reto de captar organizadores por teléfono y te gusta medir y mejorar tus resultados, únete a Planazos y ayúdanos a llenar nuestra oferta de planes para hoy y este fin de semana.</p>",
-              "web": "https://planazos.net/",
+              "benefits": "<p>Trabajamos en <strong>modalidad presencial en Lima</strong>, con acompañamiento para que puedas desarrollar habilidades prácticas en el área de Recursos Humanos. Tendrás la oportunidad de participar en procesos reales de reclutamiento y selección, organizar documentación del personal, apoyar comunicados internos y colaborar en <strong>actividades de bienestar</strong>. Buscamos que tu práctica sea formativa, con trabajo ordenado, metas claras y aprendizaje continuo.</p>",
+              "web": "https://lovandijoyeria.com/",
               "twitter": null,
               "github": null,
               "facebook": null,
               "angellist": null,
-              "country": "ES",
+              "country": "PE",
               "response_time_in_days": {
                 "min": null,
                 "max": null
               },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/20708/Planazos-AppIcon-1024.png"
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/20730/logo-lovandi_original.png"
             }
           }
         }
       },
       "links": {
-        "public_url": "https://www.getonbrd.com/jobs/sdr-para-llamadas-b2b-planazos-remote"
+        "public_url": "https://www.getonbrd.com/jobs/practicante-de-recursos-humanos-lovandi-sac-lima"
       }
     },
     {
-      "id": "front-end-angular-flutter-grupo-mariposa-remote-5d9d",
+      "id": "consultor-a-salesforce-junior-lisit-santiago-ebf2",
       "type": "job",
       "attributes": {
-        "title": "Front-end (Angular Flutter)",
-        "description_headline": "Requerimientos del cargo",
-        "description": "<ol><li>Hasta 1 año de experiencia en desarrollo frontend y/o móvil (se valoran prácticas, proyectos personales, académicos o freelance).</li><li><strong>Flutter / Dart:</strong><ul><li>Conocimientos de Dart y del sistema de widgets de Flutter.</li><li>Bases en manejo de estado con <strong>Riverpod</strong>.</li><li>Consumo de APIs REST con Dio o http.</li><li>Navegación entre pantallas (go_router o Navigator).</li><li>Construcción de interfaces responsive.</li></ul></li><li><strong>Angular:</strong><ul><li>Conocimientos básicos de componentes, servicios, routing y formularios.</li><li>Nociones de <strong>Signals</strong> y standalone components.</li><li>Bases de TypeScript.</li></ul></li><li>Conocimientos de HTML y CSS.</li><li>Manejo básico de Git (commits, ramas, pull requests).</li><li>Ganas de aprender, proactividad y disposición para recibir retroalimentación.</li><li>Buenas habilidades de comunicación y trabajo en equipo.</li></ol>",
-        "projects": "<p><strong>Sobre la empresa</strong></p><p>Grupo Mariposa es una corporación multinacional de bebidas y alimentos, fundada en 1885, con operaciones en más de 14 países y más de 15,000 colaboradores. Contamos con el portafolio de bebidas más grande de la región y alianzas estratégicas con PepsiCo y AB InBev. Nos organizamos en 4 unidades de negocio: apex (transformación), cbc (distribución), beliv (innovación en bebidas) y bia (alimentos). Buscamos talentos que se sumen a nuestra estrategia de expansión y crecimiento, compartiendo nuestros anhelos y aportando su visión para lograr grandes resultados.</p><p>Buscamos un(a) desarrollador(a) Junior con bases en <strong>Flutter</strong> y conocimientos en <strong>Angular</strong> que quiera crecer profesionalmente en un equipo que construye experiencias móviles y web de calidad. Si te apasiona programar, tienes ganas de aprender y te gusta trabajar en equipo, ¡queremos conocerte!</p>",
-        "functions_headline": "Funciones del cargo",
-        "functions": "<ol><li>Desarrollar funcionalidades en aplicaciones móviles con Flutter, con el acompañamiento de desarrolladores con más experiencia.</li><li>Apoyar el desarrollo y mantenimiento de aplicaciones web en Angular.</li><li>Construir pantallas a partir de prototipos entregados por el equipo de UI/UX.</li><li>Consumir APIs e integrar funcionalidades básicas del dispositivo.</li><li>Corregir errores y escribir pruebas unitarias básicas.</li><li>Participar en ceremonias ágiles y revisiones de código, recibiendo y aplicando retroalimentación.</li></ol>",
-        "benefits_headline": "Condiciones",
-        "benefits": "<ul><li>Ambiente de trabajo colaborativo y dinámico.</li><li>Desarrollo profesional continuo y oportunidades de crecimiento.</li><li>Flexibilidad de horarios y equilibrio entre vida laboral y personal.</li></ul>",
-        "desirable_headline": "Deseable",
-        "desirable": "<ul><li>Portafolio o repositorio en GitHub con proyectos en Flutter o Angular.</li><li>Alguna app publicada o en desarrollo (personal o académica).</li><li>Nociones de microfrontends en Angular.</li><li>Conocimientos básicos de testing (flutter_test).</li><li>Nociones de arquitectura limpia o separación por capas.</li><li>Familiaridad con Figma o herramientas de diseño.</li><li>Experiencia o conocimiento de metodologías ágiles.</li></ul>",
-        "remote": true,
-        "remote_modality": "remote_local",
-        "remote_zone": null,
-        "countries": ["Remote"],
-        "lang": "es",
-        "rejected_reasons": [
-          {
-            "seniority_mismatch": {
-              "title": "Seniority mismatch",
-              "description": "Some of the functions or requirements in your ad are higher than a \"%{seniority}\" level job, based on our %{seniority_policy}. Consider raising the minimum level of experience required or modifying the parts of the text that allude to a higher level of experience (for example, leadership positions should be marked as senior or expert)."
-            }
-          }
-        ],
-        "category_name": "Mobile Development",
-        "perks": ["flexible_hours"],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1790811351,
-        "response_time_in_days": {
-          "min": 0,
-          "max": 10
-        },
-        "applications_count": 170,
-        "location_regions": {
-          "data": [
-            {
-              "id": "central_america",
-              "type": "region",
-              "attributes": {
-                "name": "Central America"
-              }
-            }
-          ]
-        },
-        "location_tenants": {
-          "data": [
-            {
-              "id": "mexico",
-              "type": "country",
-              "attributes": {
-                "name": "Mexico"
-              }
-            },
-            {
-              "id": "chile",
-              "type": "country",
-              "attributes": {
-                "name": "Chile"
-              }
-            },
-            {
-              "id": "argentina",
-              "type": "country",
-              "attributes": {
-                "name": "Argentina"
-              }
-            },
-            {
-              "id": "peru",
-              "type": "country",
-              "attributes": {
-                "name": "Peru"
-              }
-            },
-            {
-              "id": "ecuador",
-              "type": "country",
-              "attributes": {
-                "name": "Ecuador"
-              }
-            }
-          ]
-        },
-        "location_cities": {
-          "data": []
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "2",
-            "type": "seniority",
-            "attributes": {
-              "name": "Junior",
-              "locale_key": "junior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "angularjs",
-              "type": "tag",
-              "attributes": {
-                "name": "Angular",
-                "keywords": "Angular, Angular.js, Angular 1, AngularUI, AngularJS, Angular 11, Angular 12"
-              }
-            },
-            {
-              "id": "flutter",
-              "type": "tag",
-              "attributes": {
-                "name": "Flutter",
-                "keywords": "Flutter, Fluter, Flute, Fluterr, Flutter Framework, Flutter SDK, Flutter Channels, Flutter Desktop, Flutter Integration Test, Flutter Testing, FlutterFlow"
-              }
-            },
-            {
-              "id": "dart",
-              "type": "tag",
-              "attributes": {
-                "name": "Dart",
-                "keywords": "Dart Web, Dart async/await, DART for Advertisers, DART for Publishers, DART Integration"
-              }
-            },
-            {
-              "id": "typescript",
-              "type": "tag",
-              "attributes": {
-                "name": "TypeScript",
-                "keywords": "Typesafe"
-              }
-            },
-            {
-              "id": "html-css",
-              "type": "tag",
-              "attributes": {
-                "name": "HTML/CSS",
-                "keywords": null
-              }
-            },
-            {
-              "id": "git",
-              "type": "tag",
-              "attributes": {
-                "name": "Git",
-                "keywords": ""
-              }
-            },
-            {
-              "id": "responsive-design",
-              "type": "tag",
-              "attributes": {
-                "name": "Responsive Design",
-                "keywords": "Responsive Web Design, Responsive UI Design, Responsive UX Design, Responsive CSS, Responsive HTML, Responsive Layouts, Responsive Web Apps, Responsive Web Development"
-              }
-            },
-            {
-              "id": "unit-testing",
-              "type": "tag",
-              "attributes": {
-                "name": "Unit Testing",
-                "keywords": "Unit Test Automation, Unit Test Scripts, Unit Test"
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "grupo-mariposa",
-            "type": "company",
-            "attributes": {
-              "name": "Grupo Mariposa",
-              "description": "Somos una corporación multinacional de bebidas y alimentos fundada en 1885 con operaciones en más 14 países, con más de 15,000 colaboradores.",
-              "long_description": "<p>Somos una corporación multinacional de bebidas y alimentos fundada en 1885 con operaciones en más 14 países, con más de 15,000 colaboradores. Tenemos el portafolio de bebidas más grande de la región, y contamos con socios estratégicos como PepsiCo y AB InBev. El último año hemos tenido una expansión a nivel global que nos ha llevado a dividirnos en 4 unidades de negocio: apex (transformación), cbc (distribución), beliv (innovación en bebidas) y bia (alimentos); y como parte de nuestra estrategia dinámica de expansión y crecimiento requerimos talentos para unirse a nuestra corporación.</p><p>Queremos que el mejor talento del mundo sea parte de nuestros sueños. Queremos que trabajando con nosotros compartas nuestros anhelos, los hagas tuyos y logres lo que tú también deseas. ¿Te interesa?</p><p><strong>Busca la oportunidad perfecta para ti y acompáñanos a llevar alegría y desarrollo cada vez más lejos.</strong></p>",
-              "projects": "<p><strong>Sobre la empresa<br></strong><br></p><p>Grupo Mariposa es una corporación multinacional de bebidas y alimentos, fundada en 1885, con operaciones en más de 14 países y más de 15,000 colaboradores. Contamos con el portafolio de bebidas más grande de la región y alianzas estratégicas con PepsiCo y AB InBev. Nos organizamos en 4 unidades de negocio: apex (transformación), cbc (distribución), beliv (innovación en bebidas) y bia (alimentos). Buscamos talentos que se sumen a nuestra estrategia de expansión y crecimiento, compartiendo nuestros anhelos y aportando su visión para lograr grandes resultados.</p><p>Buscamos el \"Data Engineering Lead\" que lidere la plataforma de datos corporativa en un entorno multi-cloud, con foco en Azure y soporte en Google Cloud Platform (GCP). Este rol define, lidera y escala la estrategia de ingeniería de datos para la región, garantizando una plataforma robusta, gobernada y escalable para analítica avanzada, BI y productos digitales en múltiples países.</p>",
-              "benefits": "<ul><li>Ambiente de trabajo colaborativo y dinámico.</li><li>Desarrollo profesional continuo y oportunidades de crecimiento.</li><li>Flexibilidad de horarios y equilibrio entre vida laboral y personal.</li></ul>",
-              "web": "https://grupomariposa.com/",
-              "twitter": "",
-              "github": "ApexDigitalM5/dashboard",
-              "facebook": "",
-              "angellist": "",
-              "country": "GT",
-              "response_time_in_days": {
-                "min": 1,
-                "max": 13
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/12414/logo_grupo_mariposa.png"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/front-end-angular-flutter-grupo-mariposa-remote-5d9d"
-      }
-    },
-    {
-      "id": "analista-de-operaciones-marketplace-bc-tecnologia-santiago",
-      "type": "job",
-      "attributes": {
-        "title": "Analista de Operaciones Marketplace",
-        "description_headline": "Experiencia requerida",
-        "description": "<div>Entre 1 y 3 años de experiencia en áreas de Operaciones, Logística, E-commerce o Marketplace.</div><div>Experiencia en análisis de datos y conciliaciones o cuadraturas operacionales.</div><div>Deseable experiencia en gestión de órdenes, devoluciones, postventa o procesos relacionados con comercio electrónico.</div><div>Capacidad para trabajar con altos volúmenes de información y realizar seguimiento de múltiples casos simultáneamente.</div><div>Conocimientos técnicos excluyentes</div><ul><li>Excel avanzado.</li><li>SQL básico/intermedio.</li><li>Experiencia en análisis de datos.</li><li>Manejo de grandes volúmenes de información.</li></ul>",
-        "projects": "<div>Buscamos un/a Analista de Operaciones Marketplace para asegurar la consistencia y continuidad operacional del canal, mediante el monitoreo, análisis y corrección oportuna de desviaciones asociadas a órdenes, estados, entregas, cancelaciones, devoluciones y procesos relacionados.</div><div>La posición tendrá un rol clave en la detección de inconsistencias entre sistemas, regularización de casos y seguimiento de excepciones, contribuyendo a minimizar impactos para clientes, Sellers y áreas internas.</div>",
-        "functions_headline": "Principales responsabilidades",
-        "functions": "<ul><li>Monitorear el correcto avance de las órdenes a través de sus distintos estados operacionales.</li><li>Detectar discrepancias entre sistemas logísticos, plataformas y procesos asociados.</li><li>Ejecutar o coordinar correcciones de estados ante inconsistencias.</li><li>Validar que las regularizaciones realizadas no generen impactos posteriores en pagos, devoluciones o experiencia del cliente.</li><li>Realizar cuadraturas diarias de órdenes, entregas, cancelaciones y devoluciones.</li><li>Identificar diferencias entre sistemas y gestionar su regularización.</li><li>Generar reportes de diferencias, seguimiento de casos pendientes y trazabilidad de las correcciones ejecutadas.</li><li>Monitorear diariamente las cancelaciones del canal e identificar anomalías o tendencias relevantes.</li><li>Coordinar con equipos internos la resolución de casos críticos.</li><li>Detectar órdenes detenidas, estados inconsistentes y procesos fuera de flujo.</li><li>Priorizar casos de acuerdo con su impacto operacional y en la experiencia cliente.</li><li>Gestionar soluciones temporales mientras se implementan correcciones definitivas.</li></ul>",
-        "benefits_headline": "",
-        "benefits": "",
-        "desirable_headline": "",
-        "desirable": "",
+        "title": "Consultor/a Salesforce Junior",
+        "description_headline": "📌 Condiciones",
+        "description": "<p>Estamos en búsqueda de un/a <strong>Consultor/a Salesforce Junior</strong> para incorporarse a un proyecto con duración inicial de <strong>4 meses</strong>.</p><p><strong>Inicio:</strong> 19 de octubre.</p><p><strong>Duración:</strong> 4 meses.</p><p><strong>Jornada:</strong> 42 horas semanales, con inicio a las 09:00 hrs.</p><p><strong>Modalidad:</strong> Híbrida, con posibilidad de evaluar modalidad <strong>100% remota</strong>.</p><p><strong>Tipo de contratación:</strong> Prestación de servicios / boleta de honorarios.</p><p>Para esta posición, valoramos: orden y prolijidad al trabajar sobre configuraciones, comunicación clara para comprender requerimientos funcionales, actitud de aprendizaje continuo y colaboración con el equipo para escalar consultas y asegurar el correcto soporte en Salesforce. También es clave que puedas mantener una base sólida en Service Cloud y la administración de la plataforma para ejecutar tareas de manera autónoma dentro de tu nivel.</p>",
+        "projects": "En <p>Lisit</p> creamos, desarrollamos e implementamos servicios de software con foco constante en innovación y pasión por los desafíos. A través de un acompañamiento consultivo, ayudamos a nuestros clientes a mejorar la operatividad mediante herramientas y prácticas que habilitan transformaciones con una estrategia integral de acompañamiento e implementación. En este proyecto, buscamos un/a <p>Consultor/a Salesforce Junior</p> para incorporarse a un trabajo de impulso y soporte en la plataforma, apoyando tareas de configuración, administración y atención funcional/técnica básica para lograr continuidad y evolución del servicio.",
+        "functions_headline": "🔎 Perfil requerido",
+        "functions": "<ul><li>Conocimientos de administración de Salesforce.</li><li>Experiencia en Service Cloud.</li><li>Capacidad para realizar configuración declarativa.</li><li>Brindar soporte funcional y técnico básico sobre la plataforma.</li></ul><p>Buscamos que acompañes el proyecto desde la plataforma, apoyando la configuración y la resolución de necesidades del servicio, con foco en la efectividad operativa y la buena experiencia del usuario.</p>",
+        "benefits_headline": "Beneficios",
+        "benefits": "<p>🏢 <strong>Modalidad:</strong> híbrida, con posibilidad de evaluar <strong>100% remoto</strong>.</p><p>⏰ <strong>Horario:</strong> 42 horas semanales, con inicio a las 09:00 hrs.</p><p>🚀 Acompañamos la transformación con foco en innovación y en la eficacia operativa de nuestros clientes, integrándote a un proyecto que impulsa el uso y mejora de Salesforce.</p>",
+        "desirable_headline": "Deseables",
+        "desirable": "<p>Si bien el foco está en el perfil requerido, suman como <strong>deseables</strong> que cuentes con experiencia previa en tareas de soporte en Salesforce, familiaridad con flujos de trabajo de Service Cloud y capacidad de trabajar con documentación y seguimiento de cambios en configuraciones declarativas.</p>",
         "remote": false,
         "remote_modality": "hybrid",
         "remote_zone": null,
         "countries": ["Chile"],
         "lang": "lang_not_specified",
         "rejected_reasons": [],
-        "category_name": "Operations / Admin",
+        "category_name": "Programming",
         "perks": [],
         "min_salary": null,
         "max_salary": null,
-        "published_at": 1790634303,
+        "published_at": 1791330861,
         "response_time_in_days": {
           "min": null,
           "max": null
         },
-        "applications_count": 51,
+        "applications_count": 9,
         "location_regions": {
           "data": []
         },
@@ -3716,59 +3676,184 @@
         "tags": {
           "data": [
             {
-              "id": "excel",
+              "id": "salesforce-administration",
               "type": "tag",
               "attributes": {
-                "name": "Excel",
-                "keywords": "Excel Advanced, Excel VBA, Excel Spreadsheets, Excel Add-In Development, Excel Automation, Excel Integration, Excel Reporting, Excel Dashboards, Microsoft Excel"
+                "name": "Salesforce Administration",
+                "keywords": "Salesforce Configuration, Salesforce Customization"
               }
             },
             {
-              "id": "sql",
+              "id": "salesforce-service-cloud",
               "type": "tag",
               "attributes": {
-                "name": "SQL",
-                "keywords": "PL SQL, SQLServer, SQL server, SPSQL, SP SQL, SQL Coding, SQL DB2, SQL Oracle, SQL RDMS, SQL400"
-              }
-            },
-            {
-              "id": "data-analysis",
-              "type": "tag",
-              "attributes": {
-                "name": "Data Analysis",
-                "keywords": "Data Mining, Data Analytics, Data Analyst, Reporting Analyst, Business Intelligence, BI, Análisis de datos, Analista de datos"
-              }
-            },
-            {
-              "id": "operational-analysis",
-              "type": "tag",
-              "attributes": {
-                "name": "Operational Analysis",
-                "keywords": "Operations Analysis, Operational Analytics, Operations Automation, Operational Automation, Operational Balance, Operational Close, Operational Continuity, Operational Protocols, Operational Reconciliation, Operational Profiling"
-              }
-            },
-            {
-              "id": "order-management",
-              "type": "tag",
-              "attributes": {
-                "name": "Order Management",
-                "keywords": "Order Management Systems, Order Management Software, Order Management System, Order Entry, Order Processes, Order Processing"
-              }
-            },
-            {
-              "id": "e-commerce-operations",
-              "type": "tag",
-              "attributes": {
-                "name": "E-commerce Operations",
+                "name": "Salesforce Service Cloud",
                 "keywords": null
               }
             },
             {
-              "id": "process-monitoring",
+              "id": "functional-support",
               "type": "tag",
               "attributes": {
-                "name": "Process Monitoring",
-                "keywords": "Process Monitor"
+                "name": "Functional Support",
+                "keywords": null
+              }
+            },
+            {
+              "id": "technical-support",
+              "type": "tag",
+              "attributes": {
+                "name": "Technical Support",
+                "keywords": "Technical Troubleshooting, Tech Support, System Support, Tech Environment, Technical Services, Technology Services, Technical Issue Resolution, technical support, Tech support, Técnico IT, IT Technician, Técnico en Soporte, Soporte, Soporte técnico"
+              }
+            }
+          ]
+        },
+        "company": {
+          "data": {
+            "id": "lisit",
+            "type": "company",
+            "attributes": {
+              "name": "Lisit",
+              "description": "Creamos, desarrollamos e implementamos servicios de software capaces de proporcionar herramientas de automatización y optimización requeridos manteniendo constante el foco de innovación y pasión por los desafíos.",
+              "long_description": "<div> Promovemos la eficacia en la operatividad de nuestros clientes por medio de un acompañamiento consultivos que incorpora diferentes herramientas y prácticas, posibilitando el logro exitoso de sus objetivos de transformación a partir de una estrategia integral de acompañamiento e implementación. </div>",
+              "projects": "<div>En Lisit diseñamos, desarrollamos e implementamos servicios de software orientados a la automatización y la optimización de procesos. Nuestro objetivo es ofrecer herramientas que permitan a los clientes transformar su operativa con un enfoque constante en innovación y pasión por los desafíos. El equipo promueve la eficacia operativa mediante un acompañamiento consultivo que integra herramientas y prácticas diversas para lograr sus objetivos, a través de una estrategia integral de soporte e implementación.</div>",
+              "benefits": "<p>100% remoto</p>",
+              "web": "https://www.lisit.cl/",
+              "twitter": "",
+              "github": "",
+              "facebook": "",
+              "angellist": "",
+              "country": "CL",
+              "response_time_in_days": {
+                "min": 13,
+                "max": 29
+              },
+              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/8900/12_logo_morado_blanco_cuadrado.png"
+            }
+          }
+        }
+      },
+      "links": {
+        "public_url": "https://www.getonbrd.com/jobs/consultor-a-salesforce-junior-lisit-santiago-ebf2"
+      }
+    },
+    {
+      "id": "administrador-a-de-infraestructura-linux-bc-tecnologia-santiago",
+      "type": "job",
+      "attributes": {
+        "title": "Administrador/a de Infraestructura Linux",
+        "description_headline": "REQUISITOS EXCLUYENTES",
+        "description": "<p>Título profesional o egresado reciente de Ingeniería en Informática, Ingeniería Civil en Computación/Informática, Ingeniería en Redes o carrera afín. Experiencia: 0 a 2 años en el área (incluye práctica profesional o proyectos demostrables); no se exige experiencia previa en el cargo específico. Sistema operativo Linux: dominio de línea de comandos; administración de usuarios, permisos y grupos; systemd; gestión de paquetes; procesos; sistemas de archivos y LVM; logs (journald/syslog); diagnóstico de rendimiento y resolución de fallas.</p>",
+        "projects": "<p>Operar, mantener y mejorar la plataforma de sistemas (servidores Linux, contenedores y servicios cloud) que soporta los productos digitales de la CCS, asegurando su disponibilidad, seguridad y automatización. Contribuye a la estabilidad de los ecosistemas digitales resolviendo problemas con rapidez y criterio, desarrollando de forma acelerada sus competencias técnicas para asumir progresivamente mayores responsabilidades.</p>",
+        "functions_headline": "Funciones principales:",
+        "functions": "<ul><li>Administrar, configurar y mantener servidores y entornos Linux (Ubuntu/Debian y RHEL);</li><li>automatizar tareas operativas mediante scripting (Bash, Python);</li><li>apoyar la operación de contenedores y plataformas cloud (Docker, Azure Container Apps/AWS);</li><li>monitorear disponibilidad, rendimiento y logs, atendiendo incidentes en primera línea;</li><li>aplicar hardening, parches y actualizaciones de seguridad bajo principio de mínimo privilegio;</li><li>colaborar con desarrollo en la provisión de ambientes;</li><li>contribuir, bajo supervisión, a infraestructura como código;</li><li>ejecutar y verificar respaldos y restauraciones;</li><li>documentar runbooks y configuraciones como código;</li><li>utilizar asistentes de IA para diagnóstico y automatización, verificando resultados antes de aplicarlos en producción;</li><li>aplicar estándares de arquitectura TI, escalando desviaciones.</li></ul>",
+        "benefits_headline": "",
+        "benefits": "",
+        "desirable_headline": "REQUISITOS DESEABLES",
+        "desirable": "<p>Certificaciones: LPIC-1, LFCS o RHCSA (Linux); AZ-900/AZ-104 (Azure) o AWS Cloud Practitioner. Inglés técnico (lectura de documentación). Redes: TCP/IP, DNS, DHCP, SSH, firewall (iptables/nftables/ufw), proxy reverso (Nginx), certificados TLS. Scripting y automatización: Bash nivel intermedio-avanzado y Python básico; Ansible u otra herramienta de gestión de configuración. Contenedores y cloud: Docker; nociones de Kubernetes; conocimientos de Azure (Container Apps) y/o AWS. Observabilidad: monitoreo, métricas y logs (Azure Monitor, Prometheus, Grafana u otras equivalentes). Bases de datos: administración de Sybase (SAP ASE) — instalación, usuarios/permisos, respaldos, monitoreo y afinamiento básico. Desarrollo agéntico: uso de asistentes de IA (Claude Code, Codex u otros) para scripting y diagnóstico. Proyectos personales demostrables (homelab, servidores propios, contribuciones open source) o práctica profesional en infraestructura/soporte de sistemas.</p>",
+        "remote": false,
+        "remote_modality": "no_remote",
+        "remote_zone": null,
+        "countries": ["Chile"],
+        "lang": "lang_not_specified",
+        "rejected_reasons": [],
+        "category_name": "SysAdmin / DevOps / QA",
+        "perks": [],
+        "min_salary": null,
+        "max_salary": null,
+        "published_at": 1791323669,
+        "response_time_in_days": {
+          "min": null,
+          "max": null
+        },
+        "applications_count": 13,
+        "location_regions": {
+          "data": []
+        },
+        "location_tenants": {
+          "data": []
+        },
+        "location_cities": {
+          "data": [
+            {
+              "id": 1,
+              "type": "location_city"
+            }
+          ]
+        },
+        "modality": {
+          "data": {
+            "id": 1,
+            "type": "modality"
+          }
+        },
+        "seniority": {
+          "data": {
+            "id": "2",
+            "type": "seniority",
+            "attributes": {
+              "name": "Junior",
+              "locale_key": "junior"
+            }
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "id": "linux",
+              "type": "tag",
+              "attributes": {
+                "name": "Linux",
+                "keywords": "Bash, Kernel, CentOS, Red Hat, RHCS, SuSE, Linux OS, Linux Scripting, Linux Shell Commands, Linux Shell Scripting, Linux Commands, Linux Debian"
+              }
+            },
+            {
+              "id": "bash",
+              "type": "tag",
+              "attributes": {
+                "name": "Bash",
+                "keywords": ""
+              }
+            },
+            {
+              "id": "python",
+              "type": "tag",
+              "attributes": {
+                "name": "Python",
+                "keywords": "Django, Jython, Cheetah, Flask, Jinja2, bottle, itty, NumPy, SciPy, phyton, pyton, Pytohn, Python 2.7, Python 2, Python 3.10, Python 3, Pyhton, Python Automation, Python Script, Python Programming, Python Scripting, Python Testing"
+              }
+            },
+            {
+              "id": "docker",
+              "type": "tag",
+              "attributes": {
+                "name": "Docker",
+                "keywords": "Docker CE, Docker Engine, Dockers, Docker Containers, Dockerfile Development, DockerHub, Docker Hub, Docker Registries, Docker Registry, Docker Clusters, Docker-compose, Docker Compose, Docker Swarm"
+              }
+            },
+            {
+              "id": "azure",
+              "type": "tag",
+              "attributes": {
+                "name": "Azure",
+                "keywords": "Azure Administration, Windows CE, Windows Azure, Azure Cloud, Cloud Azure, Microsoft Azure Services, Microsoft Azure Administrator, Microsoft Azure Certification, Microsoft Azure CI/CD, Microsoft Azure DevOps, Microsoft Azure"
+              }
+            },
+            {
+              "id": "aws",
+              "type": "tag",
+              "attributes": {
+                "name": "AWS",
+                "keywords": "AWS Core Services, AWS Core, Amazon Libraries, Amazon Web Services, AWS Cloud Computing, AWS Certified Cloud Practitioner, AWS Certificates, AWS Certifications, AWS Certification, AWS Cloud Practitioner, AWS Cloud, AWS Services, Cloud AWS, Amazon AWS"
+              }
+            },
+            {
+              "id": "linux-administration",
+              "type": "tag",
+              "attributes": {
+                "name": "Linux Administration",
+                "keywords": null
               }
             }
           ]
@@ -3799,140 +3884,7 @@
         }
       },
       "links": {
-        "public_url": "https://www.getonbrd.com/jobs/analista-de-operaciones-marketplace-bc-tecnologia-santiago"
-      }
-    },
-    {
-      "id": "ingeniero-gobierno-de-datos-agrosuper-rancagua",
-      "type": "job",
-      "attributes": {
-        "title": "Ingeniero Gobierno de Datos",
-        "description_headline": "Requisitos excluyentes:",
-        "description": "<ul><li>Contar con formación universitaria.</li><li>Título de Ingeniería Comercial, Ingeniería Civil o carrera afín.</li><li>Manejo de Excel nivel intermedio.</li><li>Contar con al menos 1 año de experiencia en Gobierno de Datos.</li></ul><div>Te invitamos a participar del proceso de selección para el cargo de Ingeniero Gobierno de Datos, orientado a profesionales de Ingeniería Comercial, Ingeniería Civil o carreras afines, para desempeñarse en Oficina Central ubicada en Rancagua, en modalidad de lunes a viernes, horario de oficina.</div>",
-        "projects": "<div>En Agrosuper buscamos alimentar lo bueno de la vida todos los días. Creemos en el desarrollo de las personas, el trabajo colaborativo y la mejora continua como pilares fundamentales para alcanzar nuestros desafíos.</div><div>El objetivo del cargo es coordinar, implementar y monitorear la operación del Programa de Gobierno de Datos, asegurando la adopción del modelo de gobierno, el cumplimiento de políticas y estándares, la articulación entre las áreas de negocio y tecnología, y el seguimiento de los indicadores e iniciativas del programa, contribuyendo a que los datos sean gestionados como un activo estratégico que genere valor para la organización.</div>",
-        "functions_headline": "Principales funciones:",
-        "functions": "<ul><li>Coordinar, implementar y monitorear la operación del Programa de Gobierno de Datos.</li><li>Asegurar la adopción del modelo de gobierno, cumpliendo políticas y estándares definidos.</li><li>Articular el trabajo entre las áreas de negocio, Transformación Digital y TI.</li><li>Realizar seguimiento a indicadores, iniciativas, planes de acción, comités y documentación asociada al programa.</li></ul>",
-        "benefits_headline": "",
-        "benefits": "<div>En Agrosuper promovemos la inclusión y valoramos la diversidad, porque entendemos que distintas experiencias, talentos y perspectivas enriquecen nuestros equipos y potencian nuestros resultados. ¡Te esperamos para seguir construyendo juntos el futuro de Agrosuper!</div>",
-        "desirable_headline": "Requisitos deseables:",
-        "desirable": "<ul><li>Manejo de herramientas de gestión de proyectos.</li><li>Dominio de inglés.</li><li>Competencias asociadas a comunicación y escucha, influencia, visión integral, planificación y flexibilidad.</li></ul>",
-        "remote": false,
-        "remote_modality": "hybrid",
-        "remote_zone": null,
-        "countries": ["Chile"],
-        "lang": "lang_not_specified",
-        "rejected_reasons": [],
-        "category_name": "Data Science / Analytics",
-        "perks": ["remote_partial", "health_coverage", "computer_provided"],
-        "min_salary": null,
-        "max_salary": null,
-        "published_at": 1790631042,
-        "response_time_in_days": {
-          "min": null,
-          "max": null
-        },
-        "applications_count": 174,
-        "location_regions": {
-          "data": []
-        },
-        "location_tenants": {
-          "data": []
-        },
-        "location_cities": {
-          "data": [
-            {
-              "id": 8,
-              "type": "location_city"
-            }
-          ]
-        },
-        "modality": {
-          "data": {
-            "id": 1,
-            "type": "modality"
-          }
-        },
-        "seniority": {
-          "data": {
-            "id": "2",
-            "type": "seniority",
-            "attributes": {
-              "name": "Junior",
-              "locale_key": "junior"
-            }
-          }
-        },
-        "tags": {
-          "data": [
-            {
-              "id": "data-governance",
-              "type": "tag",
-              "attributes": {
-                "name": "Data governance",
-                "keywords": "Gobernanza de datos, gobierno de datos, Database Governance"
-              }
-            },
-            {
-              "id": "excel",
-              "type": "tag",
-              "attributes": {
-                "name": "Excel",
-                "keywords": "Excel Advanced, Excel VBA, Excel Spreadsheets, Excel Add-In Development, Excel Automation, Excel Integration, Excel Reporting, Excel Dashboards, Microsoft Excel"
-              }
-            },
-            {
-              "id": "project-management-476aadeb-cbb6-4da2-ae8e-ecb46735b62b",
-              "type": "tag",
-              "attributes": {
-                "name": "Project Management",
-                "keywords": "Project Management Professional, Project Management Frameworks, Project Management Software, Project Management Tools, Project Professional, Gestión de Proyectos"
-              }
-            },
-            {
-              "id": "business-planning",
-              "type": "tag",
-              "attributes": {
-                "name": "Business Planning",
-                "keywords": "Business Forecasting, Business Optimization, Business Coordination"
-              }
-            },
-            {
-              "id": "digital-transformation",
-              "type": "tag",
-              "attributes": {
-                "name": "Digital Transformation",
-                "keywords": null
-              }
-            }
-          ]
-        },
-        "company": {
-          "data": {
-            "id": "agrosuper",
-            "type": "company",
-            "attributes": {
-              "name": "Agrosuper",
-              "description": "En Agrosuper nos motiva hacer las cosas siempre mejor, con espíritu de crecimiento y desarrollo, disfrutando lo bueno de la vida  ¡Ven a ser parte!",
-              "long_description": "<p>Agrosuper lo conformamos un grupo humano de más de 13.000 personas, unidos por el sueño de llevar alimentos de la más alta calidad a la mesa de las familias de Chile y el mundo.</p><p>Nos motiva hacer las cosas siempre mejor, con espíritu de crecimiento y desarrollo, disfrutando lo bueno de la vida. </p><p>Sabemos que lo más importante son las personas, sin ellas, disfrutar de nuestros productos, no sería posible. Por este motivo buscamos a los mejores para que se unan a nuestro equipo y a una empresa que quiere potenciar las nuevas ideas y tu desarrollo profesional ¡Ven a ser parte!</p><p>Somos una compañía, nacida en la Región de O´Higgins, que elabora alimentos de pollo, cerdo, cecinas y elaborados. Nuestro proceso productivo se encuentra completamente integrado y comprende desde la fabricación del alimento para los animales, sectores de crianza, plantas de procesos, centros de distribución y oficinas comerciales que nos permiten llegar con un amplio portafolio de productos a clientes y consumidores en Chile y el mundo. </p><p>Nuestro equipo de trabajo se encuentra a lo largo de todo Chile y en nuestras oficinas internacionales en México, Estados Unidos, Italia, China y Japón. Todos ellos aportan con su talento y conocimiento al desarrollo sustentable de la compañía y las comunas donde contamos con instalaciones productivas, alimentando lo bueno de la vida todos los días.</p>",
-              "projects": "<p>En Agrosuper trabajamos para alimentar lo bueno de la vida, con un enfoque de crecimiento y desarrollo continuo. Este rol se enmarca dentro de la Gerencia Industrial, con presencia en las Platas de Rosario, Lo Miranda o San Vicente. El proyecto implica participar en proyectos vigentes que buscan excelencia operacional, salud y seguridad ocupacional, transformación digital y calidad, con una visión de largo plazo dentro de la cadena de valor de la compañía.&nbsp;<br>Buscamos desarrollar a futuros líderes que, en un plazo máximo de un año, estén habilitados para ejercer cargos de liderazgo dentro de la organización, adquiriendo conocimientos, habilidades y experiencias relevantes para el rol.</p>",
-              "benefits": "<p>En Agrosuper ofrecemos un entorno laboral centrado en el crecimiento profesional y el desarrollo continuo. Contamos con planes estructurados de capacitación y becas de estudios para potenciar tus habilidades y apoyar tu carrera a largo plazo.</p><p>Además, disponemos de convenios con diversas instituciones que facilitan tu bienestar y formación continua. Nuestro sistema de bonos asociados al desempeño reconoce y premia el compromiso y resultados tanto individuales como de equipo.</p><p>Valoramos la inclusión y la diversidad, fomentando la incorporación de personas con discapacidad como parte fundamental de nuestro equipo humano.</p><p>Formarás parte de una empresa sólida, sólida y con un propósito claro: \"Alimentar lo bueno de la vida todos los días\", trabajando en un ambiente que promueve el crecimiento, la colaboración y la calidad de vida.</p>",
-              "web": "https://trabajos.agrosuper.cl/",
-              "twitter": "",
-              "github": "",
-              "facebook": "",
-              "angellist": "",
-              "country": "CL",
-              "response_time_in_days": {
-                "min": 15,
-                "max": 27
-              },
-              "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/11871/logo.jpg"
-            }
-          }
-        }
-      },
-      "links": {
-        "public_url": "https://www.getonbrd.com/jobs/ingeniero-gobierno-de-datos-agrosuper-rancagua"
+        "public_url": "https://www.getonbrd.com/jobs/administrador-a-de-infraestructura-linux-bc-tecnologia-santiago"
       }
     }
   ],
